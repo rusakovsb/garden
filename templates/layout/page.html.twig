@@ -44,20 +44,20 @@
  */
 #}
 
-<div id="site">
-
-  <div id="top">
-    <div id="top-left">
-      {{ page.top_left }}
+<div id="topnav">
+    <div id="topnav-left">
+        {{ page.topnav_left }}
     </div>
-    <div id="top-right">
-      {{ page.top_right }}
+    <div id="topnav-right">
+        {{ page.topnav_right }}
     </div>
-  </div>
+</div>
 
-  {% if page.sidebar_first %}
-    <div id="sidebar-first">
-      {{ page.sidebar_first }}
+<div id="page">
+
+  {% if page.sidebar_left %}
+    <div id="sidebar-left">
+      {{ page.sidebar_left }}
     </div>
   {% endif %}
 
@@ -99,9 +99,9 @@
 
       </main>  
 
-      {% if page.sidebar_second %}
-        <div id="sidebar-second">
-          {{ page.sidebar_second }}
+      {% if page.sidebar_right %}
+        <div id="sidebar-right">
+          {{ page.sidebar_right }}
         </div>
       {% endif %} 
 
