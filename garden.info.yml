@@ -1,0 +1,28 @@
+name: Garden
+type: theme
+description: 'Theme for Central Botanical Garden'
+package: Core
+# core: 8.x
+
+libraries:
+  - garden/global-styling
+
+regions:
+  top_left: 'Top Left'  
+  top_right: 'Top Right'
+  header: 'Header' 
+  breadcrumbs: 'Breadcrumbs' 
+  slider: 'Slider'
+  sidebar_first: 'Sidebar First'
+  title: 'Title'
+  content_top: 'Content Top'
+  content: 'Content'
+  content_bottom: 'Content Bottom'
+  sidebar_second: 'Sidebar Second'
+  footer: 'Footer'
+
+# Information
+version: '1.0'
+core: '8.x'
+project: 'Drupal'
+
