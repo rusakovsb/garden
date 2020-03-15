@@ -3,32 +3,7 @@
 /*------------------------------------------------------------*/
 
 .view img {
-    display: block;
-}
-
-.views-row {
-	clear: both;
-	overflow: hidden;
-	margin-bottom: 20px;
-}
-
-.views-row:last-child {
-    margin-bottom: 0;
-}
-
-.views-view-grid .views-row {
-	margin-right: -10px;
-	margin-left: -10px;
-	width: auto;
-	float: none;
-}
-
-.views-view-grid .views-col {
-	width: 33.333333%;
-	padding: 0 10px;
-}
-
-.views-view-grid .views-col img {
+	display: block;
 	width: 100%;
 	height: auto;
 }

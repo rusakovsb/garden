@@ -2,6 +2,7 @@ global-styling:
   css:
     theme:
       css/main.css: {}
+      css/grid.css: {}
       css/views.css: {}
       css/colors.css: {}
       css/responsive.css: {}
