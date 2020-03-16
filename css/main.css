@@ -770,10 +770,6 @@ label {
 	margin: 0 0 5px 0;
 }
 
-.description {
-    font-size: 0.882352rem;
-}
-
 .form-item {
     margin: 0 0 20px 0;
 }
@@ -822,6 +818,10 @@ input.search-form__submit {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+
+.description {
+    font-size: 0.882352rem;
 }
 
 /*------------------------------------------------------------*/
@@ -1757,4 +1757,3 @@ a.colorbox:hover:after {
 	left: 480px; 
 	transform: rotate(-40deg);
 }
-
