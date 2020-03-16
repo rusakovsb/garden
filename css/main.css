@@ -114,10 +114,6 @@ footer {
 	padding: 20px;
 }
 
-.path-frontpage #main {
-	padding: 0 20px 20px 20px;
-}
-
 #slider {
     margin: 0 0 20px 0;
 }
@@ -137,8 +133,8 @@ footer {
 	position: relative;
 }
 
-.region-content .node__content {
-    line-height: 1.5;
+.path-frontpage #main {
+	padding: 0 20px 20px 20px;
 }
 
 #sidebar-right {
@@ -408,9 +404,6 @@ ul.menu li {
 }
 
 #block-addressandphone {
-    position: absolute;
-	right: 20px;
-	bottom: 20px;
 	text-align: right;
 }
 
@@ -421,11 +414,6 @@ ul.menu li {
 .phone-number {
     font-size: 1.235294rem;
     font-weight: 600;
-}
-
-#block-social {
-    float: right;
-	margin: 9px 20px 0 0;
 }
 
 .social-icon {
@@ -546,6 +534,10 @@ a.map-link {
 /*------------------------------------------------------------*/
 /* Content
 /*------------------------------------------------------------*/
+
+.node__content {
+    line-height: 1.5;
+}
 
 .content-row {
     clear: both;
