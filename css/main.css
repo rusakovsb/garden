@@ -493,10 +493,10 @@ a.map-link {
 }
 
 /*------------------------------------------------------------*/
-/* Sidebar First
+/* Sidebar Left
 /*------------------------------------------------------------*/
 
-#sidebar-first .block  {
+#sidebar-left .block  {
     margin: 0 0 20px 0;
 }
 
@@ -532,18 +532,22 @@ a.map-link {
 }
 
 /*------------------------------------------------------------*/
-/* Blocks
+/* Sidebar Right
 /*------------------------------------------------------------*/
 
-#sidebar-second .block {
+#sidebar-right .block {
 	margin: 0 0 20px 20px;
 	padding: 20px;
 }
 
-#sidebar-second #block-views-block-features-block-1 {
+#sidebar-right #block-views-block-features-block-1 {
 	margin: 0 0 20px 0;
 	padding: 20px 20px 20px 0;
 }
+
+/*------------------------------------------------------------*/
+/* Blocks
+/*------------------------------------------------------------*/
 
 #block-lbprresultsplants ul,
 #block-lbprresultsplants ul li {
