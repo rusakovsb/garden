@@ -2,7 +2,7 @@
     background-color: #013745;
 }
 
-#top,
+#topnav,
 #cboxOverlay,
 .block-search .focused #edit-actions {
     background-color: #012d38;
@@ -227,7 +227,6 @@ textarea.form-textarea:focus,
 #search-form input.form-search:focus {
 	border-color: #fff;
 	-webkit-box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
-    -moz-box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
     box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
 }
 

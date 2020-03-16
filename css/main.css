@@ -532,6 +532,41 @@ a.map-link {
 }
 
 /*------------------------------------------------------------*/
+/* Blocks
+/*------------------------------------------------------------*/
+
+#sidebar-second .block {
+	margin: 0 0 20px 20px;
+	padding: 20px;
+}
+
+#sidebar-second #block-views-block-features-block-1 {
+	margin: 0 0 20px 0;
+	padding: 20px 20px 20px 0;
+}
+
+#block-lbprresultsplants ul,
+#block-lbprresultsplants ul li {
+    margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#block-lbprresultsplants ul li a,
+#block-historymenu ul li a {
+    margin: 0 0 10px 0;
+}
+
+#block-lbprresultsplants ul li:last-child a,
+#block-historymenu ul li:last-child a {
+    margin: 0;
+}
+
+#block-lbprresultsplants ul li a.is-active {
+	font-weight: 400;
+}
+
+/*------------------------------------------------------------*/
 /* Content
 /*------------------------------------------------------------*/
 
@@ -938,41 +973,6 @@ input.form-search::-webkit-search-cancel-button,
 }
 
 /*------------------------------------------------------------*/
-/* Blocks
-/*------------------------------------------------------------*/
-
-#sidebar-second .block {
-	margin: 0 0 20px 20px;
-	padding: 20px;
-}
-
-#sidebar-second #block-views-block-features-block-1 {
-	margin: 0 0 20px 0;
-	padding: 20px 20px 20px 0;
-}
-
-#block-lbprresultsplants ul,
-#block-lbprresultsplants ul li {
-    margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-#block-lbprresultsplants ul li a,
-#block-historymenu ul li a {
-    margin: 0 0 10px 0;
-}
-
-#block-lbprresultsplants ul li:last-child a,
-#block-historymenu ul li:last-child a {
-    margin: 0;
-}
-
-#block-lbprresultsplants ul li a.is-active {
-	font-weight: 400;
-}
-
-/*------------------------------------------------------------*/
 /* Hierarchical Taxonomy Menu
 /*------------------------------------------------------------*/
 
@@ -1214,17 +1214,12 @@ a.colorbox:hover:after {
 }
 
 .pager ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
     text-align: center;
 }
 
 .pager ul li {
     display: inline-block;
     margin: 0 2px;
-    padding: 0;
-    list-style-type: none;
 }
 
 .pager ul li a {
@@ -1232,7 +1227,6 @@ a.colorbox:hover:after {
     width: 30px;
     line-height: 30px;
     text-align: center;
-    list-style-type: none;
     border-radius: 50%;
 }
 
