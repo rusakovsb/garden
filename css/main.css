@@ -47,6 +47,10 @@ p {
     margin: 0 0 20px 0;
 }
 
+p:last-child {
+    margin: 0;
+}
+
 strong, 
 b {
 	font-weight: 700;
@@ -63,6 +67,17 @@ ul li {
     list-style: none;
     list-style-type: none;
     list-style-image: none;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
 }
 
 /*------------------------------------------------------------*/
@@ -145,17 +160,6 @@ footer {
 /*------------------------------------------------------------*/
 /* Links 
 /*------------------------------------------------------------*/
-
-a {
-    text-decoration: none;
-    transition: 0.2s linear;
-}
-
-a:hover,
-a:active,
-a:focus {
-    text-decoration: none;
-}
 
 a.with-arrow {
 	display: inline-block;
