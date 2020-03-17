@@ -239,10 +239,6 @@ h6 {
     font-weight: 700;	
 }
 
-#sidebar-second .block-title {
-    font-size: 1.352941rem;
-}
-
 /*------------------------------------------------------------*/
 /* Lists, Menus
 /*------------------------------------------------------------*/
@@ -539,6 +535,10 @@ a.map-link {
 /* Sidebar Right
 /*------------------------------------------------------------*/
 
+#sidebar-right .block-title {
+    font-size: 1.352941rem;
+}
+
 #sidebar-right .block {
 	margin: 0 0 20px 20px;
 	padding: 20px;
@@ -552,13 +552,6 @@ a.map-link {
 /*------------------------------------------------------------*/
 /* Blocks
 /*------------------------------------------------------------*/
-
-#block-lbprresultsplants ul,
-#block-lbprresultsplants ul li {
-    margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
 
 #block-lbprresultsplants ul li a,
 #block-historymenu ul li a {
