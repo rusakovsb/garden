@@ -133,15 +133,6 @@ footer {
     margin: 0 0 20px 0;
 }
 
-.region-content-top {
-	margin: 0 0 20px 0;
-    line-height: 1.5;
-}
-
-.region-content-bottom {
-    margin: 20px 0 0 0;
-}
-
 #main {
 	flex: 0 0 75%;
 	max-width: 75%;
@@ -150,6 +141,15 @@ footer {
 
 .path-frontpage #main {
 	padding: 0 20px 20px 20px;
+}
+
+.region-content-top {
+	margin: 0 0 20px 0;
+    line-height: 1.5;
+}
+
+.region-content-bottom {
+    margin: 20px 0 0 0;
 }
 
 #sidebar-right {
