@@ -8,8 +8,8 @@ libraries:
   - garden/global-styling
 
 regions:
-  top_left: 'Top Left'  
-  top_right: 'Top Right'
+  topbar_left: 'Top Left'  
+  topbar_right: 'Top Right'
   header: 'Header' 
   breadcrumbs: 'Breadcrumbs' 
   slider: 'Slider'

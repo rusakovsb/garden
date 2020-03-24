@@ -1,0 +1,272 @@
+#sidebar-first {
+    background-color: #013745;
+}
+
+#topnav,
+#cboxOverlay,
+.block-search .focused #edit-actions {
+    background-color: #012d38;
+}
+
+.flexslider,
+#footer {
+    background-color: #01222b;
+}
+
+#wrapper,
+.view-features,
+.view-slider .slide-text,
+.view-slider .views-field-title,
+.event-text,
+.excursion-text,
+.person-text,
+.person-text:before,
+.plant-text,
+.plant-text:before,
+.image-caption,
+.image-caption:before,
+.view-product-categories .views-field-name .field-content:before,
+.view-product-categories .views-field-name .field-content,
+.view-collections .views-field-name .field-content:before,
+.view-collections .views-field-name .field-content,
+.view-subcollections .views-field-name .field-content:before,
+.view-subcollections .views-field-name .field-content,
+.view-collection .views-field-title .field-content,
+.view-collection .views-field-title .field-content:before,
+.view-ecotrail .views-field-name .field-content,
+.view-ecotrail .views-field-name .field-content:before,
+.view-ecotrail-plants .views-field-title .field-content,
+.view-ecotrail-plants .views-field-title .field-content:before,
+.view-products .product-text,
+.view-products .product-text:before,
+.view-services-block .service-text,
+.view-services-block .service-text:before,
+.view-products-vertical .product-text,
+.view-products-vertical .product-text:before,
+.cboxPhoto,
+#cboxLoadedContent,
+#cboxLoadingGraphic,
+.map-point-number,
+.map-point-title,
+#block-structure-hierarchical-taxonomy-menu,
+#mobile-menu-button span,
+#left-menu-button span,
+.block-search .focused input.form-search {
+    background-color: #fff;
+}
+
+#breadcrumbs,
+#sidebar-second .block,
+.view-conference-files,
+.view-service-files,
+.view-page-files,
+.view-news-files,
+.view-price-list {
+    background-color: #ecf2f4;
+}
+
+#block-garden-main-menu a,
+a.map-link,
+#block-mobilemenu a,
+#block-garden-main-menu a.is-active:hover,
+#block-leftmenu a.is-active:hover,
+.social-icon,
+a.button,
+a.button:active,
+a.button:focus,
+input.button,
+a.button:active,
+ul.tabs li a,
+#cboxTitle,
+.pager ul li a {
+    color: #fff;
+}
+
+#block-garden-main-menu a:hover,
+#block-leftmenu a:hover,
+#block-mobilemenu a:hover,
+a.map-link:hover,
+#footer a:hover {
+    color: #53cc9a;
+}
+
+a,
+.legend-item span {
+    color: #02657f;
+}
+
+a:hover,
+a:active,
+a:focus,
+.legend-item span:hover {
+    color: #1f9363;
+}
+
+.hierarchical-taxonomy-menu ul ul li a:before {
+    border-color: #02657f;
+}
+
+.legend-item span {
+    border-color: #02687a;
+}
+
+.map-point-number {
+    color: #168d51;
+}
+
+#block-garden-main-menu ul.menu a:after,
+#block-garden-main-menu .menu .menu-item--active-trail a:after,
+.site-logo a,
+input.button,
+.block-search .focused input.form-submit,
+a.button,
+.view-features ul li:before,
+.view-features ul li:after,
+.social-icon,
+.node ul li:before,
+.views-field-field-structure-text ul li:before,
+.view-collection-description ul li:before,
+.view-slider .flex-direction-nav a,
+ul.tabs li a,
+.view-structure-page-links a:before,
+a.with-arrow:before,
+#block-leftmenu a:before,
+.messages--status:before,
+.webform-confirmation__message:before,
+.symbol-sign,
+.pager ul li a {
+    background-color: #1f9363;
+}
+
+.site-logo a:hover,
+input.button:hover,
+a.button:hover,
+.social-icon:hover,
+.view-slider .flex-direction-nav a:hover,
+ul.tabs li a:hover,
+.pager ul li a:hover {
+    background-color: #1a7b53;
+}
+
+.view-slider .flex-control-paging li a.flex-active {
+    background: #1f9363;
+    background: rgba(24, 155, 89, 1);
+}
+
+input.button:hover,
+a.button:hover,
+ul.tabs li a {    
+    color: #fff;
+}
+
+.site-name,
+.site-slogan,
+#block-sitesubname {
+    color: #013745;
+}
+
+.phone-number,
+.view-events-block .views-field-field-event-dates,
+.view-events-by-year .event-dates,
+.view-events .event-dates,
+.excursion-period,
+.view-conferences-block .views-field-field-conference-dates,
+.view-conferences .views-field-field-conference-dates,
+.person-phone,
+.product-price,
+.view-product-carousel .product-price,
+.price-table tr td:last-child,
+.field--name-field-product-price,
+.field--name-field-event-dates,
+.field--name-field-conference-dates {
+    color: #1f9363;
+}
+
+.plant-latin-name {
+    color: #5e5f60;
+}
+
+.breadcrumb,
+.view-news-block .views-field-created,
+.view-news .views-field-created,
+.views-field-field-mass-media-date,
+.view-news-date {
+    color: #949d9f;
+}
+
+.view-features ul li,
+.view-slider .flex-control-paging li a {
+    border-color: #1f9363;
+}
+
+input.form-text,
+input.form-email,
+textarea.form-textarea,
+.view-conferences-block .views-row,
+.view-events-block .views-row,
+.view-news-block .views-row,
+.view-news .views-row,
+.view-mass-media .views-row,
+.view-conferences .views-row,
+.view-reception-block .views-row,
+table tr,
+input.form-search {
+    border-color: #b2bdc0;
+}
+
+input.form-text:hover,
+input.form-email:hover,
+textarea.form-textarea:hover,
+#search-form input.form-search:hover {
+	border-color: #1f9363;
+}
+
+input.form-text:focus,
+input.form-email:focus,
+textarea.form-textarea:focus,
+#search-form input.form-search:focus {
+	border-color: #fff;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
+    box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
+}
+
+.block-search input.form-search {
+	background-color: #024152;
+}
+
+#block-leftmenu a {
+    color: #fff;
+}
+
+.pager ul li.is-active a {
+    background-color: #949d9f;
+}
+
+#footer,
+#footer a {
+    color: #4a8493;
+}
+
+.messages--status,
+.webform-confirmation__message {
+    color: #1f9363;
+    background-color: #d0f4e5;
+}
+
+.messages--error {    
+    color: #cc3131;
+	background-color: #edc6c6;
+}
+
+.messages--error:before {    
+	background-color: #cc3131;
+}
+
+.map-point-title {
+    border-color: #137644;
+}
+
+.image-caption {
+    color: #575859;
+}
+
