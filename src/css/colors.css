@@ -1,8 +1,8 @@
-#sidebar-first {
+#sidebar-left {
     background-color: #013745;
 }
 
-#topnav,
+#topbar,
 #cboxOverlay,
 .block-search .focused #edit-actions {
     background-color: #012d38;
@@ -13,7 +13,6 @@
     background-color: #01222b;
 }
 
-#wrapper,
 .view-features,
 .view-slider .slide-text,
 .view-slider .views-field-title,
@@ -56,7 +55,7 @@
 }
 
 #breadcrumbs,
-#sidebar-second .block,
+#sidebar-right .block,
 .view-conference-files,
 .view-service-files,
 .view-page-files,

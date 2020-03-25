@@ -26,6 +26,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	line-height: normal;	
+	background: #fff;
 }
 
 article, 
@@ -60,13 +61,11 @@ em {
 	font-style: italic;
 }
 
-ul,
-ul li {
+ul.menu,
+ul.menu li {
     margin: 0;
     padding: 0;
     list-style: none;
-    list-style-type: none;
-    list-style-image: none;
 }
 
 a {
@@ -78,6 +77,13 @@ a:hover,
 a:active,
 a:focus {
     text-decoration: none;
+}
+
+figure {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
 }
 
 /*------------------------------------------------------------*/
@@ -240,118 +246,6 @@ h6 {
 }
 
 /*------------------------------------------------------------*/
-/* Lists, Menus
-/*------------------------------------------------------------*/
-
-.breadcrumb ol {
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    list-style-type: none;
-}
-
-.breadcrumb ol li {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-	font-size: 0.882352rem;
-}
-
-#breadcrumbs {	
-    margin: 0 20px;
-	padding: 7px 10px;
-}
-
-.breadcrumb ol li:before {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-image: url(../images/br-arrow.svg);
-    background-repeat: no-repeat;
-    background-size: 7px 7px;
-    background-position: 50% 50%;
-}
-
-.breadcrumb ol li:first-child:before {
-    display: none;
-}
-
-.node ol,
-.views-field-field-structure-text ol,
-.view-collection-description ol  {
-	margin: 0 0 20px 0;
-    padding: 0;
-}
-
-.node ol li,
-.views-field-field-structure-text ol li,
-.view-collection-description ol li  {
-	margin: 0 0 20px 30px;
-    padding: 0;
-}
-
-.node ul,
-.views-field-field-structure-text ul,
-.view-collection-description ul {
-	margin: 0 0 20px 20px;
-	padding: 0;
-	list-style: none;
-}
-
-.node ul li:before,
-.views-field-field-structure-text ul li:before,
-.view-collection-description ul li:before {
-	content: "";
-    display: inline-block;
-	margin: 0 10px 0 0;	
-	width: 6px;
-	height: 6px;
-	vertical-align: 0.1em;
-	border-radius: 50%;
-}
-
-ul.tabs {
-    margin: 10px 0;
-    padding: 0;
-	list-style-type: none;
-}
-
-ul.tabs li {
-	margin: 0 10px 0 0;
-	padding: 0;
-	display: inline-block;
-}
-
-ul.tabs li a {
-	display: inline-block;
-	padding: 5px 10px;
-	border-radius: 20px;
-}
-
-ul.toolbar-menu li {
-	margin: 0;
-	padding: 0;
-}
-
-ul.menu {
-	margin: 0;
-	padding: 0;
-    list-style: none;
-	list-style-type: none;
-    list-style-image: none;
-}
-
-ul.menu li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    list-style-type: none;
-    list-style-image: none;
-}
-
-/*------------------------------------------------------------*/
 /* Header
 /*------------------------------------------------------------*/
 
@@ -443,22 +337,12 @@ ul.menu li {
 /* Main Menu
 /*------------------------------------------------------------*/
 
-#block-garden-main-menu {
-	float: left;
-}
-
 #block-garden-main-menu .menu {
-    margin: 0;
-    padding: 0;
-	list-style-type: none;
-	list-style-type: none;
-	display: block;
+	display: flex;
 }
 
 #block-garden-main-menu .menu li {
-    float: left;
-    display: block;
-	margin: 0 20px 0 0;
+	padding: 0 20px 0 0;
 }
 
 #block-garden-main-menu .menu a,
@@ -750,11 +634,38 @@ a.map-link {
 	float: left;
 }
 
-figure {
-	-webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
+.node ol,
+.views-field-field-structure-text ol,
+.view-collection-description ol  {
+	margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.node ol li,
+.views-field-field-structure-text ol li,
+.view-collection-description ol li  {
+	margin: 0 0 20px 30px;
+    padding: 0;
+}
+
+.node ul,
+.views-field-field-structure-text ul,
+.view-collection-description ul {
+	margin: 0 0 20px 20px;
+	padding: 0;
+	list-style: none;
+}
+
+.node ul li:before,
+.views-field-field-structure-text ul li:before,
+.view-collection-description ul li:before {
+	content: "";
+    display: inline-block;
+	margin: 0 10px 0 0;	
+	width: 6px;
+	height: 6px;
+	vertical-align: 0.1em;
+	border-radius: 50%;
 }
 
 /*------------------------------------------------------------*/
@@ -1204,6 +1115,64 @@ a.colorbox:after {
 a.colorbox:hover:after {
     opacity: 1; 
 	transform: scale(1);
+}
+
+/*------------------------------------------------------------*/
+/* Tabs
+/*------------------------------------------------------------*/
+
+ul.tabs {
+    margin: 10px 0;
+	list-style-type: none;
+}
+
+ul.tabs li {
+	margin: 0 10px 0 0;
+	display: inline-block;
+}
+
+ul.tabs li a {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 20px;
+}
+
+/*------------------------------------------------------------*/
+/* Breadcrumb
+/*------------------------------------------------------------*/
+
+.breadcrumb ol {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    list-style: none;
+}
+
+.breadcrumb ol li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+	font-size: 0.882352rem;
+}
+
+#breadcrumbs {	
+    margin: 0 20px;
+	padding: 7px 10px;
+}
+
+.breadcrumb ol li:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(../images/br-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 7px 7px;
+    background-position: 50% 50%;
+}
+
+.breadcrumb ol li:first-child:before {
+    display: none;
 }
 
 /*------------------------------------------------------------*/
