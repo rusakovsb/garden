@@ -2,12 +2,19 @@
 /* Grid styles
 /*-------------------------------------------*/
 
-.grid .view-content {
+.grid .view-content,
+.grid .grid-content {
     display: flex;
     flex-wrap: wrap;	
+    margin: 0 -10px;
 }
 
-.grid.no-gaps .view-content {
+.grid-item {
+	padding: 0 10px 20px 10px;
+}
+
+.grid.no-gaps .view-content,
+.grid.no-gaps .grid-content {
 	margin: 0;
 }
 

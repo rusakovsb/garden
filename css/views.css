@@ -34,7 +34,7 @@
     bottom: 15px;
 	text-align: left;
 	width: auto;
-	z-index: 101;
+	z-index: 100;
 	font-size: 0;
 	line-height: 0;
 }
@@ -57,26 +57,24 @@
 }
 
 .view-slider .flex-direction-nav {
-	display: block;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 	position: absolute;
 	text-align: right;
 	z-index: 100;
-	right: 20px;
-    bottom: 12px;
-}
-
-.view-slider .flex-direction-nav li {
-	display: inline-block;
-    margin: 0;
-	padding: 0;
-	font-size: 0;
-	line-height: 0;
+	right: 0;
+	bottom: 0;
+	height: 60px;
 }
 
 .view-slider .flex-direction-nav a {
-    display: inline-block;
+    display: block;
 	position: relative;
-	margin: 0;
+	margin: 0 20px 0 0;
 	text-indent: 9999px;
     width: 30px;
     height: 30px;
@@ -88,7 +86,6 @@
 	background-position: 50% 50%;
 	border-radius: 50%;
     -webkit-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 
@@ -99,8 +96,7 @@
 
 .view-slider .flex-direction-nav .flex-prev {
     background-image: url(../images/prev.svg);
-	left: auto;
-	margin-right: 15px;
+	left: auto;	
 }
 
 .view-slider .flex-direction-nav .flex-next {
@@ -123,10 +119,14 @@
 /* Features
 /*------------------------------------------------------------*/
 
+#block-views-block-features-block-1 {
+	padding: 0 !important;
+}
+
 .view-features {
-	margin-left: -40px;
-    padding: 20px;
 	position: relative;
+	margin: 0 0 0 -80px;
+    padding: 20px;	
 	z-index: 100;
 }
 
@@ -135,15 +135,15 @@
 	font-family: 'Montserrat', sans-serif;
     font-size: 1.294117rem;
     font-weight: 500;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
 	position: relative;	
 	border-bottom: 1px solid;
 }
 
 .view-features ul li:last-child {
-	margin-bottom: 0;
-	padding-bottom: 0;
+	margin: 0;
+	padding: 0;
 	border: none;
 }
 
@@ -177,172 +177,125 @@
 }
 
 /*------------------------------------------------------------*/
-/* Reception
+/* Events and News Blocks 
 /*------------------------------------------------------------*/
 
-.view-reception-block .views-row {
-	padding-bottom: 20px;
-	border-bottom: 1px solid;
+.news-block-item {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid;
 }
 
-/*------------------------------------------------------------*/
-/* Conferences
-/*------------------------------------------------------------*/
-
-.view-conferences .views-row {
-	padding-bottom: 20px;
-	border-bottom: 1px solid;
-}
-
-.view-conferences .views-row:last-child {
-	padding-bottom: 0;
+.news-block-item:last-child {
+    margin: 0;
+	padding: 0;
 	border-bottom: none;
 }
 
-.view-conferences .views-field-field-conference-dates {
-	margin-bottom: 10px;
-	font-size: 1.2rem;
+.news-block-item__period {
+	margin: 0 0 10px 0;
 }
 
-.view-conferences .views-field-field-conference-type {
-	margin-bottom: 5px;
+.news-block-item__created {
+	margin: 0 0 10px 0;
 }
 
-.view-conference-files {
-	padding: 20px;
-}
-
-.view-conference-video {
-    margin-top: 20px;
-}
-
-.view-conference-video .views-view-grid .views-col {
-    width: 50%;
-}
-
-.view-conference-gallery {
-	margin-top: 20px;
-}
-
-/* ------ Conferences block ------ */
-
-.view-conferences-block .views-row {
-	padding-bottom: 20px;
-	border-bottom: 1px solid;
-}
-
-.view-conferences-block .views-row:last-child {
-    margin-bottom: 0;
-	padding-bottom: 0;
-	border-bottom: none;
-}
-
-.view-conferences-block .views-field-field-conference-dates {
-	margin-bottom: 10px;
-	font-size: 1rem;
-}
-
-.view-conferences-block .views-field-field-conference-type {
-	margin-bottom: 5px;
-}
-
-/*------------------------------------------------------------*/
-/* Events
-/*------------------------------------------------------------*/
-
-.view-events .views-view-grid .views-col,
-.view-events-by-year .views-view-grid .views-col {
-	width: 50%;
-}
-
-.view-events .views-field-field-event-image,
-.view-events-by-year .views-field-field-event-image {
-	width: 40%;
-	float: left;
-}
-
-.view-events .views-field-field-event-image img,
-.view-events-by-year .views-field-field-event-image img {
-	width: 100%;
-	height: auto;
-}
-
-.view-events .views-field-title,
-.view-events-by-year .views-field-title {
-	padding: 40px 0 0 0;
-	width: 60%;
-	float: right;
-}
-
-.view-events-block .views-field-field-event-short-title a,
-.view-events .views-field-title a,
-.view-events-by-year .views-field-title a {
+.news-block-item__title a {
 	display: block;
+	line-height: 1.5;
 }
 
-.event-dates {
-	margin-bottom: 10px;
-	font-size: 1.2rem;
-}
+/*------------------------------------------------------------*/
+/* Conferences Page
+/*------------------------------------------------------------*/
 
-.event-text {
-	margin-left: -40px;
-	padding: 20px 0 20px 20px;
-}
-
-.view-event-gallery .views-col a.colorbox {
-	position: relative;
-} 
-
-/* ------ Events Block ------ */
-
-#block-views-block-events-block-block-1 {
-	padding: 20px;
-}
-
-.view-events-block .views-row {
-	padding-bottom: 20px;
+.conference {
+	margin: 0 0 40px 0;
+	padding: 0 0 20px 0;
 	border-bottom: 1px solid;
 }
 
-.view-events-block .views-row:last-child {
-    margin-bottom: 0;
-	padding-bottom: 0;
+.conference:last-child {
+	margin: 0;
+	padding: 0;
 	border-bottom: none;
 }
 
-.view-events-block .views-field-field-event-dates {
-	margin-bottom: 10px;
+.conference__period {
+	margin: 0 0 10px 0;
+	font-size: 1.176470rem;
+}
+
+.conference__type {
+	margin: 0 0 10px 0;
+    font-size: 1.294117rem;
+    font-weight: 600;
+}
+
+/*------------------------------------------------------------*/
+/* Masonry
+/*------------------------------------------------------------*/
+
+.masonry .view-content {
+	margin: 0 -20px;
+}
+
+.masonry-item {
+    width: 33.333333%;
+    padding: 0 20px 40px 20px;  
+}
+
+/*------------------------------------------------------------*/
+/* Events Page
+/*------------------------------------------------------------*/
+
+.event-page-item__period {
+	margin: 10px 0;
+    font-size: 1.176470rem;
+}
+
+.event-page-item__title {
+    font-size: 1.294117rem;
+	font-weight: 500;
 }
 
 /*------------------------------------------------------------*/
 /* Excursions
 /*------------------------------------------------------------*/
 
-.view-excursions-block .views-field-field-excursion-image {
-	width: 50%;
+.excursion {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 0 40px 0;
 }
 
-.view-excursions-block .views-field-field-excursion-image img {
-	width: 100%;
-	height: auto;
+.excursion__image {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
 }
 
-.view-excursions-block .views-field-title {
+.excursion__text {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
 	padding: 40px 0 0 0;
-	width: 50%;	
 }
 
-.view-excursions-block .excursion-period {
-	margin-bottom: 10px;
-	font-size: 1.2rem;
-}
-
-.excursion-text {
+.excursion__text-inner {
+	position: relative;
 	padding: 20px;
 }
 
-.excursion-body {
+.excursion__period {
+	margin: 0 0 10px 0;
+	font-size: 1.235294rem;
+}
+
+.excursion__body {
 	line-height: 1.5;
 }
 
@@ -350,31 +303,18 @@
 	margin: 0;
 }
 
-/* ------ Excursions odd row ------ */
-
-.view-excursions-block .views-row:nth-child(odd) .views-field-field-excursion-image {
-	float: left;
-}
-
-.view-excursions-block .views-row:nth-child(odd) .views-field-title {
-	float: right;
-}
-
-.view-excursions-block .views-row:nth-child(odd) .excursion-text {
+.excursion:nth-child(odd) .excursion__text-inner {
 	margin: 0 0 0 -40px;
 }
 
-/* ------ Excursions even row ------ */
-
-.view-excursions-block .views-row:nth-child(even) .views-field-field-excursion-image {
-	float: right;
+.excursion:nth-child(even) {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;	
 }
 
-.view-excursions-block .views-row:nth-child(even) .views-field-title {
-	float: left;
-}
-
-.view-excursions-block .views-row:nth-child(even) .excursion-text {
+.excursion:nth-child(even) .excursion__text-inner {
 	margin: 0 -40px 0 0;
 }
 
@@ -387,30 +327,33 @@
 }
 
 .view-structure ul.menu li {
-	margin-bottom: 10px;
+	margin: 0 0 10px 0;
+}
+
+.view-structure ul.menu li {
+	margin: 0 0 10px 0;
 }
 
 .view-structure-page-descr {
-	margin-bottom: 10px;
+	margin: 0 0 10px 0;
 	line-height: 1.5;
 }
 
 .view-structure-page-image img {
-	width: 100%;
-	height: auto;
-	 margin-bottom: 20px;
+	margin: 0 0 40px 0;
 }
 
-.view-structure-page-links {
-	overflow: hidden;
-	clear: both;
-	margin-bottom: 20px;
-}
+.view-structure-page-links ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 40px 0;
+} 
 
 .view-structure-page-links ul li {
-    float: left;
-	display: block;
-	margin-right: 20px;
+	padding: 0 40px 0 0;
 } 
 
 .view-structure-page-links a {
@@ -435,149 +378,88 @@
 	background-position: 50% 50%;
 }
 
-.view-structure-video {
-	margin-bottom: 20px;
-}
-
-.view-structure-video .views-view-grid .views-col {
-    width: 50%;
-}
-
 /*------------------------------------------------------------*/
-/* Partners
+/* News Page
 /*------------------------------------------------------------*/
-
-.view-partners ul.menu li {
-	margin-bottom: 10px;
-}
-
-/*------------------------------------------------------------*/
-/* News
-/*------------------------------------------------------------*/
-
-.view-news-date {
-	margin-bottom: 20px;
-}
-
-.view-news {
-	position: relative;
-}
 
 .view-news .view-header {
-	position: absolute;
-	right: 0;
-	top: -75px;
+	margin: 0 0 40px 0;
 }
 
-.view-news .views-row,
-.view-mass-media .views-row {
+.view-news .view-header .button {
+	margin: 0;
+}
+
+.news-item {
+	margin: 0 0 40px 0;
+	padding: 0 0 40px 0;
 	border-bottom: 1px solid;
 }
 
-.view-news .views-row:last-child,
-.view-mass-media .views-row:last-child {
+.news-item:last-child {
+	margin: 0;
+	padding: 0;
 	border-bottom: none;
 }
 
-.view-news .views-field-title,
-.view-mass-media .views-field-title {
-	margin-bottom: 10px;
-}
-
-.view-news .views-field-title a,
-.view-news-block .views-field-title a,
-.view-mass-media .views-field-title a {
-	display: block;
-}
-
-.view-news-block .views-field-title a,
-.view-mass-media .views-field-title a {
-	line-height: 1.3;
-}
-
-.views-field-field-mass-media-link {
-    font-size: 0.882352rem;
-	margin-bottom: 20px;
-}
-
-.view-news-block .views-row {
-	padding-bottom: 20px;
-	border-bottom: 1px solid;
-}
-
-.view-news-block .views-row:last-child {
-    margin-bottom: 0;
-	padding-bottom: 0;
-	border-bottom: none;
-}
-
-.view-news-block .views-field-created,
-.view-news .views-field-created,
-.views-field-field-mass-media-date {
-    margin-bottom: 10px;
-}
-
-.view-news-video {
-   margin-bottom: 20px;
-}
-
-.view-news-video .views-view-grid .views-col {
-    width: 50%;
-}
-
-.view-news-files {
-	margin: 20px 0 0 0;
-    padding: 20px;
+.news-item__created {
+	margin: 0 0 20px 0;
+	font-size: 1.176470rem;
 }
 
 /*------------------------------------------------------------*/
 /* Persons
 /*------------------------------------------------------------*/
 
-.view-persons-block .views-field-field-person-image,
-.view-management-block .views-field-field-person-image  {
-	float: left;
-	width: 35%;
+.person {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 0 40px 0;
 }
 
-.view-persons-block img,
-.view-management-block img {
-	width: 100%;
-	height: auto;
+.person__image {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 35%;
+	flex: 0 0 35%;
 }
 
-.view-persons-block .views-field-title,
-.view-management-block .views-field-title {
-	float: right;
-	width: 65%;
+.person__text {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 65%;
+	flex: 0 0 65%;
+	max-width: 65%;
 	padding: 40px 0 0 0;
 }
 
-.person-text {
+.person__text-inner {
+	position: relative;
     margin: 0 0 0 -40px;
-    padding: 20px 0 20px 20px;
+    padding: 20px;
 }
 
-.person-title {
+.person__name {
     font-size: 1.529411rem;
 }
 
-.person-phone {
-	margin-top: 20px;
+.person__phone {
+	margin: 20px 0 0 0;
 	font-size: 1.294117rem;
 }
 
-.person-reception-label {
-	margin-top: 20px;
-	font-weight: 400;
+.person__reception-label {
+	margin: 20px 0 5px 0;
+	font-weight: 600;
 }
 
-.person-reception p {
+.person__reception p {
 	margin: 0;
 }
 
-.person-position:first-letter,
-.person-degree:first-letter {
+.person__position:first-letter,
+.person__degree:first-letter {
     text-transform: uppercase;
 }
 
@@ -585,110 +467,62 @@
 /* Plants
 /*------------------------------------------------------------*/
 
-.view-lbpr-plants-med img,
-.view-lbpr-plants-rare img,
-.view-lbpr-plants-fodder img,
-.view-lbpr-plants-bioenergy img {
-    width: 100%;
-	height: auto;
+.plant {
+	margin: 0 0 40px 0;
 }
 
-.view-lbpr-plants-med .views-field-title,
-.view-lbpr-plants-rare .views-field-title,
-.view-lbpr-plants-fodder .views-field-title,
-.view-lbpr-plants-bioenergy .views-field-title {
-	padding: 0 20px;
+.plant:last-child {
+	margin: 0;
 }
 
-.plant-text {
-    padding: 0 20px 20px 20px;
-	position: relative;
+.plant__text {
 	text-align: center;
 }
 
-.plant-title  {
-    margin-bottom: 5px;
+.plant__text-inner {
+    position: relative;
+    z-index: 10;
+    margin: -20px 20px 0 20px;
+    padding: 20px;
+    text-align: center;
 }
 
-.plant-text:before {
-	display: block;
-	content: "";
-	width: 100%;
-    height: 20px;
-	position: absolute;
-	top: -20px;
-	left: 0;	 
-}
-
-/*------------------------------------------------------------*/
-/* Product Categories
-/*------------------------------------------------------------*/
-
-.view-product-categories .views-field-name {
-    padding: 0 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.176470rem;
+.plant__name {	
 	font-weight: 600;
-	text-align: center;
 }
 
-.view-product-categories .views-field-name .field-content {
-	display: block;
-    padding: 0 20px 20px 20px;
-	position: relative;	
-}
-
-.view-product-categories .views-field-name .field-content:before {
-	display: block;
-	content: "";
-	width: 100%;
-    height: 20px;
-	position: absolute;
-	top: -20px;
-	left: 0;	 
+.plant__latin-name {
+	margin: 5px 0 0 0;
+	font-style: italic;
 }
 
 /*------------------------------------------------------------*/
 /* Products
 /*------------------------------------------------------------*/
 
-.view-products .views-field-title,
-.view-products-vertical .views-field-title {
-    padding: 0 20px;
-}
-
-.view-products .product-text,
-.view-products-vertical .product-text {
-    padding: 0 20px 20px 20px;
+.product__text {
 	position: relative;
+	z-index: 10;
+	margin: -20px 20px 0 20px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 
-.view-products .product-title,
-.view-products-vertical .product-title {
+.product__name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.176470rem;
+	font-size: 1.176470rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.product__price {
+	margin: 10px 0 0 0;
+	font-size: 1.176470rem;	
 	font-weight: 600;
 }
 
-.view-products .product-price,
-.view-products-vertical .product-price {
-	font-size: 1.176470rem;
-	margin-top: 5px;
-}
-
-.view-products .product-text:before,
-.view-products-vertical .product-text:before {
-	display: block;
-	content: "";
-	width: 100%;
-    height: 20px;
-	position: absolute;
-	top: -20px;
-	left: 0;	 
-}
-
-.product-price:empty {
+.product__price:empty {
 	display: none;
 }
 
@@ -696,110 +530,66 @@
 /* Services
 /*------------------------------------------------------------*/
 
-.view-services-block .views-field-field-service-image {
-	width: 50%;
+.service {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 0 40px 0;
 }
 
-.view-services-block .views-field-field-service-image img {
-	width: 100%;
-	height: auto;
+.service__image {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
 }
 
-.view-services-block .views-field-title {
+.service__text {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
 	padding: 40px 0 0 0;
-	width: 50%;	
 }
 
-.service-text {
+.service__text-inner {
+	position: relative;
 	padding: 20px;
 }
 
-.service-description {
+.service__body {
 	line-height: 1.5;
 }
 
-.service-description p {
+.service__body p {
 	margin: 0;
 }
 
-.view-service-files,
-.view-price-list {
-	padding: 20px;
-}
-
-/* ------ Services odd row ------ */
-
-.view-services-block .views-row:nth-child(odd) .views-field-field-service-image {
-	float: left;
-}
-
-.view-services-block .views-row:nth-child(odd) .views-field-title {
-	float: right;
-}
-
-.view-services-block .views-row:nth-child(odd) .service-text {
+.service:nth-child(odd) .service__text-inner {
 	margin: 0 0 0 -40px;
 }
 
-/* ------ Services even row ------ */
-
-.view-services-block .views-row:nth-child(even) .views-field-field-service-image {
-	float: right;
+.service:nth-child(even) {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;	
 }
 
-.view-services-block .views-row:nth-child(even) .views-field-title {
-	float: left;
-}
-
-.view-services-block .views-row:nth-child(even) .service-text {
+.service:nth-child(even) .service__text-inner {
 	margin: 0 -40px 0 0;
-}
-
-/*------------------------------------------------------------*/
-/* Collections, Ecotrail
-/*------------------------------------------------------------*/
-
-.view-collections .views-field-name,
-.view-subcollections .views-field-name,
-.view-collection .views-field-title,
-.view-ecotrail .views-field-name,
-.view-ecotrail-plants .views-field-title {
-    padding: 0 20px;
-}
-
-.view-collections .views-field-name .field-content,
-.view-subcollections .views-field-name .field-content,
-.view-collection .views-field-title .field-content,
-.view-ecotrail .views-field-name .field-content,
-.view-ecotrail-plants .views-field-title .field-content {
-	display: block;
-    padding: 0 20px 20px 20px;
-	position: relative;
-	text-align: center;
-	font-size: 1.058823rem;
-}
-
-.view-collections .views-field-name .field-content:before,
-.view-subcollections .views-field-name .field-content:before,
-.view-collection .views-field-title .field-content:before,
-.view-ecotrail .views-field-name .field-content:before,
-.view-ecotrail-plants .views-field-title .field-content:before {
-	display: block;
-	content: "";
-	width: 100%;
-    height: 20px;
-	position: absolute;
-	top: -20px;
-	left: 0;	 
-}
-
-.view-collection-video .views-view-grid .views-col {
-	width: 50%;
 }
 
 /*------------------------------------------------------------*/
 /* Files
 /*------------------------------------------------------------*/
+
+.view-service-files,
+.view-news-files,
+.view-conference-files,
+.view-page-files {
+    padding: 20px 20px 0 20px;
+}
 
 .view .file--x-office-document,
 .view .file--application-pdf {
@@ -807,38 +597,59 @@
 }
 
 .view .file {
-    padding-left: 0;
+	margin: 0 10px 0 0;
+	padding-left: 0;	
 }
 
-.view .file--x-office-document a {
-	display: block;
-	min-height: 40px;
-    background-image: url(../images/doc.svg);
-	background-repeat: no-repeat;
-	background-size: auto 40px;
-	background-position: 0 0;
-	padding: 0 0 0 40px;
-}
-
+.view .file--x-office-document a,
 .view .file--application-pdf a {
 	display: block;
 	min-height: 40px;
-    background-image: url(../images/pdf.svg);
 	background-repeat: no-repeat;
 	background-size: auto 40px;
 	background-position: 0 0;
-	padding: 0 0 0 40px;
+	padding: 0 0 0 45px;
 }
 
-.view-page-files {
-    padding: 20px;
+.view .file--x-office-document a {
+    background-image: url(../images/doc.svg);
+}
+
+.view .file--application-pdf a {
+    background-image: url(../images/pdf.svg);
 }
 
 /*------------------------------------------------------------*/
 /* Banners
 /*------------------------------------------------------------*/
 
-.view-banners img {
-	width: 100%;
-	height: auto;
+.banner {
+	margin: 0 0 20px 0;
+}
+
+/*------------------------------------------------------------*/
+/* Reception
+/*------------------------------------------------------------*/
+
+.reception-item {
+	margin: 0 0 40px 0;
+	padding: 0 0 40px 0;
+	border-bottom: 1px solid;
+}
+
+.reception-item__time {
+	margin: 0 0 20px 0;
+}
+
+.reception-item__phone {
+	font-size: 1.294117rem;
+	font-weight: 600;
+}
+
+/*------------------------------------------------------------*/
+/* Partners
+/*------------------------------------------------------------*/
+
+.view-partners ul li {
+	margin: 0 0 10px 0;
 }

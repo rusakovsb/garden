@@ -1,10 +1,12 @@
-#sidebar-left {
+#sidebar-left,
+#left-menu-panel {
     background-color: #013745;
 }
 
 #topbar,
 #cboxOverlay,
-.block-search .focused #edit-actions {
+.block-search .focused #edit-actions,
+.menu--mobile-menu {
     background-color: #012d38;
 }
 
@@ -13,44 +15,25 @@
     background-color: #01222b;
 }
 
+body,
 .view-features,
 .view-slider .slide-text,
 .view-slider .views-field-title,
-.event-text,
-.excursion-text,
-.person-text,
-.person-text:before,
-.plant-text,
-.plant-text:before,
-.image-caption,
-.image-caption:before,
-.view-product-categories .views-field-name .field-content:before,
-.view-product-categories .views-field-name .field-content,
-.view-collections .views-field-name .field-content:before,
-.view-collections .views-field-name .field-content,
-.view-subcollections .views-field-name .field-content:before,
-.view-subcollections .views-field-name .field-content,
-.view-collection .views-field-title .field-content,
-.view-collection .views-field-title .field-content:before,
-.view-ecotrail .views-field-name .field-content,
-.view-ecotrail .views-field-name .field-content:before,
-.view-ecotrail-plants .views-field-title .field-content,
-.view-ecotrail-plants .views-field-title .field-content:before,
-.view-products .product-text,
-.view-products .product-text:before,
-.view-services-block .service-text,
-.view-services-block .service-text:before,
-.view-products-vertical .product-text,
-.view-products-vertical .product-text:before,
+.excursion__text-inner,
+.person__text-inner,
+.service__text-inner,
+.product__text,
+.plant__text-inner,
 .cboxPhoto,
 #cboxLoadedContent,
 #cboxLoadingGraphic,
 .map-point-number,
 .map-point-title,
 #block-structure-hierarchical-taxonomy-menu,
-#mobile-menu-button span,
-#left-menu-button span,
-.block-search .focused input.form-search {
+.mobile-menu-toggle span,
+.left-menu-toggle span,
+.block-search .focused input.form-search,
+.node__content figcaption {
     background-color: #fff;
 }
 
@@ -64,11 +47,15 @@
     background-color: #ecf2f4;
 }
 
-#block-garden-main-menu a,
+#block-views-block-features-block-1 {
+    background-color: transparent !important;
+}
+
+.menu--main a,
 a.map-link,
-#block-mobilemenu a,
-#block-garden-main-menu a.is-active:hover,
-#block-leftmenu a.is-active:hover,
+.menu--mobile-menu a,
+.menu--main a.is-active:hover,
+.menu--left-menu a.is-active:hover,
 .social-icon,
 a.button,
 a.button:active,
@@ -81,9 +68,9 @@ ul.tabs li a,
     color: #fff;
 }
 
-#block-garden-main-menu a:hover,
-#block-leftmenu a:hover,
-#block-mobilemenu a:hover,
+.menu--main a:hover,
+.menu--left-menu a:hover,
+.menu--mobile-menu a:hover,
 a.map-link:hover,
 #footer a:hover {
     color: #53cc9a;
@@ -113,8 +100,7 @@ a:focus,
     color: #168d51;
 }
 
-#block-garden-main-menu ul.menu a:after,
-#block-garden-main-menu .menu .menu-item--active-trail a:after,
+.menu--main ul li a:after,
 .site-logo a,
 input.button,
 .block-search .focused input.form-submit,
@@ -122,14 +108,14 @@ a.button,
 .view-features ul li:before,
 .view-features ul li:after,
 .social-icon,
-.node ul li:before,
+.node__content ul li:before,
 .views-field-field-structure-text ul li:before,
 .view-collection-description ul li:before,
 .view-slider .flex-direction-nav a,
 ul.tabs li a,
 .view-structure-page-links a:before,
 a.with-arrow:before,
-#block-leftmenu a:before,
+.menu--left-menu a:before,
 .messages--status:before,
 .webform-confirmation__message:before,
 .symbol-sign,
@@ -165,31 +151,27 @@ ul.tabs li a {
 }
 
 .phone-number,
-.view-events-block .views-field-field-event-dates,
-.view-events-by-year .event-dates,
-.view-events .event-dates,
-.excursion-period,
-.view-conferences-block .views-field-field-conference-dates,
-.view-conferences .views-field-field-conference-dates,
-.person-phone,
-.product-price,
+.news-block-item__period,
+.excursion__period,
+.person__phone,
+.product__price,
+.reception-item__phone,
+.conference__period,
 .view-product-carousel .product-price,
 .price-table tr td:last-child,
 .field--name-field-product-price,
 .field--name-field-event-dates,
-.field--name-field-conference-dates {
+.event-page-item__period {
     color: #1f9363;
 }
 
-.plant-latin-name {
+.plant__latin-name {
     color: #5e5f60;
 }
 
 .breadcrumb,
-.view-news-block .views-field-created,
-.view-news .views-field-created,
-.views-field-field-mass-media-date,
-.view-news-date {
+.news-block-item__created,
+.news-item__created {
     color: #949d9f;
 }
 
@@ -201,13 +183,10 @@ ul.tabs li a {
 input.form-text,
 input.form-email,
 textarea.form-textarea,
-.view-conferences-block .views-row,
-.view-events-block .views-row,
-.view-news-block .views-row,
-.view-news .views-row,
-.view-mass-media .views-row,
-.view-conferences .views-row,
-.view-reception-block .views-row,
+.news-block-item,
+.news-item,
+.reception-item,
+.conference,
 table tr,
 input.form-search {
     border-color: #b2bdc0;
@@ -225,7 +204,6 @@ input.form-email:focus,
 textarea.form-textarea:focus,
 #search-form input.form-search:focus {
 	border-color: #fff;
-	-webkit-box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
     box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
 }
 
@@ -233,7 +211,7 @@ textarea.form-textarea:focus,
 	background-color: #024152;
 }
 
-#block-leftmenu a {
+.menu--left-menu a {
     color: #fff;
 }
 
@@ -265,7 +243,7 @@ textarea.form-textarea:focus,
     border-color: #137644;
 }
 
-.image-caption {
+.node__content figcaption {
     color: #575859;
 }
 

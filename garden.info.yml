@@ -20,7 +20,6 @@ regions:
   content_bottom: 'Content Bottom'
   sidebar_right: 'Sidebar Right'
   footer: 'Footer'
-  temp: 'Temp'
 
 # Information
 version: '2.0'

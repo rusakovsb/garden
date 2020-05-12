@@ -1,510 +1,244 @@
 /*------------------------------------------------------------*/
-/* Mobile Menu
+/* <= 1366px
 /*------------------------------------------------------------*/
 
-#block-mobilemenu {
-    display: none;
-}
+@media all and (max-width: 1366px) {
 
-#mobile-menu-button  {
-	float: left;
-	width: 38px;
-	height: 46px;
-	cursor: pointer;
-    margin-left: 10px;
-	position: relative;	
-    -webkit-tap-highlight-color: transparent;
-}
+    #topbar-left,
+    #block-maplinksmall,
+    #block-maplink,
+    #sidebar-first,
+    #breadcrumbs,
+    .block-views-blockfeatures-block-1 {
+        display: none;
+    }
 
-#mobile-menu-button span {
-    width: 38px;
-    height: 6px;
-    position: absolute;
-    -webkit-border-radius: 3px;
-	border-radius: 3px;
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
-}
+    #left-menu-panel {
+        display: block;
+    }
+    
+    #header,
+    #main,
+    #footer {
+	    padding: 20px;
+    }
 
-.mobile-menu-open span:nth-child(1) {
-    left: 0;
-    top: 8px;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
+    #topbar-right {
+        padding: 0 20px 0 240px;
+    }
 
-.mobile-menu-open span:nth-child(2) {
-    left: 0;
-    top: 50%;
-    margin-top: -3px;
-    opacity: 1;
-}
+    #sidebar-left {
+        position: absolute;
+        z-index: 100;
+        flex: none;
+        max-width: none;
+        width: 380px;
+        min-height: 100%;
+        top: 0;
+        padding: 60px 80px 0 0;
+        transform: translateX(-300px);
+    }
 
-.mobile-menu-open span:nth-child(3) {
-    left: 0;
-    bottom: 8px;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
+    #topbar-right, 
+    #wrapper {
+        flex: 0 0 100%;
+        max-width: none;
+    }
 
-.mobile-menu-close span:nth-child(1) {
-    left: 0;
-    top: 50%;  
-    margin-top: -2px;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
+    #wrapper {
+        padding: 0 0 0 80px;
+    }
 
-.mobile-menu-close span:nth-child(2) {
-    left: 0;
-    bottom: 50%; 
-    margin-bottom: -4px; 
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    opacity: 0;   
-}
+    .path-frontpage #main {
+        padding: 0 20px 20px 20px;
+    }
 
-.mobile-menu-close span:nth-child(3) {
-    left: 0;
-    bottom: 50%; 
-    margin-bottom: -4px; 
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
+    #sidebar-right {
+        padding: 0 20px 20px 0;
+    }
 
-#block-mobilemenu .menu {
-    display: none;
-	clear: both;
-	padding: 20px 0;
-}
+    #sidebar-right .block {
+	    margin: 0 0 20px 0;
+    }
 
-#block-mobilemenu li {
-    float: none;
-    display: block;
-	margin: 0;
-	padding: 0;
-}
+    input.form-text,
+    input.form-email,
+    textarea.form-textarea {
+        width: 100%;
+    }
 
-#block-mobilemenu a {
-    padding: 10px;
-	display: block;
-	font-size: 1.176470rem;
-}
-
-/*------------------------------------------------------------*/
-/* Left Menu
-/*------------------------------------------------------------*/
-
-#left-menu-button {
-    display: none;
-}
-
-#left-menu-button  {
-	width: 38px;
-	height: 46px;
-	margin: 10px 0 15px 16px;
-	cursor: pointer;
-	position: relative;
-    -webkit-tap-highlight-color: transparent;
-}
-
-#left-menu-button span {
-    width: 38px;
-    height: 6px;
-    position: absolute;
-    -webkit-border-radius: 3px;
-	border-radius: 3px;
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
-}
-
-.left-menu-open span:nth-child(1) {
-    left: 0;
-    top: 8px;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
-
-.left-menu-open span:nth-child(2) {
-    left: 0;
-    top: 50%;
-    margin-top: -3px;
-    opacity: 1;
-}
-
-.left-menu-open span:nth-child(3) {
-    left: 0;
-    bottom: 8px;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
-
-.left-menu-close span:nth-child(1) {
-    left: 0;
-    top: 50%;  
-    margin-top: -2px;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-.left-menu-close span:nth-child(2) {
-    left: 0;
-    bottom: 50%; 
-    margin-bottom: -4px; 
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    opacity: 0;   
-}
-
-.left-menu-close span:nth-child(3) {
-    left: 0;
-    bottom: 50%; 
-    margin-bottom: -4px; 
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-/*------------------------------------------------------------*/
-/* < 1600px
-/*------------------------------------------------------------*/
-
-@media all and (max-width: 1599px) {
-
-.view-excursions-block .excursion-body {
-   font-size: 0.882352rem;
-}
+    .webform-submission-form input.button {
+        width: 100%;
+    }
 
 }
 
 /*------------------------------------------------------------*/
-/* < 1550px
+/* <= 768px
 /*------------------------------------------------------------*/
 
-@media all and (max-width: 1549px) {
+@media all and (max-width: 768px) {
 
-#top-left {
-    display: none;
-}
+    #topbar-left,
+    .menu--main,
+    .site-name,
+    #sidebar-left,
+    #left-menu-panel,
+    #block-addressandphone {
+        display: none;
+    }
 
-#block-maplinksmall {
-    display: block; 
-}
+    .mobile-menu-toggle {
+        display: block;
+    }
 
-#cboxContent #block-map {
-    width: 1100px;
-}
+    .field--name-field-page-image, 
+    .field--name-field-news-image, 
+    .field--name-field-person-image, 
+    .field--name-field-product-image, 
+    .field--name-field-event-image, 
+    .field--name-field-service-image, 
+    .field--name-field-ecotrail-plant-image {
+        float: none;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
 
-.block-search,
-#block-maplink,
-#legend {
-    display: none;
-}
+    #topbar-right {
+        padding: 10px 20px;
+    }
 
-#top-right {
-    float: none;
-	width: auto;    
-    padding: 0 0 0 90px;
-}
+    .region-header {
+        padding: 0;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
-#header {
-    padding: 20px 0 20px 100px;
-}
+    #block-site-logo {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        flex: 0 0 60px;
+    }
 
-.site-logo,
-.site-logo a {
-    width: 70px;
-    height: 70px;
-}
+    .site-logo a {
+        width: 60px;
+        height: 60px;
+    }
 
-#sidebar-first {
-	float: none;
-    width: 70px;
-	padding: 0;
-	height: 100%;
-	overflow: hidden;
-    position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 999;
-	-webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
-}
+    #block-site-name-slogan {
+        flex: 1 1 auto;
+        padding: 0 0 0 20px;
+    }
 
-.sidebar-first-expanded {
-    width: 280px !important;
-}
+    #wrapper {
+        padding: 0;
+    }
 
-#left-menu-button {
-    display: block;	
-}
+    #main,
+    #sidebar-right,
+    .excursion__image,
+    .excursion__text,
+    .service__image,
+    .service__text {
+        flex: 0 0 100%;
+        max-width: none;
+    }
 
-.region-sidebar-first {
-    width: 280px;
-}
+    .excursion__text,
+    .service__text {
+        padding: 20px 0 0 0;
+    }
 
-#block-leftmenu ul.menu,
-#block-nanlogo {
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
-}
+    .excursion:nth-child(odd) .excursion__text-inner,
+    .excursion:nth-child(even) .excursion__text-inner,
+    .service:nth-child(odd) .service__text-inner,
+    .service:nth-child(even) .service__text-inner {
+        margin: 0;
+        padding: 0;
+    }
 
-.sidebar-first-expanded #block-leftmenu ul.menu,
-.sidebar-first-expanded #block-nanlogo {
-	opacity: 1;
-	visibility: visible;
-}
+    .masonry-item {
+        width: 50%;
+    }
 
-#wrapper {
-	margin-left: 70px;
-    width: auto;
-}
-
-.view-features ul li {
-    font-size: 1.058823rem;
-}
-
-.view-excursions .excursion-title h3, 
-.view-excursions-block .excursion-title h3 {
-    font-size: 1.294117rem;
-}
-
-}
-
-/*------------------------------------------------------------*/
-/* < 1200px
-/*------------------------------------------------------------*/
-
-@media all and (max-width: 1199px) {
-
-#block-garden-main-menu,
-#block-maplinksmall,
-#block-maplink,
-#sidebar-first,
-#breadcrumbs,
-.block-views-blockfeatures-block-1,
-#scroll-to-top {
-    display: none;
-}
-
-#top-right {
-    width: 100%;
-	padding: 0;
-}
-
-#block-mobilemenu  {
-    display: block;
-}
-
-#header {
-    padding: 20px 10px;
-}
-
-.site-slogan {
-    margin-top: 5px;
-}
-
-.site-logo {
-	position: relative;
-	left: auto;
-	bottom: auto;
-    float: left;
-    margin: 0 20px 0 0;
-}
-
-#block-addressandphone {
-    position: relative;
-    right: auto;
-    bottom: auto;
-	margin-top: 20px;
-    text-align: left;
-    overflow: hidden;
-    clear: both;
-}
-
-#wrapper {
-    float: none;
-    width: 100%;
-    margin-left: 0;
-}
-
-#content {
-	padding: 10px;
-}
-
-.path-frontpage #content {
-    padding: 0 10px 10px 10px;
-}
-
-#sidebar-second {
-    float: none;
-    width: 100%;
-    margin: 20px 0 0 0;
-}
-
-#sidebar-second .block {
-	margin: 0 0 20px 0;
-}
-
-#main {
-    float: none;
-    width: 100%;
-}
-
-#footer .block,
-#footer #block-dev {
-	float: none;
-	padding: 10px 0;
-}
-
-input.form-text,
-input.form-email,
-textarea.form-textarea {
-    width: 100%;
-}
-
-.webform-submission-form input.button {
-    width: 100%;
-}
-
-.igc-4 .image-gallery-item {
-    width: 50%;
-}
-
-#footer {
-	padding: 10px;	
-	text-align: center;
-}
-
+    #sidebar-right {
+        padding: 20px;
+    }
+    
+    h1,
+    h2 {
+        font-size: 1.529411rem;
+    }    
+   
 }
 
 /*------------------------------------------------------------*/
-/* < 800px
+/* <= 414px
 /*------------------------------------------------------------*/
 
-@media all and (max-width: 799px) {
-	
-#block-social {
-    margin: 8px 10px 0 0;
+@media all and (max-width: 414px) {
+
+    .view-slider .views-field-title {
+        display: none;
+    }
+
+    .site-slogan,
+    .site-slogan span {
+        font-size: 1rem;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 1.294117rem;
+    }
+
+    .node__content .float-left,
+    .node__content .float-right {
+        float: none;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+
+    .person__image, 
+    .person__text {
+        flex: 0 0 100%;
+        max-width: none;
+        padding: 20px 0 0 0;
+    }
+
+    .person__text-inner {
+        margin: 0;
+        padding: 0;
+    }
+
+    .masonry-item {
+        width: 100%;
+    }
+
+    table tr,
+    table td {
+        display: block;
+        width: 100%;        
+    }
+
+    .price-table td:last-child {
+        text-align: left;
+    }
+
+    #footer {
+        padding: 10px 20px;
+    }
+
+    .region-footer {
+        justify-content: flex-start;
+    }
+
+    #footer .block {
+        padding: 10px 0;
+    }
+
 }
 
-.site-name {
-    margin-top: 5px;
-    font-size: 1.058823rem;
-}
-	
-#slider {
-    margin: 0 0 20px 0;
-}
 
-.flexslider {
-    padding: 0;
-}
-	
-h1 {
-    font-size: 1.529411rem;
-}
-
-.field--name-field-page-image,
-.field--name-field-news-image,
-.field--name-field-person-image,
-.field--name-field-product-image,
-.field--name-field-event-image,
-.field--name-field-service-image,
-.field--name-field-ecotrail-plant-image {
-    float: none;
-    width: 100%;
-    margin: 0 0 20px 0;
-}
-
-.site-slogan,
-.view-slider .views-field-title,
-.view-slider .flex-control-nav,
-.view-slider .flex-direction-nav {
-    display: none;
-}
-
-#block-sitesubname {
-    font-size: 1rem;
-}
-
-.view-news .view-header {
-    position: relative;
-    right: auto;
-    top: auto;
-    margin: 0 0 20px 0;
-}
-
-.views-view-grid .views-row,
-.content-row {
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
-}
-
-.views-view-grid .views-col,
-.view-events .views-view-grid .views-col,
-.view-events-by-year .views-view-grid .views-col,
-.content-col,
-.content-2-cols .content-col {
-	width: 100%;
-	float: none;
-	margin-bottom: 20px;
-	padding: 0;
-}
-
-table {
-    font-size: 0.882352rem;
-}
-
-.price-table tr td:last-child {
-    min-width: inherit;
-    font-size: 1rem;
-	text-align: left;
-}
-
-.right-image-container,
-.left-image-container {
-    float: none;
-    margin: 0;
-    width: 100%;
-}
-
-.igc-2 .image-gallery-item,
-.igc-4 .image-gallery-item {
-    width: 100%;
-    padding: 0;
-}
-
-.view-conferences .views-field-field-conference-image,
-.view-conferences .views-field-title,
-.view-events .views-field-field-event-image,
-.view-events .views-field-title,
-.view-events-by-year .views-field-field-event-image,
-.view-events-by-year .views-field-title,
-.view-excursions-block .views-field-field-excursion-image,
-.view-excursions-block .views-field-title,
-.view-services-block .views-field-field-service-image,
-.view-services-block .views-field-title,
-.view-management-block .views-field-field-person-image,
-.view-management-block .views-field-title,
-.view-persons-block .views-field-field-person-image,
-.view-persons-block .views-field-title {
-    float: none;
-    width: 100%;
-    padding: 0;
-}
-
-.event-text,
-.view-excursions-block .views-row:nth-child(odd) .excursion-text,
-.view-excursions-block .views-row:nth-child(even) .excursion-text,
-.view-services-block .views-row:nth-child(odd) .service-text,
-.view-services-block .views-row:nth-child(even) .service-text,
-.person-text {
-    margin: 0;
-    padding: 10px 0;
-}
-	
-}

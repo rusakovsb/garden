@@ -8,7 +8,10 @@ global-styling:
       css/responsive.css: {}
   js:        
     js/colorbox.js: {}
+    js/imagesloaded.js: {}
+    js/masonry.js: {}
     js/map.js: {}
+    js/gsap.min.js: {}
     js/main.js: {} 
     js/smoothscroll.js: {}
   dependencies:
