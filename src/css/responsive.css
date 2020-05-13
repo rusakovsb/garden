@@ -33,7 +33,7 @@
     
     #sidebar-left {
         position: absolute;
-        z-index: 100;
+        z-index: 110;
         flex: none;
         max-width: none;
         width: 380px;
