@@ -99,6 +99,7 @@ a:focus {
 }
 
 #topbar,
+.region-header,
 .region-topbar-right {
 	align-items: center;
 }
@@ -163,7 +164,7 @@ a:focus {
 	max-width: 25%;
 }
 
-footer {
+#footer {
 	padding: 40px 20px;
 }
 
@@ -257,12 +258,14 @@ h6 {
 	padding: 20px 20px 20px 40px;	
 }
 
-.region-header {	
-	position: relative;
-	padding: 0 0 0 140px;
+#block-site-branding {
+	position: relative;	
+	display: inline-flex;
+	align-items: center;	
+	font-family: 'Montserrat', sans-serif;
 }
 
-#block-site-logo {
+.site-logo {
     position: absolute;
 	bottom: 0;
 	left: 0;
@@ -270,8 +273,8 @@ h6 {
 
 .site-logo a {
     display: block;
-	width: 120px;
-	height: 120px;
+	width: 110px;
+	height: 110px;
     padding: 5px;
     border-radius: 50%;
 }
@@ -282,20 +285,16 @@ h6 {
 	height: auto;	
 }
 
-#block-site-name-slogan {
-    font-family: 'Montserrat', sans-serif;
+.site-name-slogan {
+	padding: 0 0 0 140px;
 }
 
 .site-name {
-    font-weight: 400;
-}
-
-.site-slogan {
     font-size: 1.470588rem;
 	font-weight: 700;
 }
 
-.site-slogan span {
+.site-slogan {
 	display: block;
     font-size: 1.176470rem;
     font-weight: 500;
@@ -417,20 +416,14 @@ a.map-link {
 	height: auto;
 }
 
-#left-menu-panel {
+.left-menu-toggle {   
 	display: none;
 	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
-	padding: 20px;
-}
-
-.left-menu-toggle {    
+	top: 20px;
+	right: 20px;
 	width: 40px;
 	height: 30px;
 	cursor: pointer;
-	position: relative;
 }
 
 .left-menu-toggle span {

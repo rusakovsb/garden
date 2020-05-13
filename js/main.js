@@ -17,7 +17,7 @@
         $(".menu--mobile-menu").slideToggle("fast");
     });	
 	
-    $("#sidebar-left").prepend('<div id="left-menu-panel"><button class="left-menu-toggle"><span></span><span></span><span></span></button></div>');
+    $("#sidebar-left").prepend('<button class="left-menu-toggle"><span></span><span></span><span></span></button>');
 	
     $(".left-menu-toggle").click(function() {               
         if(!$(this).hasClass("active")) {  

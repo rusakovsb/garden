@@ -13,7 +13,7 @@
         display: none;
     }
 
-    #left-menu-panel {
+    .left-menu-toggle {
         display: block;
     }
     
@@ -24,9 +24,13 @@
     }
 
     #topbar-right {
-        padding: 0 20px 0 240px;
+        padding: 0 20px 0 225px;
     }
 
+    .site-name-slogan {
+        padding: 0 0 0 125px;
+    }
+    
     #sidebar-left {
         position: absolute;
         z-index: 100;
@@ -81,7 +85,6 @@
 
     #topbar-left,
     .menu--main,
-    .site-name,
     #sidebar-left,
     #left-menu-panel,
     #block-addressandphone {
@@ -114,11 +117,14 @@
         align-items: center;
     }
 
-    #block-site-logo {
+    #block-site-branding {
+        padding: 0;
+    }
+
+    .site-logo {
         position: relative;
         bottom: auto;
         left: auto;
-        flex: 0 0 60px;
     }
 
     .site-logo a {
@@ -126,8 +132,7 @@
         height: 60px;
     }
 
-    #block-site-name-slogan {
-        flex: 1 1 auto;
+    .site-name-slogan {
         padding: 0 0 0 20px;
     }
 
@@ -167,7 +172,8 @@
     }
     
     h1,
-    h2 {
+    h2,
+    .block-title {
         font-size: 1.529411rem;
     }    
    
@@ -179,18 +185,27 @@
 
 @media all and (max-width: 414px) {
 
+    .site-slogan,
     .view-slider .views-field-title {
         display: none;
     }
 
-    .site-slogan,
-    .site-slogan span {
-        font-size: 1rem;
+    .site-name {
+        font-size: 1.176470rem;
+    }
+
+    .flexslider {
+        padding: 0 0 50px 0;
+    }
+
+    .view-slider .flex-direction-nav {
+        height: 50px;
     }
 
     h1,
     h2,
-    h3 {
+    h3,
+    .block-title {
         font-size: 1.294117rem;
     }
 
