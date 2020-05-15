@@ -152,6 +152,25 @@
 
 /*------------------------------------------------------------*/
 
+@media (max-width: 1366px) {
+
+    h1 {
+        font-size: 1.875rem;
+    }  
+
+    h2,
+    .block-title {
+        font-size: 1.625rem;
+    }   
+    
+    h3 {
+        font-size: 1.375rem;
+    }
+
+}
+
+/*------------------------------------------------------------*/
+
 @media (max-width: 1024px) {
 
     #topbar-left,
@@ -215,18 +234,8 @@
 
     #sidebar-right {
         padding: 1.5rem;
-    }
-    
-    h1,
-    h2,
-    .block-title {
-        font-size: 1.625rem;
-    }   
-    
-    h3 {
-        font-size: 1.375rem;
-    }
-   
+    }    
+
 }
 
 /*------------------------------------------------------------*/
@@ -295,7 +304,10 @@
         bottom: 0;
     }
 
-    h1,
+    h1 {
+        font-size: 1.625rem;
+    }
+
     h2,
     .block-title {
         font-size: 1.375rem;

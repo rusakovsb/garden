@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
+const cleanCSS = require('gulp-clean-css');
 
 const cssFiles = [
     './src/css/main.css',
@@ -17,6 +18,9 @@ function styles() {
     .pipe(autoprefixer({
         browsers: ['last 2 versions'],
         cascade: false
+    }))
+    .pipe(cleanCSS({
+        level: 2
     }))
     .pipe(gulp.dest('./css'))
 }
