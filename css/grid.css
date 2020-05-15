@@ -9,11 +9,11 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;	
-    margin: 0 -10px;
+    margin: 0 -1rem;
 }
 
 .grid-item {
-	padding: 0 10px 20px 10px;
+	padding: 0 1rem 2rem 1rem;
 }
 
 .grid.no-gaps .view-content,

@@ -1,16 +1,19 @@
 const gulp = require('gulp');
+const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 
 const cssFiles = [
     './src/css/main.css',
     './src/css/grid.css',
     './src/css/views.css',
-    './src/css/colors.css',
+    './src/css/colorbox.css',
+    './src/css/colors.css',    
     './src/css/responsive.css'
 ]
 
 function styles() {
     return gulp.src(cssFiles)
+    .pipe(concat('styles.css'))
     .pipe(autoprefixer({
         browsers: ['last 2 versions'],
         cascade: false

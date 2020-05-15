@@ -1,12 +1,10 @@
 #sidebar-left,
-#left-menu-panel {
+#mobile-nav {
     background-color: #013745;
 }
 
 #topbar,
-#cboxOverlay,
-.block-search .focused #edit-actions,
-.menu--mobile-menu {
+.block-search .focused #edit-actions {
     background-color: #012d38;
 }
 
@@ -17,8 +15,7 @@
 
 body,
 .view-features,
-.view-slider .slide-text,
-.view-slider .views-field-title,
+.slide__title,
 .excursion__text-inner,
 .person__text-inner,
 .service__text-inner,
@@ -30,8 +27,8 @@ body,
 .map-point-number,
 .map-point-title,
 #block-structure-hierarchical-taxonomy-menu,
-.mobile-menu-toggle span,
-.left-menu-toggle span,
+.mobile-nav-toggle span,
+.sidebar-toggle span,
 .block-search .focused input.form-search,
 .node__content figcaption {
     background-color: #fff;
@@ -52,6 +49,7 @@ body,
 }
 
 .menu--main a,
+.menu--left-menu a,
 a.map-link,
 .menu--mobile-menu a,
 .menu--main a.is-active:hover,
@@ -62,9 +60,14 @@ a.button:active,
 a.button:focus,
 input.button,
 a.button:active,
+ul.tabs a,
+input.button:hover,
+a.button:hover,
 ul.tabs li a,
 #cboxTitle,
-.pager ul li a {
+.pager a,
+#mobile-nav,
+#mobile-nav a {
     color: #fff;
 }
 
@@ -88,7 +91,7 @@ a:focus,
     color: #1f9363;
 }
 
-.hierarchical-taxonomy-menu ul ul li a:before {
+.hierarchical-taxonomy-menu a:before {
     border-color: #02657f;
 }
 
@@ -100,17 +103,17 @@ a:focus,
     color: #168d51;
 }
 
-.menu--main ul li a:after,
+.menu--main a:after,
 .site-logo a,
 input.button,
 .block-search .focused input.form-submit,
 a.button,
-.view-features ul li:before,
-.view-features ul li:after,
+.view-features li:before,
+.view-features li:after,
 .social-icon,
-.node__content ul li:before,
-.views-field-field-structure-text ul li:before,
-.view-collection-description ul li:before,
+.node__content li:before,
+.views-field-field-structure-text li:before,
+.view-collection-description li:before,
 .view-slider .flex-direction-nav a,
 ul.tabs li a,
 .view-structure-page-links a:before,
@@ -119,7 +122,7 @@ a.with-arrow:before,
 .messages--status:before,
 .webform-confirmation__message:before,
 .symbol-sign,
-.pager ul li a {
+.pager a {
     background-color: #1f9363;
 }
 
@@ -129,7 +132,7 @@ a.button:hover,
 .social-icon:hover,
 .view-slider .flex-direction-nav a:hover,
 ul.tabs li a:hover,
-.pager ul li a:hover {
+.pager a:hover {
     background-color: #1a7b53;
 }
 
@@ -138,19 +141,12 @@ ul.tabs li a:hover,
     background: rgba(24, 155, 89, 1);
 }
 
-input.button:hover,
-a.button:hover,
-ul.tabs li a {    
-    color: #fff;
-}
-
 .site-name,
 .site-slogan,
 #block-sitesubname {
     color: #013745;
 }
 
-.phone-number,
 .news-block-item__period,
 .excursion__period,
 .person__phone,
@@ -175,7 +171,7 @@ ul.tabs li a {
     color: #949d9f;
 }
 
-.view-features ul li,
+.view-features li,
 .view-slider .flex-control-paging li a {
     border-color: #1f9363;
 }
@@ -211,11 +207,7 @@ textarea.form-textarea:focus,
 	background-color: #024152;
 }
 
-.menu--left-menu a {
-    color: #fff;
-}
-
-.pager ul li.is-active a {
+.pager li.is-active a {
     background-color: #949d9f;
 }
 

@@ -1,7 +1,5 @@
 (function ($) {
 
-    $("#search-block-form input.form-search").removeAttr("title");
-	
     $("#search-block-form").focusin(function() {
         $(this).addClass("focused");
     }); 
@@ -10,16 +8,9 @@
         $(this).removeClass("focused");
     });                               
 
-    $(".region-topbar-right").prepend('<button class="mobile-menu-toggle" id=""><span></span><span></span><span></span></button>');
+    $("#sidebar-left").prepend('<button class="sidebar-toggle"><span></span><span></span><span></span></button>');
 	
-    $(".mobile-menu-toggle").click(function () {	
-	    $(this).toggleClass("active");
-        $(".menu--mobile-menu").slideToggle("fast");
-    });	
-	
-    $("#sidebar-left").prepend('<button class="left-menu-toggle"><span></span><span></span><span></span></button>');
-	
-    $(".left-menu-toggle").click(function() {               
+    $(".sidebar-toggle").click(function() {               
         if(!$(this).hasClass("active")) {  
             $(this).addClass("active");          
             TweenMax.to("#sidebar-left", 1, {
@@ -31,7 +22,7 @@
             $(this).removeClass("active");      
             TweenMax.to("#sidebar-left", 1, {                
                 ease: Expo.easeInOut,
-                x: "-300px"
+                x: "-20rem"
             })     
         }
     });
@@ -46,6 +37,28 @@
         $(".masonry .view-content").masonry({      
           itemSelector: '.masonry-item',
         })         
+    });
+
+    $(".region-topbar-right").prepend('<button class="mobile-nav-toggle"><span></span><span></span><span></span></button>');
+	
+    $(".mobile-nav-toggle").click(function() {               
+        if(!$(this).hasClass("active")) {  
+            $(this).addClass("active");          
+            TweenMax.to("#mobile-nav", 0.3, {
+                ease: Power1.easeOut,
+                visibility: "visible",
+                opacity: "1"     
+            })       
+        }
+        else {      
+            $(this).removeClass("active");      
+            TweenMax.to("#mobile-nav", 0.3, {                
+                ease: Power1.easeOut,
+                opacity: "0",
+                onComplete: function() {
+                    $("#mobile-nav").css("visibility", "hidden");
+            }});      
+        }
     });
 
 })(jQuery);

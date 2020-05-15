@@ -1,8 +1,4 @@
-/*------------------------------------------------------------*/
-/* <= 1366px
-/*------------------------------------------------------------*/
-
-@media all and (max-width: 1366px) {
+@media (max-width: 1600px) {
 
     #topbar-left,
     #block-maplinksmall,
@@ -13,34 +9,60 @@
         display: none;
     }
 
-    .left-menu-toggle {
+    .sidebar-toggle {
         display: block;
     }
     
     #header,
     #main,
     #footer {
-	    padding: 20px;
+	    padding: 1.5rem;
     }
 
     #topbar-right {
-        padding: 0 20px 0 225px;
+        padding: 0 1.5rem 0 5.5rem;
+    }
+
+    .site-logo {
+        position: relative;
+        bottom: auto;
+        left: auto;
+    }
+
+    .site-logo a {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.25rem;
     }
 
     .site-name-slogan {
-        padding: 0 0 0 125px;
+        padding: 0 0 0 1rem;
     }
-    
+
+    .site-name {
+        font-size: 1.25rem;
+    }
+
+    .site-slogan {
+        font-size: 1rem;
+    }
+
+    .social-icon,
+    .view-slider .flex-direction-nav a {
+        margin: 0 0 0 1rem;
+    }
+
     #sidebar-left {
         position: absolute;
-        z-index: 110;
+        z-index: 100;
         flex: none;
         max-width: none;
-        width: 380px;
-        min-height: 100%;
+        width: 24rem;
+        height: 100%;
         top: 0;
-        padding: 60px 80px 0 0;
-        transform: translateX(-300px);
+        padding: 4rem 4rem 2rem 2rem;
+        transform: translateX(-20rem);
+        will-change: transform;
     }
 
     #topbar-right, 
@@ -50,19 +72,70 @@
     }
 
     #wrapper {
-        padding: 0 0 0 80px;
+        padding: 0 0 0 4rem;
     }
 
     .path-frontpage #main {
-        padding: 0 20px 20px 20px;
+        padding: 0 1.5rem 1.5rem 1.5rem;
+    }
+
+    .view-slider .views-field-title,
+    .view-slider .flex-control-nav {
+        left: 1.5rem;
+    }
+
+    .view-slider .flex-direction-nav {
+        right: 1.5rem;
+    }
+
+    .view-excursions-block .view-content,
+    .view-services-block .view-content,
+    .view-management-block .view-content,
+    .view-persons-block .view-content {
+        display: flex;
+        flex-wrap: wrap;	
+        margin: 0 -1rem;
+    }
+
+    .excursion,
+    .service,
+    .person {
+        display: block;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 1rem;
+    }
+
+    .excursion__image,
+    .excursion__text,
+    .service__image,
+    .service__text,
+    .person__image,
+    .person__text {
+        flex: 0 0 100%;
+        max-width: none;
+    }
+
+    .excursion__text,
+    .service__text,
+    .person__text {
+        padding: 0 1.5rem;
+    }
+
+    .excursion:nth-child(odd) .excursion__text-inner,
+    .excursion:nth-child(even) .excursion__text-inner,
+    .service:nth-child(odd) .service__text-inner,
+    .service:nth-child(even) .service__text-inner,
+    .person__text-inner {
+        margin: -3rem 0 0 0;
     }
 
     #sidebar-right {
-        padding: 0 20px 20px 0;
+        padding: 0 1.5rem 1.5rem 0;
     }
 
     #sidebar-right .block {
-	    margin: 0 0 20px 0;
+	    margin: 0 0 1.5rem 0;
     }
 
     input.form-text,
@@ -78,21 +151,26 @@
 }
 
 /*------------------------------------------------------------*/
-/* <= 768px
-/*------------------------------------------------------------*/
 
-@media all and (max-width: 768px) {
+@media (max-width: 1024px) {
 
     #topbar-left,
     .menu--main,
     #sidebar-left,
-    #left-menu-panel,
-    #block-addressandphone {
+    #block-header-contacts {
         display: none;
     }
 
-    .mobile-menu-toggle {
+    .mobile-nav-toggle {
         display: block;
+    }
+
+    #header {
+        border-bottom: 1px solid #b2bdc0;
+    }
+
+    .path-frontpage #header {
+        border-bottom: none;
     }
 
     .field--name-field-page-image, 
@@ -104,11 +182,11 @@
     .field--name-field-ecotrail-plant-image {
         float: none;
         width: 100%;
-        margin: 0 0 20px 0;
+        margin: 0 0 1.5rem 0;
     }
 
     #topbar-right {
-        padding: 10px 20px;
+        padding: 0.75rem 1.5rem;
     }
 
     .region-header {
@@ -121,46 +199,14 @@
         padding: 0;
     }
 
-    .site-logo {
-        position: relative;
-        bottom: auto;
-        left: auto;
-    }
-
-    .site-logo a {
-        width: 60px;
-        height: 60px;
-    }
-
-    .site-name-slogan {
-        padding: 0 0 0 20px;
-    }
-
     #wrapper {
         padding: 0;
     }
 
     #main,
-    #sidebar-right,
-    .excursion__image,
-    .excursion__text,
-    .service__image,
-    .service__text {
+    #sidebar-right {
         flex: 0 0 100%;
         max-width: none;
-    }
-
-    .excursion__text,
-    .service__text {
-        padding: 20px 0 0 0;
-    }
-
-    .excursion:nth-child(odd) .excursion__text-inner,
-    .excursion:nth-child(even) .excursion__text-inner,
-    .service:nth-child(odd) .service__text-inner,
-    .service:nth-child(even) .service__text-inner {
-        margin: 0;
-        padding: 0;
     }
 
     .masonry-item {
@@ -168,61 +214,122 @@
     }
 
     #sidebar-right {
-        padding: 20px;
+        padding: 1.5rem;
     }
     
     h1,
     h2,
     .block-title {
-        font-size: 1.529411rem;
-    }    
+        font-size: 1.625rem;
+    }   
+    
+    h3 {
+        font-size: 1.375rem;
+    }
    
 }
 
 /*------------------------------------------------------------*/
-/* <= 414px
-/*------------------------------------------------------------*/
 
-@media all and (max-width: 414px) {
+@media (max-width: 767px) { 
 
     .site-slogan,
-    .view-slider .views-field-title {
+    .slide__title {
         display: none;
     }
 
-    .site-name {
-        font-size: 1.176470rem;
+    body {
+        padding: 3.5rem 0 0 0;
+    }
+
+    #topbar {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    #topbar-right {
+        padding: 0.75rem 1rem;
+    }
+
+    #header, 
+    #main, 
+    #footer {
+        padding: 1rem;
+    }
+
+    .address,
+    .phone {
+        padding: 0 1rem 2rem 1rem !important;
+    }
+
+    .store {
+        padding: 0 1rem !important;
+    }
+
+    .site-logo a {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .path-frontpage #main {
+        padding: 0 1rem 1rem 1rem;
     }
 
     .flexslider {
-        padding: 0 0 50px 0;
+        padding: 0 0 3rem 0;
     }
 
     .view-slider .flex-direction-nav {
-        height: 50px;
+        right: 1rem;
+        height: 3rem;
+    }
+
+    .view-slider .flex-control-nav {
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        left: 1rem;
+        bottom: 0;
     }
 
     h1,
     h2,
-    h3,
     .block-title {
-        font-size: 1.294117rem;
+        font-size: 1.375rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
     }
 
     .node__content .float-left,
     .node__content .float-right {
         float: none;
-        margin: 0 0 20px 0;
+        margin: 0 0 1.5rem 0;
         width: 100%;
     }
 
-    .person__image, 
-    .person__text {
+    .excursion,
+    .service,
+    .person {
+        display: block;
         flex: 0 0 100%;
         max-width: none;
-        padding: 20px 0 0 0;
     }
 
+    .excursion__text,
+    .service__text,
+    .person__text {
+        padding: 1.5rem 0 0 0;
+    }
+
+    .excursion:nth-child(odd) .excursion__text-inner,
+    .excursion:nth-child(even) .excursion__text-inner,
+    .service:nth-child(odd) .service__text-inner,
+    .service:nth-child(even) .service__text-inner,
     .person__text-inner {
         margin: 0;
         padding: 0;
@@ -243,7 +350,7 @@
     }
 
     #footer {
-        padding: 10px 20px;
+        padding: 0.75rem 1.5rem;
     }
 
     .region-footer {
@@ -251,7 +358,7 @@
     }
 
     #footer .block {
-        padding: 10px 0;
+        padding: 0.75rem 0;
     }
 
 }

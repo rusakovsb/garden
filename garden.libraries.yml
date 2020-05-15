@@ -1,15 +1,11 @@
 global-styling:
   css:
     theme:
-      css/main.css: {}
-      css/grid.css: {}
-      css/views.css: {}
-      css/colors.css: {}
-      css/responsive.css: {}
-  js:        
+      css/styles.css: {}
+  js:   
+    js/imagesloaded.pkgd.min.js: {}
+    js/masonry.pkgd.min.js: {}
     js/colorbox.js: {}
-    js/imagesloaded.js: {}
-    js/masonry.js: {}
     js/map.js: {}
     js/gsap.min.js: {}
     js/main.js: {} 
