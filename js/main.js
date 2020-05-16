@@ -61,4 +61,7 @@
         }
     });
 
+    $(".map-link").attr("data-colorbox-inline", "#block-map");
+    $(".map-link").attr("data-width", "1550px");
+
 })(jQuery);

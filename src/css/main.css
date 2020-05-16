@@ -346,18 +346,13 @@ h6 {
 	padding: 0 1.5rem 0 0;
 }
 
-.menu--main a,
-a.map-link {
+.menu--main a {
     display: block;
 	position: relative;
 	line-height: 1;
     text-decoration: none;
 	padding: 1rem 0;
 	overflow: hidden;
-}
-
-a.map-link {
-	cursor: pointer;
 }
 
 .menu--main a:after {
@@ -989,22 +984,15 @@ ul.tabs li a {
 /* Map
 /*------------------------------------------------------------*/
 
-#cboxContent #block-map {
+#block-map {
+	display: none;
 	width: 1480px; 
 	position: relative; 
+	line-height: 1;
 }
 
-#block-maplink,
-#block-maplinksmall {
-    float: left; 
-}
-
-#block-maplinksmall {
-    display: none; 
-}
-
-#block-map {
-    line-height: 1.1;
+#colorbox #block-map {
+	display: block;
 }
 
 #legend {
@@ -1012,11 +1000,11 @@ ul.tabs li a {
 	float: left;
 	overflow: visible;
 	padding: 20px 0 0 20px;
-	font-size: 0.941176rem;
+	font-size: 15px;
 }
 
 .legend-item {
-    margin-bottom: 8px;
+    margin: 0 0 10px 0;
 	white-space: nowrap;
 }
 
@@ -1034,7 +1022,7 @@ ul.tabs li a {
 #legend-symbols span {
 	display: block;
 	float: left;
-	margin-right: 20px;
+	margin: 0 20px 0 0;
 	padding-top: 5px;
 }
 
@@ -1043,26 +1031,23 @@ ul.tabs li a {
 	float: left;
 	width: 25px; 
 	height: 25px; 
-	margin-right: 5px;
+	margin: 0 5px 0 0;
 	border-radius: 50%;
+}
+
+#symbol-cafe,
+#symbol-wc {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 1.125rem auto;
 }
 
 #symbol-cafe {
 	background-image: url("../images/cafe.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-size: 18px auto;
 }
 
 #symbol-wc {
 	background-image: url("../images/wc.svg");
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-size: 18px auto;
-}
-
-.region-content #block-map {
-	display: none;
 }
 
 #map {
@@ -1420,14 +1405,14 @@ ul.tabs li a {
 }
 
 #alley-3 {
-	font-size: 0.7rem;
+	font-size: 12px;
 	top: 164px; 
-	left: 376px; 
+	left: 375px; 
 	transform: rotate(64.5deg);
 }
 
 #alley-4 {
-	font-size: 0.8rem;
+	font-size: 13px;
 	top: 626px; 
 	left: 190px;  
 	transform: rotate(12.5deg);
@@ -1482,8 +1467,8 @@ ul.tabs li a {
 }
 
 #alley-13 {
-	font-size: 0.8rem;
-	top: 138px; 
+	font-size: 13px;
+	top: 141px; 
 	left: 480px; 
 	transform: rotate(-40deg);
 }

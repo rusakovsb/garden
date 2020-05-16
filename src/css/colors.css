@@ -50,7 +50,6 @@ body,
 
 .menu--main a,
 .menu--left-menu a,
-.map-link,
 .menu--main a.is-active:hover,
 .menu--left-menu a.is-active:hover,
 .social-icon,
@@ -74,7 +73,6 @@ ul.tabs li a,
 .menu--left-menu a:hover,
 .menu--mobile-menu a:hover,
 #mobile-nav .contacts-item a,
-.map-link:hover,
 #footer a:hover {
     color: #53cc9a;
 }

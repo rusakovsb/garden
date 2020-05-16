@@ -1,8 +1,7 @@
 @media (max-width: 1600px) {
 
     #topbar-left,
-    #block-maplinksmall,
-    #block-maplink,
+    .menu--main a.map-link,
     #sidebar-first,
     #breadcrumbs,
     .block-views-blockfeatures-block-1 {
