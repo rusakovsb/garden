@@ -245,7 +245,7 @@
 /* Events Page
 /*------------------------------------------------------------*/
 
-.event-page-item__period {
+.event__period {
 	margin: 0.75rem 0;
     font-size: 1.125rem;
 }

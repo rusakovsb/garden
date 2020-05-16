@@ -159,7 +159,7 @@ ul.tabs a:hover,
 .price-table tr td:last-child,
 .field--name-field-product-price,
 .field--name-field-event-dates,
-.event-page-item__period {
+.event__period {
     color: #1f9363;
 }
 
