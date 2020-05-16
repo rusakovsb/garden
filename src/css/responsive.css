@@ -112,7 +112,7 @@
     .service__text,
     .person__image,
     .person__text {
-        flex: 0 0 100%;
+        flex: none;
         max-width: none;
     }
 
@@ -154,6 +154,10 @@
 
 @media (max-width: 1366px) {
 
+    .menu--main ul li {
+        padding: 0 1rem 0 0;
+    }
+
     h1 {
         font-size: 1.875rem;
     }  
@@ -182,6 +186,18 @@
 
     .mobile-nav-toggle {
         display: block;
+    }
+
+    body {
+        padding: 3.5rem 0 0 0;
+    }
+
+    #topbar {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 
     #header {
@@ -247,35 +263,24 @@
         display: none;
     }
 
-    body {
-        padding: 3.5rem 0 0 0;
-    }
-
-    #topbar {
-        position: fixed;
-        z-index: 100;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
     #topbar-right {
         padding: 0.75rem 1rem;
     }
 
     #header, 
     #main, 
+    #sidebar-right,
     #footer {
         padding: 1rem;
     }
 
-    .address,
-    .phone {
-        padding: 0 1rem 2rem 1rem !important;
+    .contacts-item {
+        flex: 0 0 100%;
+        padding: 0 1rem 1rem 1rem;
     }
 
-    .store {
-        padding: 0 1rem !important;
+    .contacts-item:last-child {
+        padding: 0 1rem;
     }
 
     .site-logo a {
@@ -315,6 +320,10 @@
 
     h3 {
         font-size: 1.25rem;
+    }
+
+    .node__content a {
+        word-break: break-all;
     }
 
     .node__content .float-left,

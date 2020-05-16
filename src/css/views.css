@@ -44,7 +44,7 @@
 	display: inline-block;
 }
 
-.view-slider .flex-control-nav li a {
+.view-slider .flex-control-nav a {
     width: 0.75rem;
     height: 0.75rem;
 	border: 1px solid;
@@ -70,7 +70,7 @@
 .view-slider .flex-direction-nav a {
     display: block;
 	position: relative;
-	margin: 0 0 0 1.125rem;
+	margin: 0 0 0 1rem;
 	text-indent: 600rem;
     width: 2rem;
     height: 2rem;
@@ -78,7 +78,7 @@
     opacity: 1;
     text-shadow: none;
 	background-repeat: no-repeat;
-	background-size: 1.25rem auto;
+	background-size: 1rem auto;
 	background-position: 50% 50%;
 	-webkit-border-radius: 2rem;
 	border-radius: 2rem;
@@ -582,6 +582,10 @@
 
 .banner {
 	margin: 0 0 1.5rem 0;
+}
+
+.banner:last-child {
+	margin: 0;
 }
 
 /*------------------------------------------------------------*/

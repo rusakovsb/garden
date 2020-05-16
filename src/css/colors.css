@@ -50,8 +50,7 @@ body,
 
 .menu--main a,
 .menu--left-menu a,
-a.map-link,
-.menu--mobile-menu a,
+.map-link,
 .menu--main a.is-active:hover,
 .menu--left-menu a.is-active:hover,
 .social-icon,
@@ -67,14 +66,15 @@ ul.tabs li a,
 #cboxTitle,
 .pager a,
 #mobile-nav,
-#mobile-nav a {
+.menu--mobile-menu a {
     color: #fff;
 }
 
 .menu--main a:hover,
 .menu--left-menu a:hover,
 .menu--mobile-menu a:hover,
-a.map-link:hover,
+#mobile-nav .contacts-item a,
+.map-link:hover,
 #footer a:hover {
     color: #53cc9a;
 }
@@ -107,7 +107,7 @@ a:focus,
 .site-logo a,
 input.button,
 .block-search .focused input.form-submit,
-a.button,
+.button,
 .view-features li:before,
 .view-features li:after,
 .social-icon,
@@ -115,7 +115,7 @@ a.button,
 .views-field-field-structure-text li:before,
 .view-collection-description li:before,
 .view-slider .flex-direction-nav a,
-ul.tabs li a,
+ul.tabs a,
 .view-structure-page-links a:before,
 a.with-arrow:before,
 .menu--left-menu a:before,
@@ -128,10 +128,10 @@ a.with-arrow:before,
 
 .site-logo a:hover,
 input.button:hover,
-a.button:hover,
+.button:hover,
 .social-icon:hover,
 .view-slider .flex-direction-nav a:hover,
-ul.tabs li a:hover,
+ul.tabs a:hover,
 .pager a:hover {
     background-color: #1a7b53;
 }
@@ -147,6 +147,7 @@ ul.tabs li a:hover,
     color: #013745;
 }
 
+.contacts-item a,
 .news-block-item__period,
 .excursion__period,
 .person__phone,
@@ -166,13 +167,14 @@ ul.tabs li a:hover,
 }
 
 .breadcrumb,
+.node__submitted,
 .news-block-item__created,
 .news-item__created {
     color: #949d9f;
 }
 
 .view-features li,
-.view-slider .flex-control-paging li a {
+.view-slider .flex-control-paging a {
     border-color: #1f9363;
 }
 
