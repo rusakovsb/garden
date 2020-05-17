@@ -1066,11 +1066,11 @@ ul.tabs li a {
 	position: absolute;
 }
 
-.map-point-text {
+.map-point__text {
 	position: relative;
 }
 
-.map-point-number {
+.map-point__number {
 	cursor: pointer;
 	width: 20px; 
 	height: 20px; 
@@ -1079,10 +1079,12 @@ ul.tabs li a {
 	text-align: center;
 	position: relative;
 	border-radius: 50%;
+	transform: scale(1, 1);
     transition: 0.2s linear;
 }
 
-.map-point-number-pulse {
+.map-point__number_pulse {
+	transform: scale(1.2, 1.2);
 	box-shadow: 0 0 0 rgba(255,255,255, 0.9);
     animation: point-pulse 1s infinite;
 }
@@ -1099,7 +1101,7 @@ ul.tabs li a {
   }
 }
 
-.map-point-title {
+.map-point__title {
 	position: absolute;
 	z-index: 1001;
 	left: 0;
@@ -1110,12 +1112,12 @@ ul.tabs li a {
     transition: 0.2s linear;
 }
 
-.map-point-title span {
+.map-point__title span {
     position: relative;
     display: block;
 }
 
-.map-point-title span:before {
+.map-point__title span:before {
     position: absolute;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
@@ -1129,7 +1131,7 @@ ul.tabs li a {
     bottom: -8px;
 }
 
-.map-point-title span:after {
+.map-point__title span:after {
     position: absolute;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
@@ -1143,14 +1145,15 @@ ul.tabs li a {
     bottom: -7px;
 }
 
-.map-point-title-hidden {
+.map-point__title_hidden {
+	display: block;
 	bottom: 33px;
 	opacity: 0;
 	visibility: hidden;
 	display: block;
 }
 
-.map-point-title-visible {
+.map-point__title_visible {
 	bottom: 28px;
 	opacity: 1;
 	visibility: visible;

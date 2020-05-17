@@ -61,7 +61,9 @@
         }
     });
 
-    $(".map-link").attr("data-colorbox-inline", "#block-map");
-    $(".map-link").attr("data-width", "1550px");
+    $(".map-link").attr({
+        "data-colorbox-inline": "#block-map",
+        "data-width": "1550px"
+    });
 
 })(jQuery);

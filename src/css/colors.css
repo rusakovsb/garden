@@ -24,8 +24,8 @@ body,
 .cboxPhoto,
 #cboxLoadedContent,
 #cboxLoadingGraphic,
-.map-point-number,
-.map-point-title,
+.map-point__number,
+.map-point__title,
 #block-structure-hierarchical-taxonomy-menu,
 .mobile-nav-toggle span,
 .sidebar-toggle span,
@@ -97,7 +97,7 @@ a:focus,
     border-color: #02687a;
 }
 
-.map-point-number {
+.map-point__number {
     color: #168d51;
 }
 
@@ -232,7 +232,7 @@ textarea.form-textarea:focus,
 	background-color: #cc3131;
 }
 
-.map-point-title {
+.map-point__title {
     border-color: #137644;
 }
 
