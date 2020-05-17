@@ -475,18 +475,14 @@ h6 {
 /* Blocks
 /*------------------------------------------------------------*/
 
-#block-lbprresultsplants ul.menu a,
-#block-historymenu ul.menu a {
+#block-lbprresultsplants ul.menu li,
+#block-historymenu ul.menu li {
     margin: 0 0 0.75rem 0;
 }
 
-#block-lbprresultsplants ul.menu li:last-child a,
-#block-historymenu ul.menu li:last-child a {
+#block-lbprresultsplants ul.menu li:last-child,
+#block-historymenu ul.menu li:last-child {
     margin: 0;
-}
-
-#block-lbprresultsplants ul.menu a.is-active {
-	font-weight: 400;
 }
 
 /*------------------------------------------------------------*/
