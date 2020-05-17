@@ -38,7 +38,8 @@ function scripts() {
 }
 
 function watch() {
-    gulp.watch('./src/css/**/*.css', styles);
+    gulp.watch('./src/css/*.css', styles);
+    gulp.watch('./src/js/*.js', scripts);
 }
 
 gulp.task('styles', styles);

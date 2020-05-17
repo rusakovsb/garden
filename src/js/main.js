@@ -1,12 +1,16 @@
 (function ($) {
 
+    // Search form
+
     $("#search-block-form").focusin(function() {
         $(this).addClass("focused");
     }); 
 
     $("#search-block-form" ).focusout(function() {
         $(this).removeClass("focused");
-    });                               
+    });       
+    
+    // Sidebar
 
     $("#sidebar-left").prepend('<button class="sidebar-toggle"><span></span><span></span><span></span></button>');
 	
@@ -26,18 +30,24 @@
             })     
         }
     });
+
+    // Files
 	
     $(".file--x-office-document a").attr("target","_blank");
     $(".file--application-pdf a").attr("target","_blank");
 	
     $("ul.hierarchical-taxonomy-menu > li.menu-item--expanded > a").contents().unwrap().wrap("<h5>");
     $("ul.hierarchical-taxonomy-menu li ul li.menu-item--expanded").removeClass("menu-item--expanded");	 
+
+    // Masonry
     
     $(".masonry").imagesLoaded( function() {
         $(".masonry .view-content").masonry({      
           itemSelector: '.masonry-item',
         })         
     });
+
+    // Mobile menu
 
     $(".region-topbar-right").prepend('<button class="mobile-nav-toggle"><span></span><span></span><span></span></button>');
 	
@@ -60,6 +70,8 @@
             }});      
         }
     });
+
+    // Map link
 
     $(".map-link").attr({
         "data-colorbox-inline": "#block-map",
