@@ -301,8 +301,6 @@
     }
 
     .view-slider .flex-control-nav {
-        display: flex;
-        align-items: center;
         height: 3rem;
         left: 1rem;
         bottom: 0;

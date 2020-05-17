@@ -940,19 +940,19 @@ ul.tabs li a {
 /*------------------------------------------------------------*/
 
 .pager {
-    margin: 1.5rem 0;
+    margin: 3rem 0 0 0;
 }
 
-.pager ul {
+.pager__items {
     text-align: center;
 }
 
-.pager li {
+.pager__item {
     display: inline-block;
     margin: 0 0.5rem 0.5rem 0;
 }
 
-.pager a {
+.pager__item a {
     display: block;
     width: 2rem;
     line-height: 2rem;
@@ -960,25 +960,30 @@ ul.tabs li a {
     border-radius: 2rem;
 }
 
-.pager .pager__item--previous a,
-.pager .pager__item--next a {
+.pager__item--first a,
+.pager__item--last a,
+.pager__item--previous a,
+.pager__item--next a {
     text-indent: -600rem;
     background-repeat: no-repeat;
     background-size: 1rem auto;
     background-position: 50% 50%;
 }
 
-.pager .pager__item--previous a {
+.pager__item--first a {
+    background-image: url(../images/first.svg);
+}
+
+.pager__item--last a {
+    background-image: url(../images/last.svg);
+}
+
+.pager__item--previous a {
     background-image: url(../images/prev.svg);
 }
 
-.pager .pager__item--next a {
+.pager__item--next a {
     background-image: url(../images/next.svg);
-}
-
-.pager .pager__item--first,
-.pager .pager__item--last {
-    display: none;
 }
 
 /*------------------------------------------------------------*/

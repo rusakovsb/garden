@@ -53,17 +53,14 @@ body,
 .menu--main a.is-active:hover,
 .menu--left-menu a.is-active:hover,
 .social-icon,
-a.button,
-a.button:active,
-a.button:focus,
-input.button,
-a.button:active,
+.button,
+.button:hover,
+.button:active,
+.button:focus,
 ul.tabs a,
-input.button:hover,
-a.button:hover,
-ul.tabs li a,
 #cboxTitle,
-.pager a,
+.pager__item a,
+.pager__item a:hover,
 #mobile-nav,
 .menu--mobile-menu a {
     color: #fff;
@@ -103,7 +100,6 @@ a:focus,
 
 .menu--main a:after,
 .site-logo a,
-input.button,
 .block-search .focused input.form-submit,
 .button,
 .view-features li:before,
@@ -120,18 +116,17 @@ a.with-arrow:before,
 .messages--status:before,
 .webform-confirmation__message:before,
 .symbol-sign,
-.pager a {
+.pager__item a {
     background-color: #1f9363;
 }
 
 .site-logo a:hover,
-input.button:hover,
 .button:hover,
 .social-icon:hover,
 .view-slider .flex-control-paging li a:hover,
 .view-slider .flex-direction-nav a:hover,
 ul.tabs a:hover,
-.pager a:hover {
+.pager__item a:hover {
     background-color: #1a7b53;
 }
 
