@@ -22,11 +22,8 @@ body,
 .product__text,
 .plant__text-inner,
 .cboxPhoto,
-#cboxLoadedContent,
-#cboxLoadingGraphic,
 .map-point__number,
 .map-point__title,
-#block-structure-hierarchical-taxonomy-menu,
 .mobile-nav-toggle span,
 .sidebar-toggle span,
 .block-search .focused input.form-search,
@@ -48,10 +45,10 @@ body,
     background-color: transparent !important;
 }
 
-.menu--main a,
-.menu--left-menu a,
-.menu--main a.is-active:hover,
-.menu--left-menu a.is-active:hover,
+.menu--main ul.menu a,
+.menu--left-menu ul.menu a,
+.menu--main ul.menu a.is-active:hover,
+.menu--left-menu ul.menu a.is-active:hover,
 .social-icon,
 .button,
 .button:hover,
@@ -62,13 +59,13 @@ ul.tabs a,
 .pager__item a,
 .pager__item a:hover,
 #mobile-nav,
-.menu--mobile-menu a {
+.menu--mobile-menu ul.menu a {
     color: #fff;
 }
 
-.menu--main a:hover,
-.menu--left-menu a:hover,
-.menu--mobile-menu a:hover,
+.menu--main ul.menu a:hover,
+.menu--left-menu ul.menu a:hover,
+.menu--mobile-menu ul.menu a:hover,
 #mobile-nav .contacts-item a,
 #footer a:hover {
     color: #53cc9a;
@@ -86,7 +83,7 @@ a:focus,
     color: #1f9363;
 }
 
-.hierarchical-taxonomy-menu a:before {
+.hierarchical-taxonomy-menu ul.menu a:before {
     border-color: #02657f;
 }
 
@@ -98,7 +95,7 @@ a:focus,
     color: #168d51;
 }
 
-.menu--main a:after,
+.menu--main ul.menu a:after,
 .site-logo a,
 .block-search .focused input.form-submit,
 .button,
@@ -112,7 +109,7 @@ a:focus,
 ul.tabs a,
 .view-structure-page-links a:before,
 a.with-arrow:before,
-.menu--left-menu a:before,
+.menu--left-menu ul.menu a:before,
 .messages--status:before,
 .webform-confirmation__message:before,
 .symbol-sign,
@@ -150,8 +147,7 @@ ul.tabs a:hover,
 .conference__period,
 .view-product-carousel .product-price,
 .price-table tr td:last-child,
-.field--name-field-product-price,
-.field--name-field-event-dates,
+.field--type-daterange,
 .event__period {
     color: #1f9363;
 }

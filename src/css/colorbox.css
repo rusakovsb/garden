@@ -19,6 +19,11 @@
 	clear: left;
 }
 
+#cboxLoadedContent,
+#cboxLoadingGraphic {
+	background-color: #fff;
+}
+
 #cboxContent {
 	position: relative; 
 	margin: 35px;
