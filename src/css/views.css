@@ -48,7 +48,7 @@
     width: 0.75rem;
 	height: 0.75rem;
 	margin: 0 0.375rem 0 0;
-	text-indent: 600rem;
+	text-indent: -600rem;
 	border: 1px solid;
     background: none;
     background: rgba(255, 255, 255, 0);
