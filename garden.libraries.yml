@@ -3,13 +3,7 @@ global-styling:
     theme:
       css/styles.css: {}
   js:   
-    js/imagesloaded.pkgd.min.js: {}
-    js/masonry.pkgd.min.js: {}
-    js/colorbox.js: {}
-    js/map.js: {}
-    js/gsap.min.js: {}
-    js/main.js: {} 
-    js/smoothscroll.js: {}
+    js/scripts.js: {}
   dependencies:
     - core/jquery
     - core/jquery.once
