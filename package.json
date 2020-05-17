@@ -8,7 +8,6 @@
   },
   "devDependencies": {
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1"
   },
   "scripts": {
@@ -23,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/rusakovsb/garden/issues"
   },
-  "homepage": "https://github.com/rusakovsb/garden#readme"
+  "homepage": "https://github.com/rusakovsb/garden"
 }
