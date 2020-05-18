@@ -6,151 +6,151 @@
         }
     );	
 	
-    $("#legend-item-1 span").hover(
+    $("#legend-item-1").hover(
         function () {
             $("#map-point-1 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-2 span").hover(
+    $("#legend-item-2").hover(
         function () {
             $("#map-point-2 .map-point__number, #map-point-2_2 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-3 span").hover(
+    $("#legend-item-3").hover(
         function () {
             $("#map-point-3 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-4 span").hover(
+    $("#legend-item-4").hover(
         function () {
             $("#map-point-4 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-5 span").hover(
+    $("#legend-item-5").hover(
         function () {
             $("#map-point-5 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-6 span").hover(
+    $("#legend-item-6").hover(
         function () {
             $("#map-point-6 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 		
-    $("#legend-item-7 span").hover(
+    $("#legend-item-7").hover(
         function () {
             $("#map-point-7 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 		
-    $("#legend-item-8 span").hover(
+    $("#legend-item-8").hover(
         function () {
             $("#map-point-8 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
-    $("#legend-item-9 span").hover(
+    $("#legend-item-9").hover(
         function () {
             $("#map-point-9 .map-point__number").toggleClass("map-point__number--active");
        }
     );	
 			
-    $("#legend-item-10 span").hover(
+    $("#legend-item-10").hover(
         function () {
             $("#map-point-10 .map-point__number, #map-point-10_2 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
-    $("#legend-item-11 span").hover(
-         function () {
+    $("#legend-item-11").hover(
+        function () {
             $("#map-point-11 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
-    $("#legend-item-12 span").hover(
+    $("#legend-item-12").hover(
         function () {
             $("#map-point-12 .map-point__number, #map-point-12_2 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
-    $("#legend-item-13 span").hover(
+    $("#legend-item-13").hover(
         function () {
             $("#map-point-13 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
-    $("#legend-item-14 span").hover(
+    $("#legend-item-14").hover(
         function () {
             $("#map-point-14 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 				
-    $("#legend-item-15 span").hover(
+    $("#legend-item-15").hover(
         function () {
             $("#map-point-15 .map-point__number").toggleClass("map-point__number--active");
         }
     );
 				
-    $("#legend-item-16 span").hover(
+    $("#legend-item-16").hover(
         function () {
             $("#map-point-16 .map-point__number, #map-point-16_2 .map-point__number, #map-point-16_3 .map-point__number").toggleClass("map-point__number--active");
         }
     );		
 				
-    $("#legend-item-17 span").hover(
+    $("#legend-item-17").hover(
         function () {
             $("#map-point-17 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-18 span").hover(
+    $("#legend-item-18").hover(
         function () {
             $("#map-point-18 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-19 span").hover(
+    $("#legend-item-19").hover(
         function () {
             $("#map-point-19 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-20 span").hover(
+    $("#legend-item-20").hover(
         function () {
             $("#map-point-20 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-21 span").hover(
+    $("#legend-item-21").hover(
         function () {
             $("#map-point-21 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
-    $("#legend-item-22 span").hover(
+    $("#legend-item-22").hover(
         function () {
             $("#map-point-22 .map-point__number").toggleClass("map-point__number--active");
        }
       );
 	
-    $("#legend-item-23 span").hover(
+    $("#legend-item-23").hover(
         function () {
             $("#map-point-23 .map-point__number").toggleClass("map-point__number--active");	  
         }
     );	
 	
-    $("#legend-item-24 span").hover(
+    $("#legend-item-24").hover(
         function () {
             $("#map-point-24 .map-point__number").toggleClass("map-point__number--active");
         }
     );
 	
-    $("#legend-item-25 span").hover(
+    $("#legend-item-25").hover(
         function () {
             $("#map-point-25 .map-point__number").toggleClass("map-point__number--active");
         }

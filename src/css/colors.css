@@ -72,14 +72,14 @@ ul.tabs a,
 }
 
 a,
-.legend__item span {
+.legend__link {
     color: #02657f;
 }
 
 a:hover,
 a:active,
 a:focus,
-.legend__item span:hover {
+.legend__link:hover {
     color: #1f9363;
 }
 
@@ -87,11 +87,11 @@ a:focus,
     border-color: #02657f;
 }
 
-.legend__item span {
+.legend__link {
     border-color: #02687a;
 }
 
-.legend__item span:hover {
+.legend__link:hover {
     border-color: #1f9363;
 }
 
