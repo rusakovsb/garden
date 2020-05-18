@@ -306,18 +306,6 @@
 /* Structure
 /*------------------------------------------------------------*/
 
-.view-structure .view-content {
-	padding: 1.5rem;
-}
-
-.view-structure ul.menu li {
-	margin: 0 0 0.75rem 0;
-}
-
-.view-structure ul.menu li {
-	margin: 0 0 0.75rem 0;
-}
-
 .view-structure-page-descr {
 	margin: 0 0 0.75rem 0;
 	line-height: 1.5;
@@ -327,37 +315,17 @@
 	margin: 0 0 3rem 0;
 }
 
-.view-structure-page-links ul {
+.view-structure-page-links .menu {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 3rem 0;
+	padding: 0;
+	list-style: none;
 } 
 
-.view-structure-page-links ul li {
+.view-structure-page-links .menu__item {
 	padding: 0 3rem 0 0;
 } 
-
-.view-structure-page-links a {
-	display: inline-block;
-	padding: 0 0 0 1.5rem; 
-	position: relative;
-	font-size: 1.25rem;
-}
-
-.view-structure-page-links a:before {
-    display: block;
-    position: absolute;
-    content: "";
-    width: 1rem;
-    height: 1rem;
-    top: 0.438rem;
-    left: 0;
-    border-radius: 50%;
-	background-image: url(../images/next.svg);
-	background-repeat: no-repeat;
-	background-size: 0.5rem auto;
-	background-position: 50% 50%;
-}
 
 /*------------------------------------------------------------*/
 /* News Page
@@ -549,7 +517,7 @@
 .view-conference-files,
 .view-page-files {
 	margin: 2rem 0 0 0;
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    padding: 2rem 2rem 0 2rem;
 }
 
 .view .file--x-office-document,
@@ -615,7 +583,13 @@
 /* Partners
 /*------------------------------------------------------------*/
 
-.view-partners ul li {
+.view-partners .menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.view-partners .menu__item {
 	margin: 0 0 0.75rem 0;
 }
 

@@ -47,162 +47,157 @@
 	 
     $(".map-point__number").hover(
         function () {
-            $(this).next(".map-point__title").toggleClass("map-point__title_hidden map-point__title_visible");
+            $(this).next(".map-point__title").toggleClass("map-point__title--hidden map-point__title--visible");
         }
     );	
 	
     $("#legend-item-1 span").hover(
         function () {
-            $("#map-point-1 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-1 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-2 span").hover(
         function () {
-            $("#map-point-2 .map-point__number").toggleClass("map-point__number_pulse");
-            $("#map-point-2_2 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-2 .map-point__number, #map-point-2_2 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-3 span").hover(
         function () {
-            $("#map-point-3 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-3 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-4 span").hover(
         function () {
-            $("#map-point-4 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-4 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-5 span").hover(
         function () {
-            $("#map-point-5 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-5 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-6 span").hover(
         function () {
-            $("#map-point-6 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-6 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 		
     $("#legend-item-7 span").hover(
         function () {
-            $("#map-point-7 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-7 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 		
     $("#legend-item-8 span").hover(
         function () {
-            $("#map-point-8 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-8 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
     $("#legend-item-9 span").hover(
         function () {
-            $("#map-point-9 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-9 .map-point__number").toggleClass("map-point__number--active");
        }
     );	
 			
     $("#legend-item-10 span").hover(
         function () {
-            $("#map-point-10 .map-point__number").toggleClass("map-point__number_pulse");
-            $("#map-point-10_2 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-10 .map-point__number, #map-point-10_2 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
     $("#legend-item-11 span").hover(
          function () {
-            $("#map-point-11 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-11 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
     $("#legend-item-12 span").hover(
         function () {
-            $("#map-point-12 .map-point__number").toggleClass("map-point__number_pulse");
-            $("#map-point-12_2 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-12 .map-point__number, #map-point-12_2 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
     $("#legend-item-13 span").hover(
         function () {
-            $("#map-point-13 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-13 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 			
     $("#legend-item-14 span").hover(
         function () {
-            $("#map-point-14 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-14 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 				
     $("#legend-item-15 span").hover(
         function () {
-            $("#map-point-15 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-15 .map-point__number").toggleClass("map-point__number--active");
         }
     );
 				
     $("#legend-item-16 span").hover(
         function () {
-            $("#map-point-16 .map-point__number").toggleClass("map-point__number_pulse");
-            $("#map-point-16_2 .map-point__number").toggleClass("map-point__number_pulse");
-            $("#map-point-16_3 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-16 .map-point__number, #map-point-16_2 .map-point__number, #map-point-16_3 .map-point__number").toggleClass("map-point__number--active");
         }
     );		
 				
     $("#legend-item-17 span").hover(
         function () {
-            $("#map-point-17 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-17 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-18 span").hover(
         function () {
-            $("#map-point-18 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-18 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-19 span").hover(
         function () {
-            $("#map-point-19 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-19 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-20 span").hover(
         function () {
-            $("#map-point-20 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-20 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-21 span").hover(
         function () {
-            $("#map-point-21 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-21 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
     $("#legend-item-22 span").hover(
         function () {
-            $("#map-point-22 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-22 .map-point__number").toggleClass("map-point__number--active");
        }
       );
 	
     $("#legend-item-23 span").hover(
         function () {
-            $("#map-point-23 .map-point__number").toggleClass("map-point__number_pulse");	  
+            $("#map-point-23 .map-point__number").toggleClass("map-point__number--active");	  
         }
     );	
 	
     $("#legend-item-24 span").hover(
         function () {
-            $("#map-point-24 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-24 .map-point__number").toggleClass("map-point__number--active");
         }
     );
 	
     $("#legend-item-25 span").hover(
         function () {
-            $("#map-point-25 .map-point__number").toggleClass("map-point__number_pulse");
+            $("#map-point-25 .map-point__number").toggleClass("map-point__number--active");
         }
     );	
 	
@@ -223,12 +218,12 @@
 
     // Search form
 
-    $("#search-block-form").focusin(function() {
-        $(this).addClass("focused");
+    $(".block-search").focusin(function() {
+        $(this).addClass("is-focused");
     }); 
 
-    $("#search-block-form" ).focusout(function() {
-        $(this).removeClass("focused");
+    $(".block-search" ).focusout(function() {
+        $(this).removeClass("is-focused");
     });       
     
     // Sidebar
@@ -236,15 +231,15 @@
     $("#sidebar-left").prepend('<button class="sidebar-toggle"><span></span><span></span><span></span></button>');
 	
     $(".sidebar-toggle").click(function() {               
-        if(!$(this).hasClass("active")) {  
-            $(this).addClass("active");          
+        if(!$(this).hasClass("is-active")) {  
+            $(this).addClass("is-active");          
             TweenMax.to("#sidebar-left", 1, {
                 ease: Expo.easeInOut,
                 x: "0"     
             })       
         }
         else {      
-            $(this).removeClass("active");      
+            $(this).removeClass("is-active");      
             TweenMax.to("#sidebar-left", 1, {                
                 ease: Expo.easeInOut,
                 x: "-20rem"
@@ -256,6 +251,8 @@
 	
     $(".file--x-office-document a").attr("target","_blank");
     $(".file--application-pdf a").attr("target","_blank");
+
+    // Structure menu
 	
     $("ul.hierarchical-taxonomy-menu > li.menu-item--expanded > a").contents().unwrap().wrap("<h5>");
     $("ul.hierarchical-taxonomy-menu li ul li.menu-item--expanded").removeClass("menu-item--expanded");	 
@@ -273,8 +270,8 @@
     $(".region-topbar-right").prepend('<button class="mobile-nav-toggle"><span></span><span></span><span></span></button>');
 	
     $(".mobile-nav-toggle").click(function() {               
-        if(!$(this).hasClass("active")) {  
-            $(this).addClass("active");          
+        if(!$(this).hasClass("is-active")) {  
+            $(this).addClass("is-active");          
             TweenMax.to("#mobile-nav", 0.3, {
                 ease: Power1.easeOut,
                 visibility: "visible",
@@ -282,7 +279,7 @@
             })       
         }
         else {      
-            $(this).removeClass("active");      
+            $(this).removeClass("is-active");      
             TweenMax.to("#mobile-nav", 0.3, {                
                 ease: Power1.easeOut,
                 opacity: "0",

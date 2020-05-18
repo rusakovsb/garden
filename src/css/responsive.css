@@ -2,8 +2,7 @@
 
     #topbar-left,
     .menu--main a.map-link,
-    #sidebar-first,
-    #breadcrumbs,
+    #sidebar-first,    
     .block-views-blockfeatures-block-1 {
         display: none;
     }
@@ -14,6 +13,7 @@
     
     #header,
     #main,
+    #sidebar-right,
     #footer {
 	    padding: 1.5rem;
     }
@@ -22,27 +22,27 @@
         padding: 0 1.5rem 0 5.5rem;
     }
 
-    .site-logo {
+    .site-branding__logo {
         position: relative;
         bottom: auto;
         left: auto;
     }
 
-    .site-logo a {
+    .site-branding__logo a {
         width: 5rem;
         height: 5rem;
         padding: 0.25rem;
     }
 
-    .site-name-slogan {
+    .site-branding__text {
         padding: 0 0 0 1rem;
     }
 
-    .site-name {
+    .site-branding__name {
         font-size: 1.25rem;
     }
 
-    .site-slogan {
+    .site-branding__slogan {
         font-size: 1rem;
     }
 
@@ -72,6 +72,10 @@
 
     #wrapper {
         padding: 0 0 0 4rem;
+    }
+
+    #breadcrumbs {
+        margin: 0 1.5rem;
     }
 
     .path-frontpage #main {
@@ -129,9 +133,6 @@
         margin: -3rem 0 0 0;
     }
 
-    #sidebar-right {
-        padding: 0 1.5rem 1.5rem 0;
-    }
 
     #sidebar-right .block {
 	    margin: 0 0 1.5rem 0;
@@ -153,7 +154,7 @@
 
 @media (max-width: 1366px) {
 
-    .menu--main ul li {
+    .menu--main .menu__item {
         padding: 0 1rem 0 0;
     }
 
@@ -178,6 +179,7 @@
 
     #topbar-left,
     .menu--main,
+    #breadcrumbs,
     #sidebar-left,
     #block-header-contacts {
         display: none;
@@ -229,7 +231,7 @@
         align-items: center;
     }
 
-    #block-site-branding {
+    .site-branding {
         padding: 0;
     }
 
@@ -245,11 +247,7 @@
 
     .masonry-item {
         width: 50%;
-    }
-
-    #sidebar-right {
-        padding: 1.5rem;
-    }    
+    } 
 
 }
 
@@ -257,7 +255,7 @@
 
 @media (max-width: 767px) { 
 
-    .site-slogan,
+    .site-branding__slogan,
     .slide__title {
         display: none;
     }
@@ -273,16 +271,16 @@
         padding: 1rem;
     }
 
-    .contacts-item {
+    .contacts__item {
         flex: 0 0 100%;
         padding: 0 1rem 1rem 1rem;
     }
 
-    .contacts-item:last-child {
+    .contacts__item:last-child {
         padding: 0 1rem;
     }
 
-    .site-logo a {
+    .site-branding__logo a {
         width: 4rem;
         height: 4rem;
     }
@@ -321,6 +319,18 @@
 
     .node__content a {
         word-break: break-all;
+    }
+
+    .node__content ul,
+    .views-field-field-structure-text ul,
+    .view-collection-description ul {
+	    margin: 0 0 1.5rem 1rem;
+    }
+
+    .node__content ol,
+    .views-field-field-structure-text ol,
+    .view-collection-description ol {
+	   margin: 0 0 1.5rem 2rem;
     }
 
     .node__content .float-left,

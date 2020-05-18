@@ -10,9 +10,9 @@
 {% if breadcrumb %}
   <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
     <div id="system-breadcrumb" class="visually-hidden">{{ 'Breadcrumb'|t }}</div>
-    <ol>
+    <ol class="breadcrumb__list">
     {% for item in breadcrumb %}
-      <li>
+      <li class="breadcrumb__item">
         {% if item.url %}
           <a href="{{ item.url }}">{{ item.text }}</a>
         {% else %}

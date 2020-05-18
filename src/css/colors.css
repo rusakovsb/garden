@@ -4,7 +4,7 @@
 }
 
 #topbar,
-.block-search .focused #edit-actions {
+.block-search.is-focused #edit-actions {
     background-color: #012d38;
 }
 
@@ -26,7 +26,7 @@ body,
 .map-point__title,
 .mobile-nav-toggle span,
 .sidebar-toggle span,
-.block-search .focused input.form-search,
+.block-search.is-focused .form-search,
 .node__content figcaption {
     background-color: #fff;
 }
@@ -45,10 +45,10 @@ body,
     background-color: transparent !important;
 }
 
-.menu--main ul.menu a,
-.menu--left-menu ul.menu a,
-.menu--main ul.menu a.is-active:hover,
-.menu--left-menu ul.menu a.is-active:hover,
+.menu--main .menu__item a,
+.menu--left-menu .menu__item a,
+.menu--main .menu__item a.is-active:hover,
+.menu--left-menu .menu__item a.is-active:hover,
 .social-icon,
 .button,
 .button:hover,
@@ -59,36 +59,40 @@ ul.tabs a,
 .pager__item a,
 .pager__item a:hover,
 #mobile-nav,
-.menu--mobile-menu ul.menu a {
+.menu--mobile-menu .menu__item a {
     color: #fff;
 }
 
-.menu--main ul.menu a:hover,
-.menu--left-menu ul.menu a:hover,
-.menu--mobile-menu ul.menu a:hover,
-#mobile-nav .contacts-item a,
+.menu--main .menu__item a:hover,
+.menu--left-menu .menu__item a:hover,
+.menu--mobile-menu .menu__item a:hover,
+#mobile-nav .contacts__item a,
 #footer a:hover {
     color: #53cc9a;
 }
 
 a,
-.legend-item span {
+.legend__item span {
     color: #02657f;
 }
 
 a:hover,
 a:active,
 a:focus,
-.legend-item span:hover {
+.legend__item span:hover {
     color: #1f9363;
 }
 
-.hierarchical-taxonomy-menu ul.menu a:before {
+.block-taxonomymenu__submenu a:before {
     border-color: #02657f;
 }
 
-.legend-item span {
+.legend__item span {
     border-color: #02687a;
+}
+
+.legend__item span:hover {
+    border-color: #1f9363;
 }
 
 .map-point__number {
@@ -96,8 +100,8 @@ a:focus,
 }
 
 .menu--main ul.menu a:after,
-.site-logo a,
-.block-search .focused input.form-submit,
+.site-branding__logo a,
+.is-focused .form-submit,
 .button,
 .view-features li:before,
 .view-features li:after,
@@ -108,16 +112,16 @@ a:focus,
 .view-slider .flex-direction-nav li a,
 ul.tabs a,
 .view-structure-page-links a:before,
-a.with-arrow:before,
-.menu--left-menu ul.menu a:before,
+a.has-arrow:before,
+.menu--left-menu .menu__item a:before,
 .messages--status:before,
 .webform-confirmation__message:before,
-.symbol-sign,
+.legend__sign,
 .pager__item a {
     background-color: #1f9363;
 }
 
-.site-logo a:hover,
+.site-branding__logo a:hover,
 .button:hover,
 .social-icon:hover,
 .view-slider .flex-control-paging li a:hover,
@@ -132,13 +136,11 @@ ul.tabs a:hover,
     background: rgba(24, 155, 89, 1);
 }
 
-.site-name,
-.site-slogan,
-#block-sitesubname {
+.site-branding__text {
     color: #013745;
 }
 
-.contacts-item a,
+.contacts__item a,
 .news-block-item__period,
 .excursion__period,
 .person__phone,
@@ -168,34 +170,34 @@ ul.tabs a:hover,
     border-color: #1f9363;
 }
 
-input.form-text,
-input.form-email,
+.form-text,
+.form-email,
 textarea.form-textarea,
+.form-search,
 .news-block-item,
 .news-item,
 .reception-item,
 .conference,
-table tr,
-input.form-search {
+table tr {
     border-color: #b2bdc0;
 }
 
 input.form-text:hover,
 input.form-email:hover,
 textarea.form-textarea:hover,
-#search-form input.form-search:hover {
+.block-search .form-search:hover {
 	border-color: #1f9363;
 }
 
-input.form-text:focus,
-input.form-email:focus,
-textarea.form-textarea:focus,
-#search-form input.form-search:focus {
+.form-text:focus,
+.form-email:focus,
+.form-textarea:focus,
+#search-form .form-search:focus {
 	border-color: #fff;
     box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
 }
 
-.block-search input.form-search {
+.block-search .form-search {
 	background-color: #024152;
 }
 
