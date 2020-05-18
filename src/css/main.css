@@ -238,9 +238,8 @@ h6 {
 
 .site-branding {
 	position: relative;	
-	display: inline-flex;
+	display: flex;
 	align-items: center;	
-	font-family: 'Montserrat', sans-serif;
 }
 
 .site-branding__logo {
@@ -266,6 +265,7 @@ h6 {
 
 .site-branding__text {
 	padding: 0 0 0 8rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .site-branding__name {
