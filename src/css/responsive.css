@@ -65,12 +65,12 @@
     }
 
     #topbar-right, 
-    #wrapper {
+    #page {
         flex: 0 0 100%;
         max-width: none;
     }
 
-    #wrapper {
+    #page {
         padding: 0 0 0 4rem;
     }
 
@@ -163,7 +163,7 @@
     }  
 
     h2,
-    .block-title {
+    .block__title {
         font-size: 1.625rem;
     }   
     
@@ -235,7 +235,7 @@
         padding: 0;
     }
 
-    #wrapper {
+    #page {
         padding: 0;
     }
 
@@ -309,7 +309,7 @@
     }
 
     h2,
-    .block-title {
+    .block__title {
         font-size: 1.375rem;
     }
 

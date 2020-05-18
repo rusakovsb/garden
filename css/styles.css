@@ -80,7 +80,7 @@ a:focus {
 
 #topbar,
 .region-header,
-#page,
+#wrapper,
 .region-topbar-right,
 .layout-two-sidebars #content,
 .region-footer {
@@ -89,7 +89,7 @@ a:focus {
 	display: flex;
 }
 
-#page,
+#wrapper,
 .layout-two-sidebars #content,
 .region-footer {
 	-ms-flex-wrap: wrap;
@@ -129,7 +129,7 @@ a:focus {
 }
 
 #topbar-right,
-#wrapper {
+#page {
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 85%;
 	flex: 0 0 85%;
@@ -203,7 +203,7 @@ h3,
 h4, 
 h5, 
 h6, 
-.block-title {
+.block__title {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -243,7 +243,7 @@ h6 {
 	font-weight: 600;
 }
 
-.block-title {
+.block__title {
     margin: 0 0 1.5rem 0;
     font-size: 1.875rem;
     font-weight: 700;	
@@ -512,7 +512,7 @@ h6 {
 /* Sidebar Right
 /*------------------------------------------------------------*/
 
-#sidebar-right .block-title {
+#sidebar-right .block__title {
     font-size: 1.375rem;
 }
 
@@ -963,7 +963,7 @@ td {
 /*------------------------------------------------------------*/
 
 .tabs {
-	margin: 0.75rem 0;
+	margin: 1.5rem 0;
 	padding: 0;
 	list-style: none;
 }
@@ -3097,14 +3097,14 @@ textarea.form-textarea:hover,
     }
 
     #topbar-right, 
-    #wrapper {
+    #page {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: none;
     }
 
-    #wrapper {
+    #page {
         padding: 0 0 0 4rem;
     }
 
@@ -3204,7 +3204,7 @@ textarea.form-textarea:hover,
     }  
 
     h2,
-    .block-title {
+    .block__title {
         font-size: 1.625rem;
     }   
     
@@ -3280,7 +3280,7 @@ textarea.form-textarea:hover,
         padding: 0;
     }
 
-    #wrapper {
+    #page {
         padding: 0;
     }
 
@@ -3358,7 +3358,7 @@ textarea.form-textarea:hover,
     }
 
     h2,
-    .block-title {
+    .block__title {
         font-size: 1.375rem;
     }
 

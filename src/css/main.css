@@ -78,14 +78,14 @@ a:focus {
 
 #topbar,
 .region-header,
-#page,
+#wrapper,
 .region-topbar-right,
 .layout-two-sidebars #content,
 .region-footer {
 	display: flex;
 }
 
-#page,
+#wrapper,
 .layout-two-sidebars #content,
 .region-footer {
 	flex-wrap: wrap;
@@ -118,7 +118,7 @@ a:focus {
 }
 
 #topbar-right,
-#wrapper {
+#page {
 	flex: 0 0 85%;
 	max-width: 85%;
 }
@@ -186,7 +186,7 @@ h3,
 h4, 
 h5, 
 h6, 
-.block-title {
+.block__title {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -226,7 +226,7 @@ h6 {
 	font-weight: 600;
 }
 
-.block-title {
+.block__title {
     margin: 0 0 1.5rem 0;
     font-size: 1.875rem;
     font-weight: 700;	
@@ -474,7 +474,7 @@ h6 {
 /* Sidebar Right
 /*------------------------------------------------------------*/
 
-#sidebar-right .block-title {
+#sidebar-right .block__title {
     font-size: 1.375rem;
 }
 
@@ -916,7 +916,7 @@ td {
 /*------------------------------------------------------------*/
 
 .tabs {
-	margin: 0.75rem 0;
+	margin: 1.5rem 0;
 	padding: 0;
 	list-style: none;
 }
