@@ -54,7 +54,8 @@ body,
 .button:hover,
 .button:active,
 .button:focus,
-ul.tabs a,
+.tabs a,
+.tabs a:hover,
 #cboxTitle,
 .pager__item a,
 .pager__item a:hover,
@@ -99,7 +100,7 @@ a:focus,
     color: #168d51;
 }
 
-.menu--main ul.menu a:after,
+.menu--main .menu__item a:after,
 .site-branding__logo a,
 .is-focused .form-submit,
 .button,
@@ -110,8 +111,7 @@ a:focus,
 .views-field-field-structure-text li:before,
 .view-collection-description li:before,
 .view-slider .flex-direction-nav li a,
-ul.tabs a,
-.view-structure-page-links a:before,
+.tabs a,
 a.has-arrow:before,
 .menu--left-menu .menu__item a:before,
 .messages--status:before,
@@ -126,7 +126,7 @@ a.has-arrow:before,
 .social-icon:hover,
 .view-slider .flex-control-paging li a:hover,
 .view-slider .flex-direction-nav a:hover,
-ul.tabs a:hover,
+.tabs a:hover,
 .pager__item a:hover {
     background-color: #1a7b53;
 }
@@ -148,7 +148,7 @@ ul.tabs a:hover,
 .reception-item__phone,
 .conference__period,
 .view-product-carousel .product-price,
-.price-table tr td:last-child,
+.price-table td:last-child,
 .field--type-daterange,
 .event__period {
     color: #1f9363;
@@ -172,19 +172,20 @@ ul.tabs a:hover,
 
 .form-text,
 .form-email,
-textarea.form-textarea,
+.form-textarea,
 .form-search,
 .news-block-item,
 .news-item,
 .reception-item,
 .conference,
-table tr {
+.search-result__snippet,
+tr {
     border-color: #b2bdc0;
 }
 
-input.form-text:hover,
-input.form-email:hover,
-textarea.form-textarea:hover,
+.form-text:hover,
+.form-email:hover,
+.form-textarea:hover,
 .block-search .form-search:hover {
 	border-color: #1f9363;
 }
