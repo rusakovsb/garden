@@ -233,7 +233,7 @@ h6 {
 }
 
 /*------------------------------------------------------------*/
-/* Header
+/* Site Branding
 /*------------------------------------------------------------*/
 
 .site-branding {
@@ -279,6 +279,10 @@ h6 {
     font-weight: 500;
 }
 
+/*------------------------------------------------------------*/
+/* Contacts
+/*------------------------------------------------------------*/
+
 .contacts {
 	display: flex;
 	flex-wrap: wrap;
@@ -294,6 +298,10 @@ h6 {
 	font-size: 1.125rem;
     font-weight: 600;
 }
+
+/*------------------------------------------------------------*/
+/* Social
+/*------------------------------------------------------------*/
 
 .social {
 	display: flex;
@@ -479,7 +487,7 @@ h6 {
 }
 
 /*------------------------------------------------------------*/
-/* Page menu
+/* Page Menu
 /*------------------------------------------------------------*/
 
 .menu--lbpr-results-plants .menu,
@@ -497,6 +505,28 @@ h6 {
 .menu--lbpr-results-plants .menu__item:last-child,
 .page-menu .menu__item:last-child {
     margin: 0;
+}
+
+a.has-arrow {
+	display: inline-block;
+	padding: 0 0 0 1.75rem; 
+	position: relative;
+	font-size: 1.25rem;
+}
+
+a.has-arrow:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    top: 0.438rem;
+    left: 0;
+    border-radius: 50%;
+	background-image: url(../images/next.svg);
+	background-repeat: no-repeat;
+	background-size: 0.5rem auto;
+	background-position: 50% 50%;
 }
 
 /*------------------------------------------------------------*/
@@ -626,28 +656,6 @@ h6 {
 	border-radius: 50%;
 }
 
-a.has-arrow {
-	display: inline-block;
-	padding: 0 0 0 1.75rem; 
-	position: relative;
-	font-size: 1.25rem;
-}
-
-a.has-arrow:before {
-    display: block;
-    position: absolute;
-    content: "";
-    width: 1rem;
-    height: 1rem;
-    top: 0.438rem;
-    left: 0;
-    border-radius: 50%;
-	background-image: url(../images/next.svg);
-	background-repeat: no-repeat;
-	background-size: 0.5rem auto;
-	background-position: 50% 50%;
-}
-
 /*------------------------------------------------------------*/
 /* Forms
 /*------------------------------------------------------------*/
@@ -704,7 +712,7 @@ label {
 }
 
 /*------------------------------------------------------------*/
-/* Search
+/* Search Form
 /*------------------------------------------------------------*/
 
 .block-search {
@@ -798,7 +806,7 @@ input.search-form__submit {
 }
 
 /*------------------------------------------------------------*/
-/* Search results
+/* Search Results
 /*------------------------------------------------------------*/
 
 .search-results {
