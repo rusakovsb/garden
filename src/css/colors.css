@@ -230,6 +230,14 @@ tr {
     border-color: #137644;
 }
 
+.map-point__title-inner:before {
+    border-top-color: #137644;
+}
+
+.map-point__title-inner:after {
+    border-top-color: #fff;
+}
+
 .node__content figcaption {
     color: #575859;
 }
