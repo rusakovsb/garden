@@ -3003,20 +3003,11 @@ tr {
     border-color: #b2bdc0;
 }
 
-.form-text:hover,
-.form-email:hover,
-.form-textarea:hover,
-.block-search .form-search:hover {
-	border-color: #1f9363;
-}
-
 .form-text:focus,
 .form-email:focus,
 .form-textarea:focus,
 .block-search .form-search:focus {
-	border-color: #fff;
-    -webkit-box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
-    box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
+	border-color: #1f9363;
 }
 
 .block-search .form-search {
