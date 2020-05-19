@@ -108,8 +108,8 @@ a:focus,
 .site-branding__logo a,
 .is-focused .form-submit,
 .button--primary,
-.view-features li:before,
-.view-features li:after,
+.features__item:before,
+.features__item:after,
 .social-icon,
 .node__content li:before,
 .views-field-field-structure-text li:before,
@@ -169,7 +169,7 @@ a.has-arrow:before,
     color: #949d9f;
 }
 
-.view-features li,
+.features__item,
 .view-slider .flex-control-paging a {
     border-color: #1f9363;
 }

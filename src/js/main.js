@@ -17,14 +17,14 @@
     $(".sidebar-toggle").click(function() {               
         if(!$(this).hasClass("is-active")) {  
             $(this).addClass("is-active");          
-            TweenMax.to("#sidebar-left", 1, {
+            TweenMax.to(".sidebar-left", 1, {
                 ease: Expo.easeInOut,
                 x: "0"     
             })       
         }
         else {      
             $(this).removeClass("is-active");      
-            TweenMax.to("#sidebar-left", 1, {                
+            TweenMax.to(".sidebar-left", 1, {                
                 ease: Expo.easeInOut,
                 x: "-20rem"
             })     
@@ -38,8 +38,8 @@
 
     // Structure menu
 	
-    $("ul.hierarchical-taxonomy-menu > li.menu-item--expanded > a").contents().unwrap().wrap("<h5>");
-    $("ul.hierarchical-taxonomy-menu li ul li.menu-item--expanded").removeClass("menu-item--expanded");	 
+    $(".hierarchical-taxonomy-menu > li.menu-item--expanded > a").contents().unwrap().wrap("<h5>");
+    $(".hierarchical-taxonomy-menu li ul li.menu-item--expanded").removeClass("menu-item--expanded");	 
 
     // Masonry
     
