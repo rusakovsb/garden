@@ -105,7 +105,7 @@ a:focus,
 }
 
 .menu--main .menu__item a:after,
-.site-branding__logo a,
+.site-branding__logo,
 .is-focused .form-submit,
 .button--primary,
 .features__item:before,
@@ -125,7 +125,7 @@ a.has-arrow:before,
     background-color: #1f9363;
 }
 
-.site-branding__logo a:hover,
+.site-branding__logo:hover,
 .button:hover,
 .social__item:hover,
 .view-slider .flex-control-paging li a:hover,

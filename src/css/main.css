@@ -243,24 +243,22 @@ h6 {
 }
 
 .site-branding__logo {
+	display: block;
 	position: absolute;
 	z-index: 10;
 	bottom: 0;
-	left: 0;
-}
-
-.site-branding__logo a {
-    display: block;
+	left: 0;    
 	width: 7rem;
-	height: 7rem;
-    padding: 0.375rem;
+	height: 7rem; 
+	flex: 0 0 7rem; 
+	padding: 0.375rem;  
     border-radius: 50%;
 }
 
 .site-branding__logo img {
 	display: block;
     width: 100%;
-	height: auto;	
+	height: auto;
 }
 
 .site-branding__text {

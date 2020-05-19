@@ -16,7 +16,7 @@
 {% block content %}
   <div class="site-branding">
     {% if site_logo %}
-      <div class="site-branding__logo"><a href="{{ path('<front>') }}" rel="home"><img src="{{ site_logo }}" alt="{{ 'Home'|t }}" /></a></div>    
+      <a class="site-branding__logo" href="{{ path('<front>') }}" rel="home"><img src="{{ site_logo }}" alt="{{ 'Home'|t }}" /></a>   
     {% endif %}
     <div class="site-branding__text">
     {% if site_name %}
