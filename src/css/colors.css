@@ -1,15 +1,15 @@
-#sidebar-left,
-#mobile-nav {
+.sidebar-left,
+.mobile-nav {
     background-color: #013745;
 }
 
-#topbar,
+.topbar,
 .block-search.is-focused #edit-actions {
     background-color: #012d38;
 }
 
 .flexslider,
-#footer {
+.footer {
     background-color: #01222b;
 }
 
@@ -31,8 +31,8 @@ body,
     background-color: #fff;
 }
 
-#breadcrumbs,
-#sidebar-right .block,
+.breadcrumbs,
+.sidebar-right .block,
 .view-conference-files,
 .view-service-files,
 .view-page-files,
@@ -46,9 +46,9 @@ body,
 }
 
 .menu--main .menu__item a,
-.menu--left-menu .menu__item a,
+.menu--left .menu__item a,
 .menu--main .menu__item a.is-active:hover,
-.menu--left-menu .menu__item a.is-active:hover,
+.menu--left .menu__item a.is-active:hover,
 .social-icon,
 .button,
 .button:hover,
@@ -59,17 +59,21 @@ body,
 #cboxTitle,
 .pager__item a,
 .pager__item a:hover,
-#mobile-nav,
-.menu--mobile-menu .menu__item a {
+.mobile-nav,
+.menu--mobile .menu__item a {
     color: #fff;
 }
 
 .menu--main .menu__item a:hover,
-.menu--left-menu .menu__item a:hover,
-.menu--mobile-menu .menu__item a:hover,
-#mobile-nav .contacts__item a,
-#footer a:hover {
+.menu--left .menu__item a:hover,
+.menu--mobile .menu__item a:hover,
+.mobile-nav .contacts__item a,
+.footer a:hover {
     color: #53cc9a;
+}
+
+.button--secondary {
+    background-color: #02657f;
 }
 
 a,
@@ -103,7 +107,7 @@ a:focus,
 .menu--main .menu__item a:after,
 .site-branding__logo a,
 .is-focused .form-submit,
-.button,
+.button--primary,
 .view-features li:before,
 .view-features li:after,
 .social-icon,
@@ -113,7 +117,7 @@ a:focus,
 .view-slider .flex-direction-nav li a,
 .tabs a,
 a.has-arrow:before,
-.menu--left-menu .menu__item a:before,
+.menu--left .menu__item a:before,
 .messages--status:before,
 .webform-confirmation__message:before,
 .legend__sign,
@@ -193,7 +197,7 @@ tr {
 .form-text:focus,
 .form-email:focus,
 .form-textarea:focus,
-#search-form .form-search:focus {
+.block-search .form-search:focus {
 	border-color: #fff;
     box-shadow: 0px 0px 3px 1px rgba(33,148,100,1);
 }
@@ -206,8 +210,8 @@ tr {
     background-color: #949d9f;
 }
 
-#footer,
-#footer a {
+.footer,
+.footer a {
     color: #4a8493;
 }
 

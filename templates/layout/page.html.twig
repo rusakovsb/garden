@@ -44,41 +44,41 @@
  */
 #}
 
-<div id="topbar">
-  <div id="topbar-left">
+<div class="topbar">
+  <div class="topbar-left">
     {{ page.topbar_left }}
   </div>
-  <div id="topbar-right">
+  <div class="topbar-right">
     {{ page.topbar_right }}
   </div>
 </div>
 
-<div id="wrapper">
+<div class="wrapper">
 
   {% if page.sidebar_left %}
-    <div id="sidebar-left">
+    <div class="sidebar-left">
       {{ page.sidebar_left }}
     </div>
   {% endif %}
 
-  <div id="page">
+  <div class="page">
 
-    <header id="header">
+    <header class="header">
       {{ page.header }}   
     </header>
 
     {% if page.breadcrumbs %}
-      <div id="breadcrumbs">
+      <div class="breadcrumbs">
         {{ page.breadcrumbs }}   
       </div>
     {% endif %}
 
-    <div id="content"> 
+    <div class="content"> 
   
-      <main id="main">
+      <main class="main">
 
         {% if page.slider %}
-          <div id="slider">
+          <div class="slider">
             {{ page.slider }}
           </div>
         {% endif %}	
@@ -100,14 +100,14 @@
       </main>  
 
       {% if page.sidebar_right %}
-        <div id="sidebar-right">
+        <div class="sidebar-right">
           {{ page.sidebar_right }}
         </div>
       {% endif %} 
 
     </div>
 
-    <footer id="footer">
+    <footer class="footer">
       {{ page.footer }}
     </footer>
 
@@ -115,7 +115,7 @@
 
 </div>
 
-<div id="mobile-nav">
+<div class="mobile-nav">
   {{ page.mobile_nav }}
 </div>
   
