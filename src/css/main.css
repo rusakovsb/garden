@@ -307,18 +307,15 @@ h6 {
 	display: flex;
 }
 
-.social-icon {
-	position: relative;
+.social__item {
 	display: block;
 	width: 2rem;
 	height: 2rem;
 	margin: 0 0 0 1rem;	
-	text-align: center;
     background-repeat: no-repeat;
     background-size: 1.125rem auto;
     background-position: 50% 50%; 
 	border-radius: 50%;
-    transition: 0.2s linear;
 }
 
 .instagram {

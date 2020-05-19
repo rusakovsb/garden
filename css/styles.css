@@ -333,19 +333,15 @@ h6 {
 	display: flex;
 }
 
-.social-icon {
-	position: relative;
+.social__item {
 	display: block;
 	width: 2rem;
 	height: 2rem;
 	margin: 0 0 0 1rem;	
-	text-align: center;
     background-repeat: no-repeat;
     background-size: 1.125rem auto;
     background-position: 50% 50%; 
 	border-radius: 50%;
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
 }
 
 .instagram {
@@ -1719,9 +1715,9 @@ td {
 }
 
 
-/*-------------------------------------------*
+/*------------------------------------------------------------*/
 /* Grid styles
-/*-------------------------------------------*/
+/*------------------------------------------------------------*/
 
 .grid .view-content,
 .grid .grid-content {
@@ -2000,7 +1996,7 @@ td {
 
 }
 /*------------------------------------------------------------*/
-/* Common
+/* Views styles
 /*------------------------------------------------------------*/
 
 .view img {
@@ -2926,7 +2922,7 @@ a:focus,
 .button--primary,
 .features__item:before,
 .features__item:after,
-.social-icon,
+.social__item,
 .node__content li:before,
 .views-field-field-structure-text li:before,
 .view-collection-description li:before,
@@ -2943,7 +2939,7 @@ a.has-arrow:before,
 
 .site-branding__logo a:hover,
 .button:hover,
-.social-icon:hover,
+.social__item:hover,
 .view-slider .flex-control-paging li a:hover,
 .view-slider .flex-direction-nav a:hover,
 .tabs a:hover,
