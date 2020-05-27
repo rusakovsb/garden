@@ -521,7 +521,7 @@ h6 {
 .sidebar-right .block-title:before {
     content: "";
 	display: block;
-	width: 2rem;
+	width: 2.5rem;
     height: 0.25rem;   
     position: absolute;
     bottom: 0;
@@ -533,20 +533,20 @@ h6 {
 /* Page Menu
 /*------------------------------------------------------------*/
 
-.menu--lbpr-results-plants .menu,
+.lbpr-results-menu,
 .page-menu {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.menu--lbpr-results-plants .menu__item,
-.page-menu .menu__item {
+.lbpr-results-menu__item,
+.page-menu__item {
     margin: 0 0 0.75rem 0;
 }
 
-.menu--lbpr-results-plants .menu__item:last-child,
-.page-menu .menu__item:last-child {
+.lbpr-results-menu__item:last-child,
+.page-menu__item:last-child {
     margin: 0;
 }
 
@@ -670,7 +670,7 @@ a.has-arrow:before {
 .node__content ol li,
 .views-field-field-structure-text ol li,
 .view-collection-description ol li  {
-	margin: 0 0 1.5rem 0;
+	margin: 0 0 0.5rem 0;
 }
 
 .node__content ul,
@@ -882,7 +882,7 @@ label {
 
 .messages,
 .webform-confirmation__message {
-    border: none;
+    border: 0.125rem solid;
     border-radius: 0;
 	margin: 0 0 1.5rem 0;
     padding: 1.5rem 1.5rem 1.5rem 4rem;
@@ -892,8 +892,9 @@ label {
 .messages--status,
 .messages--error {
     background-image: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
 }
 
 .messages--status:before,
@@ -3034,13 +3035,13 @@ tr {
 
 .messages--status,
 .webform-confirmation__message {
-    color: #1f9363;
-    background-color: #d0f4e5;
+    border-color: #1f9363;
+    color: #1f9363;    
 }
 
 .messages--error {    
+    border-color: #cc3131;
     color: #cc3131;
-	background-color: #edc6c6;
 }
 
 .messages--error:before {    

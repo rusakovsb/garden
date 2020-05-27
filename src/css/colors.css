@@ -213,13 +213,13 @@ tr {
 
 .messages--status,
 .webform-confirmation__message {
-    color: #1f9363;
-    background-color: #d0f4e5;
+    border-color: #1f9363;
+    color: #1f9363;    
 }
 
 .messages--error {    
+    border-color: #cc3131;
     color: #cc3131;
-	background-color: #edc6c6;
 }
 
 .messages--error:before {    
