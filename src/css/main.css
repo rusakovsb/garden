@@ -26,7 +26,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.0625rem;
 	font-weight: 400;
-	line-height: normal;	
+	line-height: normal;
+	background: #fff;
+	color: #000;	
 }
 
 article, 
@@ -1133,9 +1135,26 @@ td {
 }
 
 .mobile-menu__link {
+	position: relative;
 	display: block;
     padding: 0.75rem 0;	
 	font-size: 1.25rem;
+}
+
+.mobile-menu__link:before  {
+    content: "";
+    display: block;
+    width: 0.75rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -2.25rem;
+    border-radius: 1rem;
+}
+
+.mobile-menu__link--active:before,
+.mobile-menu__link.is-active:before {
+    left: -1.875rem;
 }
 
 /*------------------------------------------------------------*/

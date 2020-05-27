@@ -13,7 +13,6 @@
     background-color: #01222b;
 }
 
-body,
 .view-features,
 .slide__title,
 .excursion__text-inner,
@@ -124,7 +123,8 @@ a.has-arrow:before,
 .messages--status:before,
 .webform-confirmation__message:before,
 .legend__sign,
-.pager__item a {
+.pager__item a,
+.mobile-menu__link:before {
     background-color: #1f9363;
 }
 
