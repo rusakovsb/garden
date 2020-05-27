@@ -50,6 +50,7 @@
       {%
         set link_classes = [
           menu_name ~ '-menu'|clean_class ~ '__link',
+          item.in_active_trail ? menu_name ~ '-menu'|clean_class ~ '__link--active',
         ]
       %}
       <li{{ item.attributes.addClass(item_classes) }}>{# 1. #}
