@@ -45,10 +45,11 @@ body,
     background-color: transparent !important;
 }
 
-.menu--main .menu__item a,
-.menu--left .menu__item a,
-.menu--main .menu__item a.is-active:hover,
-.menu--left .menu__item a.is-active:hover,
+.main-menu__link,
+.left-menu__link,
+.main-menu__item--active-trail .main-menu__link:hover,
+.main-menu__link.is-active:hover,
+.left-menu__item--active-trail .left-menu__link:hover,
 .social-icon,
 .button,
 .button:hover,
@@ -60,13 +61,13 @@ body,
 .pager__item a,
 .pager__item a:hover,
 .mobile-nav,
-.menu--mobile .menu__item a {
+.mobile-menu__link {
     color: #fff;
 }
 
-.menu--main .menu__item a:hover,
-.menu--left .menu__item a:hover,
-.menu--mobile .menu__item a:hover,
+.main-menu__link:hover,
+.left-menu__link:hover,
+.mobile-menu__link:hover,
 .mobile-nav .contacts__item a,
 .footer a:hover {
     color: #53cc9a;
@@ -104,10 +105,11 @@ a:focus,
     color: #168d51;
 }
 
-.menu--main .menu__item a:after,
+.main-menu__link:after,
 .site-branding__logo,
 .is-focused .form-submit,
 .button--primary,
+.form-submit,
 .features__item:before,
 .features__item:after,
 .social__item,
@@ -117,7 +119,8 @@ a:focus,
 .view-slider .flex-direction-nav li a,
 .tabs a,
 a.has-arrow:before,
-.menu--left .menu__item a:before,
+.left-menu__link:before,
+.sidebar-right .block-title:before,
 .messages--status:before,
 .webform-confirmation__message:before,
 .legend__sign,
@@ -162,10 +165,11 @@ a.has-arrow:before,
     color: #5e5f60;
 }
 
-.breadcrumb,
+.breadcrumb__item,
 .node__submitted,
 .news-block-item__created,
-.news-item__created {
+.news-item__created,
+.description {
     color: #949d9f;
 }
 
