@@ -38,7 +38,7 @@
 
     // Structure menu
 	
-    $(".hierarchical-taxonomy-menu > li.menu-item--expanded > a").contents().unwrap().wrap("<h5>");
+    $(".hierarchical-taxonomy-menu > li.menu-item--expanded > a").contents().unwrap().wrap('<h5 class="block-taxonomymenu__subtitle">');
     $(".hierarchical-taxonomy-menu li ul li.menu-item--expanded").removeClass("menu-item--expanded");	 
 
     // Masonry
@@ -51,8 +51,6 @@
 
     // Mobile menu
 
-    $(".region-topbar-right").prepend('<button class="mobile-nav-toggle"><span></span><span></span><span></span></button>');
-	
     $(".mobile-nav-toggle").click(function() {               
         if(!$(this).hasClass("is-active")) {  
             $(this).addClass("is-active");          

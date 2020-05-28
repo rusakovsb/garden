@@ -1,0 +1,244 @@
+.sidebar-left,
+.mobile-nav {
+    background-color: #013745;
+}
+
+.topbar,
+.block-search.is-focused #edit-actions {
+    background-color: #012d38;
+}
+
+.flexslider,
+.footer {
+    background-color: #01222b;
+}
+
+.view-features,
+.slide__title,
+.excursion__text-inner,
+.person__text-inner,
+.service__text-inner,
+.product__text,
+.plant__text-inner,
+.cboxPhoto,
+.map-point__number,
+.map-point__title,
+.mobile-nav-toggle span,
+.sidebar-toggle span,
+.block-search.is-focused .form-search,
+.node__content figcaption {
+    background-color: #fff;
+}
+
+.breadcrumbs,
+.sidebar-right .block,
+.view-conference-files,
+.view-service-files,
+.view-page-files,
+.view-news-files,
+.view-price-list {
+    background-color: #ecf2f4;
+}
+
+#block-views-block-features-block-1 {
+    background-color: transparent !important;
+}
+
+.main-menu__link,
+.left-menu__link,
+.main-menu__link--active:hover,
+.main-menu__link.is-active:hover,
+.left-menu__link--active:hover,
+.social-icon,
+.button,
+.button:hover,
+.button:active,
+.button:focus,
+.tabs a,
+.tabs a:hover,
+#cboxTitle,
+.pager__item a,
+.pager__item a:hover,
+.mobile-nav,
+.mobile-menu__link {
+    color: #fff;
+}
+
+.main-menu__link:hover,
+.left-menu__link:hover,
+.mobile-menu__link:hover,
+.mobile-nav .contacts__item a,
+.footer a:hover {
+    color: #53cc9a;
+}
+
+.button--secondary {
+    background-color: #02657f;
+}
+
+a,
+.legend__link {
+    color: #02657f;
+}
+
+a:hover,
+a:active,
+a:focus,
+.legend__link:hover {
+    color: #1f9363;
+}
+
+.block-taxonomymenu__submenu a:before {
+    border-color: #02657f;
+}
+
+.legend__link {
+    border-color: #02687a;
+}
+
+.legend__link:hover {
+    border-color: #1f9363;
+}
+
+.map-point__number {
+    color: #168d51;
+}
+
+.main-menu__link:after,
+.site-branding__logo,
+.is-focused .form-submit,
+.button--primary,
+.form-submit,
+.features__item:before,
+.features__item:after,
+.social__item,
+.node__content li:before,
+.views-field-field-structure-text li:before,
+.view-collection-description li:before,
+.view-slider .flex-direction-nav li a,
+.tabs a,
+a.has-arrow:before,
+.left-menu__link:before,
+.sidebar-right .block-title:before,
+.messages--status:before,
+.webform-confirmation__message:before,
+.legend__sign,
+.pager__item a,
+.mobile-menu__link:before {
+    background-color: #1f9363;
+}
+
+.site-branding__logo:hover,
+.button:hover,
+.social__item:hover,
+.view-slider .flex-control-paging li a:hover,
+.view-slider .flex-direction-nav a:hover,
+.tabs a:hover,
+.pager__item a:hover {
+    background-color: #1a7b53;
+}
+
+.view-slider .flex-control-paging li a.flex-active {
+    background: #1f9363;
+    background: rgba(24, 155, 89, 1);
+}
+
+.site-branding__text {
+    color: #013745;
+}
+
+.contacts__item a,
+.news-block-item__period,
+.excursion__period,
+.person__phone,
+.product__price,
+.reception-item__phone,
+.conference__period,
+.view-product-carousel .product-price,
+.price-table td:last-child,
+.field--type-daterange,
+.event__period {
+    color: #1f9363;
+}
+
+.plant__latin-name {
+    color: #5e5f60;
+}
+
+.breadcrumb__item,
+.node__submitted,
+.news-block-item__created,
+.news-item__created,
+.description {
+    color: #949d9f;
+}
+
+.features__item,
+.view-slider .flex-control-paging a {
+    border-color: #1f9363;
+}
+
+.form-text,
+.form-email,
+.form-textarea,
+.form-search,
+.news-block-item,
+.news-item,
+.reception-item,
+.conference,
+.search-result__snippet,
+tr {
+    border-color: #b2bdc0;
+}
+
+.form-text:focus,
+.form-email:focus,
+.form-textarea:focus,
+.block-search .form-search:focus {
+	border-color: #1f9363;
+}
+
+.block-search .form-search {
+	background-color: #024152;
+}
+
+.pager__item.is-active a {
+    background-color: #949d9f;
+}
+
+.footer,
+.footer a {
+    color: #4a8493;
+}
+
+.messages--status,
+.webform-confirmation__message {
+    border-color: #1f9363;
+    color: #1f9363;    
+}
+
+.messages--error {    
+    border-color: #cc3131;
+    color: #cc3131;
+}
+
+.messages--error:before {    
+	background-color: #cc3131;
+}
+
+.map-point__title {
+    border-color: #137644;
+}
+
+.map-point__title-inner:before {
+    border-top-color: #137644;
+}
+
+.map-point__title-inner:after {
+    border-top-color: #fff;
+}
+
+.node__content figcaption {
+    color: #575859;
+}
+
