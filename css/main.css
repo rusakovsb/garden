@@ -32,23 +32,6 @@ body {
 	color: #000;	
 }
 
-article, 
-aside, 
-details, 
-figcaption, 
-figure, 
-footer, 
-header, 
-hgroup, 
-main, 
-nav, 
-section, 
-summary {
-	display: block;
-	margin: 0;
-	padding: 0;
-}
-
 p {
     margin: 0 0 1.5rem 0;
 }
