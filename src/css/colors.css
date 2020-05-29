@@ -46,9 +46,9 @@
 
 .main-menu__link,
 .left-menu__link,
-.main-menu__link--active:hover,
+.main-menu__link_active:hover,
 .main-menu__link.is-active:hover,
-.left-menu__link--active:hover,
+.left-menu__link_active:hover,
 .social-icon,
 .button,
 .button:hover,
@@ -57,8 +57,8 @@
 .tabs a,
 .tabs a:hover,
 #cboxTitle,
-.pager__item a,
-.pager__item a:hover,
+.pager__link,
+.pager__link:hover,
 .mobile-nav,
 .mobile-menu__link {
     color: #fff;
@@ -123,7 +123,7 @@ a.has-arrow:before,
 .messages--status:before,
 .webform-confirmation__message:before,
 .legend__sign,
-.pager__item a,
+.pager__link,
 .mobile-menu__link:before {
     background-color: #1f9363;
 }
@@ -134,7 +134,7 @@ a.has-arrow:before,
 .view-slider .flex-control-paging li a:hover,
 .view-slider .flex-direction-nav a:hover,
 .tabs a:hover,
-.pager__item a:hover {
+.pager__link:hover {
     background-color: #1a7b53;
 }
 
@@ -202,7 +202,7 @@ tr {
 	background-color: #024152;
 }
 
-.pager__item.is-active a {
+.pager__item_active .pager__link {
     background-color: #949d9f;
 }
 

@@ -41,16 +41,16 @@
       {%
         set item_classes = [
           menu_name ~ '-menu'|clean_class ~ '__item',
-          item.is_expanded ? menu_name ~ '-menu'|clean_class ~ '__item--expanded',
-          item.is_collapsed ? menu_name ~ '-menu'|clean_class ~ '__item--collapsed',
-          item.in_active_trail ? menu_name ~ '-menu'|clean_class ~ '__item--active-trail',
+          item.is_expanded ? menu_name ~ '-menu'|clean_class ~ '__item_expanded',
+          item.is_collapsed ? menu_name ~ '-menu'|clean_class ~ '__item_collapsed',
+          item.in_active_trail ? menu_name ~ '-menu'|clean_class ~ '__item_active-trail',
         ]
       %}
       {# 1. #}
       {%
         set link_classes = [
           menu_name ~ '-menu'|clean_class ~ '__link',
-          item.in_active_trail ? menu_name ~ '-menu'|clean_class ~ '__link--active',
+          item.in_active_trail ? menu_name ~ '-menu'|clean_class ~ '__link_active',
         ]
       %}
       <li{{ item.attributes.addClass(item_classes) }}>{# 1. #}
