@@ -22,18 +22,18 @@
 #}
 {%
   set classes = [
-    'js-form-item',
-    'form-item',
-    'js-form-wrapper',
-    'form-wrapper',
+    'js-form__item',
+    'form__item',
+    'js-form__wrapper',
+    'form__wrapper',
   ]
 %}
 <fieldset{{ attributes.addClass(classes) }}>
   {%
     set legend_span_classes = [
       'fieldset-legend',
-      required ? 'js-form-required',
-      required ? 'form-required',
+      required ? 'js-form_required',
+      required ? 'form_required',
     ]
   %}
   {#  Always wrap fieldset legends in a <span> for CSS positioning. #}
@@ -42,7 +42,7 @@
   </legend>
   <div class="fieldset-wrapper">
     {% if errors %}
-      <div class="form-item--error-message">
+      <div class="form__item-error-message">
         <strong>{{ errors }}</strong>
       </div>
     {% endif %}
@@ -54,7 +54,7 @@
       <span class="field-suffix">{{ suffix }}</span>
     {% endif %}
     {% if description.content %}
-      <div{{ description.attributes.addClass('description') }}>{{ description.content }}</div>
+      <div{{ description.attributes.addClass('form__description') }}>{{ description.content }}</div>
     {% endif %}
   </div>
 </fieldset>

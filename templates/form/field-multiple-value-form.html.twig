@@ -20,10 +20,10 @@
  */
 #}
 {% if multiple %}
-  <div class="js-form-item form-item">
+  <div class="js-form__item form__item">
     {{ table }}
     {% if description.content %}
-      <div{{ description.attributes.addClass('description') }} >{{ description.content }}</div>
+      <div{{ description.attributes.addClass('form__description') }} >{{ description.content }}</div>
     {% endif %}
     {% if button %}
       <div class="clearfix">{{ button }}</div>

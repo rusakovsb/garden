@@ -657,14 +657,14 @@ a.has-arrow:before {
 /* Form Elements
 /*------------------------------------------------------------*/
 
-label {
+.form__item {
+    margin: 0 0 1.5rem 0;
+}
+
+.form__label {
     display: block;
 	font-weight: 600;
 	margin: 0 0 0.25rem 0;
-}
-
-.form-item {
-    margin: 0 0 1.5rem 0;
 }
 
 .form-text,
@@ -693,6 +693,11 @@ label {
     transition: 0.2s linear;
 }
 
+.form__description {
+	margin: 0.1875rem 0 0 0;
+    font-size: 0.938rem;
+}
+
 /*------------------------------------------------------------*/
 /* Webform
 /*------------------------------------------------------------*/
@@ -708,10 +713,6 @@ label {
 	left: 0;
 }
 
-.description {
-    font-size: 0.938rem;
-}
-
 /*------------------------------------------------------------*/
 /* Search Form
 /*------------------------------------------------------------*/
@@ -721,7 +722,7 @@ label {
     transition: 0.2s linear;
 }
 
-.block-search .form-item {
+.block-search .form__item {
     margin: 0;
 }
 

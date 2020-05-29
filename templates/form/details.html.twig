@@ -18,20 +18,20 @@
   {%- if title -%}
     {%
       set summary_classes = [
-        required ? 'js-form-required',
-        required ? 'form-required',
+        required ? 'js-form_required',
+        required ? 'form_required',
       ]
     %}
     <summary{{ summary_attributes.addClass(summary_classes) }}>{{ title }}</summary>
   {%- endif -%}
-  <div class="details-wrapper">
+  <div class="details__wrapper">
     {% if errors %}
-      <div class="form-item--error-message">
+      <div class="form__item-error-message">
         <strong>{{ errors }}</strong>
       </div>
     {% endif %}
     {%- if description -%}
-      <div class="details-description">{{ description }}</div>
+      <div class="details__description">{{ description }}</div>
     {%- endif -%}
     {%- if children -%}
       {{ children }}

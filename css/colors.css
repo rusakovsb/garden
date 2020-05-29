@@ -169,7 +169,7 @@ a.has-arrow:before,
 .node__submitted,
 .news-block-item__created,
 .news-item__created,
-.description {
+.form__description {
     color: #949d9f;
 }
 
