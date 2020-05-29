@@ -308,15 +308,15 @@ h6 {
 	border-radius: 50%;
 }
 
-.instagram {
+.social__item_instagram {
     background-image: url(../images/instagram.svg);
 }
 
-.vk {
+.social__item_vk {
     background-image: url(../images/vk.svg);
 }
 
-.fb {
+.social__item_fb {
     background-image: url(../images/fb.svg);
 }
 
