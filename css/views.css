@@ -153,7 +153,6 @@
 }
 
 .features__item:last-child {
-	margin: 0;
 	padding: 0;
 	border: none;
 }
@@ -356,10 +355,6 @@
 
 .view-news .view-header {
 	margin: 0 0 3rem 0;
-}
-
-.view-news .view-header .button {
-	margin: 0;
 }
 
 .news-item {

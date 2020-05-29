@@ -3,8 +3,7 @@
     background-color: #013745;
 }
 
-.topbar,
-.block-search.is-focused #edit-actions {
+.topbar {
     background-color: #012d38;
 }
 
@@ -25,7 +24,7 @@
 .map-point__title,
 .mobile-nav-toggle span,
 .sidebar-toggle span,
-.block-search.is-focused .form-search,
+.search-form_focused .form-search,
 .node__content figcaption {
     background-color: #fff;
 }
@@ -36,7 +35,8 @@
 .view-service-files,
 .view-page-files,
 .view-news-files,
-.view-price-list {
+.view-price-list,
+.path-search .content .search-form {
     background-color: #ecf2f4;
 }
 
@@ -72,7 +72,7 @@
     color: #53cc9a;
 }
 
-.button--secondary {
+.button_secondary {
     background-color: #02657f;
 }
 
@@ -106,9 +106,8 @@ a:focus,
 
 .main-menu__link:after,
 .site-branding__logo,
-.is-focused .form-submit,
-.button--primary,
-.form-submit,
+.search-form_focused .search-form__button,
+.button_primary,
 .features__item:before,
 .features__item:after,
 .social__item,
@@ -194,12 +193,18 @@ tr {
 .form-text:focus,
 .form-email:focus,
 .form-textarea:focus,
-.block-search .form-search:focus {
+.form-search:focus {
 	border-color: #1f9363;
 }
 
-.block-search .form-search {
-	background-color: #024152;
+.form-search,
+.search-form__button {
+    background-color: #024152;
+    color: #fff;
+}
+
+.search-form_focused .form-search {
+    color: #000;
 }
 
 .pager__item_active .pager__link {
