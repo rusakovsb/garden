@@ -243,7 +243,11 @@ h6 {
     border-radius: 50%;
 }
 
-.site-branding__logo img {
+.site-branding__link {
+	display: block;
+}
+
+.site-branding__image {
 	display: block;
     width: 100%;
 	height: auto;
@@ -279,7 +283,7 @@ h6 {
 	padding: 0 1rem;
 }
 
-.contacts__item-data {
+.contacts__data {
 	display: block;
 	font-size: 1.125rem;
     font-weight: 600;
@@ -1194,18 +1198,18 @@ td {
 	border-radius: 50%;
 }
 
-.legend__sign--cafe,
-.legend__sign--wc {
+.legend__sign_cafe,
+.legend__sign_wc {
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: 1.125rem auto;
 }
 
-.legend__sign--cafe {
+.legend__sign_cafe {
 	background-image: url("../images/cafe.svg");
 }
 
-.legend__sign--wc {
+.legend__sign_wc {
 	background-image: url("../images/wc.svg");
 }
 
@@ -1305,13 +1309,13 @@ td {
     bottom: -7px;
 }
 
-.map-point__title--hidden {
+.map-point__title_hidden {
 	bottom: 33px;
 	opacity: 0;
 	visibility: hidden;
 }
 
-.map-point__title--visible {
+.map-point__title_visible {
 	bottom: 28px;
 	opacity: 1;
 	visibility: visible;

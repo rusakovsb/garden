@@ -67,7 +67,7 @@
 .main-menu__link:hover,
 .left-menu__link:hover,
 .mobile-menu__link:hover,
-.mobile-nav .contacts__item a,
+.mobile-nav .contacts__link,
 .footer a:hover {
     color: #53cc9a;
 }
@@ -147,7 +147,7 @@ a.has-arrow:before,
     color: #013745;
 }
 
-.contacts__item a,
+.contacts__link,
 .news-block-item__period,
 .excursion__period,
 .person__phone,
