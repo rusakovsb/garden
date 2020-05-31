@@ -23,15 +23,12 @@
         max-width: none;
     }
 
-    .site-branding__logo {
+    .site-branding__link {
         position: relative;
         bottom: auto;
         left: auto;
         width: 5rem;
         height: 5rem;
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 5rem;
-        flex: 0 0 5rem;
         padding: 0.25rem;
     }
 
@@ -344,12 +341,9 @@
         padding: 0 1rem;
     }
 
-    .site-branding__logo {
+    .site-branding__link {
         width: 3.5rem;
         height: 3.5rem;
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 3.5rem;
-        flex: 0 0 3.5rem;
         padding: 0.1875rem;
     }
 
