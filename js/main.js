@@ -2,12 +2,12 @@
 
     // Search form
 
-    $(".search-form").focusin(function() {
-        $(this).addClass("search-form_focused");
+    $(".top-search-form").focusin(function() {
+        $(this).addClass("top-search-form_focused");
     }); 
 
-    $(".search-form" ).focusout(function() {
-        $(this).removeClass("search-form_focused");
+    $(".top-search-form" ).focusout(function() {
+        $(this).removeClass("top-search-form_focused");
     });       
     
     // Sidebar

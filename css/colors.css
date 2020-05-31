@@ -24,7 +24,6 @@
 .map-point__title,
 .mobile-nav-toggle span,
 .sidebar-toggle span,
-.search-form_focused .form-search,
 .node__content figcaption {
     background-color: #fff;
 }
@@ -72,10 +71,6 @@
     color: #53cc9a;
 }
 
-.button_secondary {
-    background-color: #02657f;
-}
-
 a,
 .legend__link {
     color: #02657f;
@@ -106,8 +101,9 @@ a:focus,
 
 .main-menu__link:after,
 .site-branding__logo,
-.search-form_focused .search-form__button,
-.button_primary,
+.top-search-form_focused .top-search-form__button,
+.button--primary,
+.form-submit,
 .features__item:before,
 .features__item:after,
 .social__item,
@@ -125,6 +121,20 @@ a.has-arrow:before,
 .pager__link,
 .mobile-menu__link:before {
     background-color: #1f9363;
+}
+
+.button--secondary {
+    background-color: #02657f;
+}
+
+.top-search-form .form-search,
+.top-search-form__button {
+    background-color: #024152;
+    color: #fff;
+}
+
+.top-search-form_focused .form-search {
+    background-color: #fff;
 }
 
 .site-branding__logo:hover,
@@ -197,17 +207,7 @@ tr {
 	border-color: #1f9363;
 }
 
-.form-search,
-.search-form__button {
-    background-color: #024152;
-    color: #fff;
-}
-
-.search-form_focused .form-search {
-    color: #000;
-}
-
-.pager__item_active .pager__link {
+.pager__item_active a {
     background-color: #949d9f;
 }
 

@@ -31,7 +31,6 @@ function garden_preprocess_html(&$variables) {
   }
 }
 
-
 /**
  * Implements hook_preprocess_HOOK() for maintenance-page.html.twig.
  */
@@ -49,24 +48,26 @@ function garden_preprocess_maintenance_page(&$variables) {
 }
 
 /**
- * Implements hook_form_alter() to add classes to form.
+ * Add classes to top search form.
  */
+
+function garden_preprocess_form(&$vars) {
+  if ($vars['attributes']['id'] == 'search-block-form') {
+    $vars['attributes']['class'][] = 'top-search-form';
+  }
+}
+
 function garden_form_alter(&$form, FormStateInterface $form_state, $form_id) {
-  if (in_array($form_id, ['search_block_form', 'search_form'])) {
+  if (in_array($form_id, ['search_block_form'])) {
     $key = ($form_id == 'search_block_form') ? 'actions' : 'basic';
     if (!isset($form[$key]['submit']['#attributes'])) {
       $form[$key]['submit']['#attributes'] = new Attribute();
     }
-    $form[$key]['submit']['#attributes']->removeClass('button');
-    $form[$key]['submit']['#attributes']->addClass('search-form__button');
+    $form[$key]['submit']['#attributes']->addClass('top-search-form__button');
   }
-  $form['actions']['submit']['#attributes']['class'][] = 'button_primary';
 }
 
-function garden_preprocess_form(&$vars) {
-  if ($vars['attributes']['id'] == 'search-block-form') {
-    $vars['attributes']['class'][] = 'search-form';
-  }
-}
+
+
 
 
