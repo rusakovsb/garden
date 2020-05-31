@@ -23,10 +23,13 @@
         max-width: none;
     }
 
-    .site-branding__link {
+    .site-branding__logo {
         position: relative;
         bottom: auto;
         left: auto;
+    }
+
+    .site-branding__link {
         width: 5rem;
         height: 5rem;
         padding: 0.25rem;
