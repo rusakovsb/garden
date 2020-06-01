@@ -83,7 +83,7 @@ a:focus,
     color: #1f9363;
 }
 
-.block-taxonomymenu__submenu a:before {
+.taxonomy-menu__link:before{
     border-color: #02657f;
 }
 

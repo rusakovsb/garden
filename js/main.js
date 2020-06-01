@@ -38,8 +38,8 @@
 
     // Structure menu
 	
-    $(".hierarchical-taxonomy-menu > .menu-item--expanded > a").contents().unwrap().wrap('<h5 class="block-taxonomymenu__subtitle">');
-    $(".hierarchical-taxonomy-menu li ul .menu-item--expanded").removeClass("menu-item--expanded");	 
+    $(".taxonomy-menu > .taxonomy-menu__item_expanded > a").contents().unwrap().wrap('<h5 class="taxonomy-menu__subtitle">');
+    $(".taxonomy-menu li ul .taxonomy-menu__item_expanded").removeClass("menu-item--expanded");	 
 
     // Masonry
     

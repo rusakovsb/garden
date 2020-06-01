@@ -871,25 +871,25 @@ a.has-arrow:before {
 /* Structure menu
 /*------------------------------------------------------------*/
 
-.block-taxonomymenu__menu {
+.taxonomy-menu {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.block-taxonomymenu__submenu {
+.taxonomy-menu__submenu {
 	margin: 0;
 	padding: 0 0 0 1.5rem;
 	list-style: none;
 } 
 
-.block-taxonomymenu__link {
+.taxonomy-menu__link {
 	display: inline-block;
 	margin: 0 0 1rem 0;
 	font-size: 1.25rem;
 }
 
-.block-taxonomymenu__submenu .block-taxonomymenu__submenu a:before {
+.taxonomy-menu__submenu .taxonomy-menu__submenu .taxonomy-menu__link:before {
     display: inline-block;
     content: "";
     width: 0.75rem;
