@@ -1,7 +1,7 @@
 @media (max-width: 1600px) {
 
     .topbar-left,
-    .menu--main a.map-link {
+    .map-link {
         display: none;
     }
 
