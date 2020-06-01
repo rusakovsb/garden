@@ -77,4 +77,8 @@
         "data-width": "1550px"
     });
 
+    // Content link wrapper
+	
+    $(".node__content .field--name-body a").wrap('<span class="link-wrapper">');
+
 })(jQuery);

@@ -396,25 +396,6 @@
         font-size: 1rem;
     }
 
-    .node__content ul,
-    .views-field-field-structure-text ul,
-    .view-collection-description ul {
-	    margin: 0 0 1.5rem 1rem;
-    }
-
-    .node__content ol,
-    .views-field-field-structure-text ol,
-    .view-collection-description ol {
-	   margin: 0 0 1.5rem 2rem;
-    }
-
-    .node__content .float-left,
-    .node__content .float-right {
-        float: none;
-        margin: 0 0 1.5rem 0;
-        width: 100%;
-    }
-
     .excursion,
     .service,
     .person {
@@ -466,6 +447,34 @@
 
     .footer .block {
         padding: 0.75rem 0;
+    }
+
+    .node__content ul,
+    .views-field-field-structure-text ul,
+    .view-collection-description ul {
+	    margin: 0 0 1.5rem 1rem;
+    }
+
+    .node__content ol,
+    .views-field-field-structure-text ol,
+    .view-collection-description ol {
+	   margin: 0 0 1.5rem 2rem;
+    }
+
+    .node__content .float-left,
+    .node__content .float-right {
+        float: none;
+        margin: 0 0 1.5rem 0;
+        width: 100%;
+    }
+
+    .link-wrapper {
+        display: inline-block;
+        white-space: nowrap;
+        max-width: 280px; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: bottom;
     }
 
 }
