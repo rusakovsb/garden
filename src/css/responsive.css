@@ -442,7 +442,6 @@
 
     .link-wrapper {
         display: inline-block;
-        white-space: nowrap;
         max-width: 280px; 
         overflow: hidden;
         text-overflow: ellipsis;
