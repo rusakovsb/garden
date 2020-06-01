@@ -436,6 +436,7 @@ h6 {
 	right: 0.75rem;
 	width: 2.5rem;
 	height: 2rem;
+	border: none;
 	vertical-align: middle;
 	cursor: pointer;
 	background: transparent;	
@@ -1078,6 +1079,7 @@ td {
 	height: 2rem;
 	vertical-align: middle;
 	cursor: pointer;
+	border: none;
 	position: relative;	
 	background: transparent;
 	-webkit-tap-highlight-color: transparent;

@@ -79,6 +79,6 @@
 
     // Content link wrapper
 	
-    $(".node__content .field--name-body a").wrap('<span class="link-wrapper">');
+    $(".node__content .field_name_body a").wrap('<span class="link-wrapper">');
 
 })(jQuery);
