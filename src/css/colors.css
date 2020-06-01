@@ -114,7 +114,7 @@ a:focus,
 a.has-arrow:before,
 .left-menu__link:before,
 .sidebar-right .block-title:after,
-.messages--status:before,
+.messages_status:before,
 .webform-confirmation__message:before,
 .legend__sign,
 .pager__link,
@@ -209,18 +209,18 @@ tr {
     color: #4a8493;
 }
 
-.messages--status,
+.messages_status,
 .webform-confirmation__message {
     border-color: #1f9363;
     color: #1f9363;    
 }
 
-.messages--error {    
+.messages_error {    
     border-color: #cc3131;
     color: #cc3131;
 }
 
-.messages--error:before {    
+.messages_error:before {    
 	background-color: #cc3131;
 }
 

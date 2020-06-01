@@ -870,16 +870,16 @@ a.has-arrow:before {
 	position: relative;
 }
 
-.messages--status,
-.messages--error {
+.messages_status,
+.messages_error {
     background-image: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	background-color: transparent;
 }
 
-.messages--status:before,
-.messages--error:before,
+.messages_status:before,
+.messages_error:before,
 .webform-confirmation__message:before {
 	position: absolute;
 	display: block;
@@ -896,12 +896,12 @@ a.has-arrow:before {
 	border-radius: 2rem;
 }
 
-.messages--status:before,
+.messages_status:before,
 .webform-confirmation__message:before {
     background-image: url(../images/ok.svg);
 }
 
-.messages--error:before {
+.messages_error:before {
     background-image: url(../images/close.svg);
 }
 
