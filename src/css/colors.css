@@ -125,11 +125,15 @@ a.has-arrow:before,
 .top-search-form .form-search,
 .top-search-form__button {
     background-color: #024152;
+}
+
+.top-search-form .form-search {
     color: #fff;
 }
 
 .top-search-form_focused .form-search {
     background-color: #fff;
+    color: #000;
 }
 
 .site-branding__link:hover,
