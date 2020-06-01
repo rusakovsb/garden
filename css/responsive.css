@@ -292,13 +292,7 @@
         padding: 2rem 1.5rem 0 1.5rem;
     }
 
-    .field--name-field-page-image, 
-    .field--name-field-news-image, 
-    .field--name-field-person-image, 
-    .field--name-field-product-image, 
-    .field--name-field-event-image, 
-    .field--name-field-service-image, 
-    .field--name-field-ecotrail-plant-image {
+    .field_type_image {
         float: none;
         width: 100%;
         margin: 0 0 1.5rem 0;

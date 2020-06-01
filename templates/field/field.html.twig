@@ -40,9 +40,9 @@
 {%
   set classes = [
     'field',
-    'field--name-' ~ field_name|clean_class,
-    'field--type-' ~ field_type|clean_class,
-    'field--label-' ~ label_display,
+    'field_name_' ~ field_name|clean_class,
+    'field_type_' ~ field_type|clean_class,
+    'field_label_' ~ label_display,
   ]
 %}
 {%
@@ -54,24 +54,24 @@
 
 {% if label_hidden %}
   {% if multiple %}
-    <div{{ attributes.addClass(classes, 'field__items') }}>
+    <div{{ attributes.addClass(classes, 'fields') }}>
       {% for item in items %}
-        <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
+        <div{{ item.attributes.addClass('field') }}>{{ item.content }}</div>
       {% endfor %}
     </div>
   {% else %}
     {% for item in items %}
-      <div{{ attributes.addClass(classes, 'field__item') }}>{{ item.content }}</div>
+      <div{{ attributes.addClass(classes, 'field') }}>{{ item.content }}</div>
     {% endfor %}
   {% endif %}
 {% else %}
   <div{{ attributes.addClass(classes) }}>
     <div{{ title_attributes.addClass(title_classes) }}>{{ label }}</div>
     {% if multiple %}
-      <div class="field__items">
+      <div class="fields">
     {% endif %}
     {% for item in items %}
-      <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
+      <div{{ item.attributes.addClass('field') }}>{{ item.content }}</div>
     {% endfor %}
     {% if multiple %}
       </div>

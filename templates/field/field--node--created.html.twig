@@ -22,9 +22,9 @@
 {%
   set classes = [
     'field',
-    'field--name-' ~ field_name|clean_class,
-    'field--type-' ~ field_type|clean_class,
-    'field--label-' ~ label_display,
+    'field_name_' ~ field_name|clean_class,
+    'field_type_' ~ field_type|clean_class,
+    'field_label_' ~ label_display,
   ]
 %}
 <span{{ attributes.addClass(classes) }}>

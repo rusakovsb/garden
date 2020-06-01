@@ -10,10 +10,9 @@
 /*------------------------------------------------------------*/
 
 * {  
-    -webkit-box-sizing: border-box;  
-    box-sizing: border-box;
-    border: none;
-    outline: none !important;      
+	-webkit-box-sizing: border-box;  
+	box-sizing: border-box;   
+	outline: none !important;
 }
 
 html {
@@ -252,7 +251,6 @@ h6 {
 }
 
 .site-branding__logo {
-	display: block;
 	position: absolute;
 	z-index: 10;
 	bottom: 0;
@@ -572,24 +570,28 @@ a.has-arrow:before {
     line-height: 1.5;
 }
 
-.node__content section {
+.node__section {
 	clear: both;
 	padding: 2rem 0 0 0;
 }
 
-.node__content .float-right {
+.node__figure {
+    margin: 0;
+}
+
+.node__figure_float_right {
     float: right;
     margin: 0 0 1.5rem 1.5rem;
     width: 30%;
 }
 
-.node__content .float-left {
+.node__figure_float_left {
     float: left;
 	margin: 0 1.5rem 1.5rem 0;	
     width: 30%;
 }
 
-.node__content figcaption {
+.node__figcaption {
 	position: relative;
 	z-index: 10;
 	margin: -1.5rem 1.5rem 0 1.5rem;
@@ -598,42 +600,34 @@ a.has-arrow:before {
 	font-size: 0.938rem;
 }
 
-.node__content figure img {
-    width: 100%;  
-}
-
-.node__content img {
-    display: block;
-    max-width: 100%;
-    height: auto;    
-}
-
-.field--name-field-product-price {
+.field_name-field-product-price {
     margin: 1.5rem 0;
 	font-size: 1.6rem;
 	font-weight: 700;
 }
 
-.field--name-field-product-latin-name,
-.field--name-field-ecotrail-plant-latin-name {
+.field_name_field-product-latin-name,
+.field_name_field-ecotrail-plant-latin-name {
     margin: 0 0 1.5rem 0;
     font-size: 1.375rem;
     font-style: italic;
 }
 
-.field--name-field-page-image,
-.field--name-field-news-image,
-.field--name-field-person-image,
-.field--name-field-product-image,
-.field--name-field-event-image,
-.field--name-field-service-image,
-.field--name-field-ecotrail-plant-image {
+.field_type_image {
+	position: relative;
+	z-index: 10;
     float: right;
 	width: 35%;
 	margin: 0 0 1.5rem 1.5rem;
 }
 
-.field--type-daterange {
+.node__image {
+    display: block;
+    width: 100%;
+    height: auto;    
+}
+
+.field_type_daterange {
 	margin: 0 0 1.5rem 0;
 	font-size: 1.375rem;
 }
@@ -720,8 +714,8 @@ a.has-arrow:before {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
-    cursor: pointer;
-    margin: 0;
+	cursor: pointer;
+	border: none;
     padding: 1rem 2rem;
 	border-radius: 3rem;
     -webkit-transition: 0.2s linear;
@@ -756,6 +750,7 @@ a.has-arrow:before {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	opacity: 0.7;
     -webkit-transition: 0.2s linear;
     transition: 0.2s linear;
 }
@@ -765,20 +760,20 @@ a.has-arrow:before {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
-    margin: 0;
+	margin: 0;	
 }
 
 .top-search-form .form-search,
 .top-search-form__button {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.938rem;
-    font-weight: 400;
+	font-weight: 400;
 }
 
 .top-search-form .form-search {	
     padding: 0.375rem 0.75rem;
-	border: none;
 	width: 100%;
+	border: none;
     -webkit-transition: 0.2s linear;
     transition: 0.2s linear;
 	border-top-left-radius: 1rem;
@@ -787,7 +782,6 @@ a.has-arrow:before {
 
 .top-search-form__button {
     text-indent: -600rem;
-    margin: 0 !important;
     padding: 0.375rem;
 	width: 2rem;
     background-image: url(../images/search.svg);
@@ -798,12 +792,6 @@ a.has-arrow:before {
     border-bottom-left-radius: 0;
 	border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
-}
-
-.top-search-form {
-    opacity: 0.7;
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
 }
 
 .top-search-form:hover,
@@ -833,22 +821,23 @@ a.has-arrow:before {
 
 .search-form .form-search {
 	width: 100%;
-	padding: 0.5rem 0.75rem;
+	padding: 0.75rem 1.5rem;
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
+	border: none;
 	font-size: 1rem;	
 	border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
 
 .search-form .form-submit {
-	padding: 0.5rem 0.75rem;
+	padding: 0.75rem 1.5rem;
 	font-size: 1rem;
 	border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-	border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+	border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .search-results {

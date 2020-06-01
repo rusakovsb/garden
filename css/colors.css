@@ -24,7 +24,7 @@
 .map-point__title,
 .mobile-nav-toggle span,
 .sidebar-toggle span,
-.node__content figcaption {
+.node__figcaption {
     background-color: #fff;
 }
 
@@ -102,8 +102,7 @@ a:focus,
 .main-menu__link:after,
 .site-branding__link,
 .top-search-form_focused .top-search-form__button,
-.button--primary,
-.form-submit,
+.button,
 .features__item:before,
 .features__item:after,
 .social__item,
@@ -121,10 +120,6 @@ a.has-arrow:before,
 .pager__link,
 .mobile-menu__link:before {
     background-color: #1f9363;
-}
-
-.button--secondary {
-    background-color: #02657f;
 }
 
 .top-search-form .form-search,
@@ -165,7 +160,7 @@ a.has-arrow:before,
 .conference__period,
 .view-product-carousel .product-price,
 .price-table td:last-child,
-.field--type-daterange,
+.field_type_daterange,
 .event__period {
     color: #1f9363;
 }
@@ -190,7 +185,6 @@ a.has-arrow:before,
 .form-text,
 .form-email,
 .form-textarea,
-.form-search,
 .news-block-item,
 .news-item,
 .reception-item,
@@ -202,8 +196,7 @@ tr {
 
 .form-text:focus,
 .form-email:focus,
-.form-textarea:focus,
-.form-search:focus {
+.form-textarea:focus {
 	border-color: #1f9363;
 }
 
@@ -243,7 +236,7 @@ tr {
     border-top-color: #fff;
 }
 
-.node__content figcaption {
+.node__figcaption {
     color: #575859;
 }
 
