@@ -22,17 +22,14 @@
 #}
 {%
   set classes = [
-    'js-form__item',
     'form__item',
-    'js-form__wrapper',
     'form__wrapper',
   ]
 %}
 <fieldset{{ attributes.addClass(classes) }}>
   {%
     set legend_span_classes = [
-      'fieldset-legend',
-      required ? 'js-form_required',
+      'fieldset__legend',
       required ? 'form_required',
     ]
   %}

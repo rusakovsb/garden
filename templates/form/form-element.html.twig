@@ -46,13 +46,10 @@
 #}
 {%
   set classes = [
-    'js-form__item',
     'form__item',
-    'js-form__item_type_' ~ type|clean_class,
     'form__item_type_' ~ type|clean_class,
-    'js-form__item-' ~ name|clean_class,
-    'form__item-' ~ name|clean_class,
-    title_display not in ['after', 'before'] ? 'form_no-label',
+    'form__item_' ~ name|clean_class,
+    title_display not in ['after', 'before'] ? 'form__item_no_label',
     disabled == 'disabled' ? 'form_disabled',
     errors ? 'form__item_error',
   ]

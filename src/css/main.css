@@ -717,7 +717,6 @@ a.has-arrow:before {
 }
 
 .form__item_type_search {
-	display: block !important;
 	flex: 1 1 auto;
 	margin: 0;	
 }

@@ -8,7 +8,9 @@
 
     $(".top-search-form" ).focusout(function() {
         $(this).removeClass("top-search-form_focused");
-    });       
+    }); 
+    
+    $(".block").removeClass("container-inline");
     
     // Sidebar
 
@@ -76,9 +78,5 @@
         "data-colorbox-inline": "#block-map",
         "data-width": "1550px"
     });
-
-    // Content link wrapper
-	
-    $(".node__content .field_name_body a").wrap('<span class="link-wrapper">');
-
+    
 })(jQuery);

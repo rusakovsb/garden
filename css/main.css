@@ -757,7 +757,6 @@ a.has-arrow:before {
 }
 
 .form__item_type_search {
-	display: block !important;
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;

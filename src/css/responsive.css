@@ -434,7 +434,7 @@
         width: 100%;
     }
 
-    .link-wrapper {
+    .node__content .field_name_body a {
         display: inline-block;
         max-width: 280px; 
         overflow: hidden;
