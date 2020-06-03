@@ -1018,12 +1018,8 @@ td {
 /* Pager
 /*------------------------------------------------------------*/
 
-.pager {
-    margin: 3rem 0 0 0;
-}
-
-.pager__items {
-	margin: 0;
+.pager__list {
+	margin: 3rem 0 0 0;
 	padding: 0;
 	list-style: none;
     text-align: center;
