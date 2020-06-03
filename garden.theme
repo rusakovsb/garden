@@ -58,6 +58,7 @@ function garden_preprocess_form(&$vars) {
 }
 
 function garden_form_search_block_form_alter(&$form, &$form_state) {  
+  $form['keys']['#attributes']['class'][] = 'top-search-form__text';
   $form['actions']['submit']['#attributes']['class'][] = 'top-search-form__button';
 }
 

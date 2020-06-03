@@ -721,14 +721,14 @@ a.has-arrow:before {
 	margin: 0;	
 }
 
-.top-search-form .form-search,
+.top-search-form__text,
 .top-search-form__button {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.938rem;
 	font-weight: 400;
 }
 
-.top-search-form .form-search {	
+.top-search-form__text {	
     padding: 0.375rem 0.75rem;
 	width: 100%;
 	border: none;

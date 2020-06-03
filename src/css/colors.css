@@ -122,16 +122,16 @@ a.has-arrow:before,
     background-color: #1f9363;
 }
 
-.top-search-form .form-search,
+.top-search-form__text,
 .top-search-form__button {
     background-color: #024152;
 }
 
-.top-search-form .form-search {
+.top-search-form__text {
     color: #fff;
 }
 
-.top-search-form_focused .form-search {
+.top-search-form_focused .top-search-form__text {
     background-color: #fff;
     color: #000;
 }
