@@ -622,7 +622,7 @@ a.has-arrow:before {
 	margin: 0 0 1.5rem 1.5rem;
 }
 
-.node__image {
+.content__image {
     display: block;
     width: 100%;
     height: auto;    
@@ -1018,12 +1018,8 @@ td {
 /* Pager
 /*------------------------------------------------------------*/
 
-.pager {
-    margin: 3rem 0 0 0;
-}
-
-.pager__items {
-	margin: 0;
+.pager__list {
+	margin: 3rem 0 0 0;
 	padding: 0;
 	list-style: none;
     text-align: center;
