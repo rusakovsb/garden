@@ -541,23 +541,29 @@ a.has-arrow:before {
 	padding: 2rem 0 0 0;
 }
 
-.node__figure {
+.figure {
     margin: 0;
 }
 
-.node__figure_float_right {
+.figure_float_right {
     float: right;
     margin: 0 0 1.5rem 1.5rem;
     width: 30%;
 }
 
-.node__figure_float_left {
+.figure_float_left {
     float: left;
 	margin: 0 1.5rem 1.5rem 0;	
     width: 30%;
 }
 
-.node__figcaption {
+.figure__image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.figure__caption {
 	position: relative;
 	z-index: 10;
 	margin: -1.5rem 1.5rem 0 1.5rem;

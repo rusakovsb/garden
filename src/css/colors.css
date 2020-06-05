@@ -24,7 +24,7 @@
 .map-point__title,
 .mobile-nav-toggle span,
 .sidebar-toggle span,
-.node__figcaption {
+.figure__caption {
     background-color: #fff;
 }
 
@@ -240,7 +240,7 @@ tr {
     border-top-color: #fff;
 }
 
-.node__figcaption {
+.figure__caption {
     color: #575859;
 }
 
