@@ -953,7 +953,7 @@ td {
 
 .breadcrumb__list {
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
     list-style: none;
@@ -963,12 +963,6 @@ td {
 	display: block;
 	white-space: nowrap;
 	font-size: 0.813rem;
-}
-
-.breadcrumb__item:last-child {
-	flex: 1 1 auto;
-	overflow: hidden;	
-	text-overflow: ellipsis;
 }
 
 .breadcrumb__item:before {
