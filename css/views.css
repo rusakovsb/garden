@@ -545,18 +545,18 @@
     padding: 2rem 2rem 0 2rem;
 }
 
-.view .file--x-office-document,
-.view .file--application-pdf {
+.file--x-office-document,
+.file--application-pdf {
     background-image: none;
 }
 
-.view .file {
+.file {
 	margin: 0 0.75rem 0 0;
 	padding-left: 0;	
 }
 
-.view .file--x-office-document a,
-.view .file--application-pdf a {
+.file--x-office-document a,
+.file--application-pdf a {
 	display: block;
 	min-height: 3rem;
 	background-repeat: no-repeat;
@@ -565,11 +565,11 @@
 	padding: 0 0 0 3rem;
 }
 
-.view .file--x-office-document a {
+.file--x-office-document a {
     background-image: url(../images/doc.svg);
 }
 
-.view .file--application-pdf a {
+.file--application-pdf a {
     background-image: url(../images/pdf.svg);
 }
 

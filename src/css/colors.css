@@ -162,9 +162,9 @@ a.has-arrow:before,
 .product__price,
 .reception-item__phone,
 .conference__period,
-.view-product-carousel .product-price,
 .price-table td:last-child,
 .field_type_daterange,
+.field_name_field-product-price,
 .event__period {
     color: #1f9363;
 }

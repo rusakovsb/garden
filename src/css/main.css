@@ -572,7 +572,7 @@ a.has-arrow:before {
 	font-size: 0.938rem;
 }
 
-.field_name-field-product-price {
+.field_name_field-product-price {
     margin: 1.5rem 0;
 	font-size: 1.6rem;
 	font-weight: 700;
@@ -952,20 +952,29 @@ td {
 /*------------------------------------------------------------*/
 
 .breadcrumb__list {
+	display: flex;
+	flex-wrap: nowrap;
 	margin: 0;
 	padding: 0;
     list-style: none;
 }
 
 .breadcrumb__item {
-    display: inline-block;
+	display: block;
+	white-space: nowrap;
 	font-size: 0.813rem;
+}
+
+.breadcrumb__item:last-child {
+	flex: 1 1 auto;
+	overflow: hidden;	
+	text-overflow: ellipsis;
 }
 
 .breadcrumb__item:before {
     content: '/';
 	display: inline-block;
-	margin: 0 0.25rem;
+	margin: 0 0.375rem;;
 }
 
 .breadcrumb__item:first-child:before {
