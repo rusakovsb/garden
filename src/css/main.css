@@ -960,18 +960,17 @@ td {
 }
 
 .breadcrumb__item {
-	display: block;
+	display: inline-flex;
 	white-space: nowrap;
 	font-size: 0.813rem;
 }
 
-.breadcrumb__item:before {
+.breadcrumb__item:after {
     content: '/';
-	display: inline-block;
-	margin: 0 0.375rem;;
+	margin: 0 0.5rem;
 }
 
-.breadcrumb__item:first-child:before {
+.breadcrumb__item:last-child:after {
     display: none;
 }
 
