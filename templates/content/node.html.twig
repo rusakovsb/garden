@@ -92,13 +92,13 @@
   {{ title_suffix }}
 
   {% if display_submitted %}
-    <footer class="node__meta">
+    <div class="node__meta">
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
         {{ date }}
         {{ metadata }}
       </div>
-    </footer>
+    </div>
   {% endif %}
 
   <div{{ content_attributes.addClass('node__content') }}>
