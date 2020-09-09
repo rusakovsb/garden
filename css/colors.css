@@ -28,7 +28,7 @@
     background-color: #fff;
 }
 
-.breadcrumbs,
+.breadcrumb,
 .sidebar-right .block,
 .view-conference-files,
 .view-service-files,
@@ -37,6 +37,12 @@
 .view-price-list,
 .path-search .content .search-form {
     background-color: #ecf2f4;
+}
+
+.breadcrumb:after {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,0)), to(rgba(236,242,244,1)));
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(236,242,244,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(236,242,244,1) 100%);
 }
 
 #block-views-block-features-block-1 {

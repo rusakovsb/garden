@@ -65,15 +65,11 @@
 
     .page {
         flex: 0 0 100%;
-        max-width: none;
+        max-width: 100%;
     }
 
     .page {
         padding: 0 0 0 4rem;
-    }
-
-    .breadcrumbs {
-        margin: 0 1.5rem;
     }
 
     .path-frontpage .main {
@@ -301,8 +297,8 @@
         padding: 1rem;
     }
 
-    .breadcrumbs {
-        margin: 0 1rem;
+    .breadcrumb {
+        margin: 1rem 0 0 0;
     }
 
     .contacts__item {

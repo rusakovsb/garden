@@ -64,14 +64,9 @@
   <div class="page">
 
     <header class="header">
-      {{ page.header }}   
+      {{ page.header }} 
+      {{ page.breadcrumbs }} 
     </header>
-
-    {% if page.breadcrumbs %}
-      <div class="breadcrumbs">
-        {{ page.breadcrumbs }}   
-      </div>
-    {% endif %}
 
     <div class="content"> 
   
