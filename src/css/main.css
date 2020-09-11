@@ -948,12 +948,14 @@ td {
 
 .breadcrumb {
 	display: flex;
+	align-items: center;
 	margin: 1.5rem 0 0 0;
 	padding: 0.375rem 0.75rem;
 	list-style: none;
 	width: 100%;
 	overflow: hidden;
-	position: relative;	
+	position: relative;
+	font-size: 0.875rem;
 }
 
 .breadcrumb:after {
@@ -967,17 +969,14 @@ td {
 }
 
 .breadcrumb__item {
-	display: inline-flex;
 	white-space: nowrap;
-	font-size: 0.813rem;
 }
 
-.breadcrumb__item:after {
-    content: '/';
-	margin: 0 0.5rem;
+.breadcrumb__separator {
+	padding: 0 0.5rem;	
 }
 
-.breadcrumb__item:last-child:after {
+.breadcrumb__separator:last-child {
     display: none;
 }
 
