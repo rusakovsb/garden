@@ -65,6 +65,9 @@ a:focus {
 header,
 nav,
 main,
+section,
+figure,
+figcaption,
 footer {
 	display: block;	
 }
@@ -236,9 +239,6 @@ h6 {
 	z-index: 10;
 	bottom: 0;
 	left: 0;   
-}
-
-.site-branding__image {
 	display: block;
 	width: 7rem;
 	height: 7rem; 
@@ -246,7 +246,7 @@ h6 {
 	border-radius: 50%;
 }
 
-.site-branding__image img {
+.site-branding__logo img {
 	display: block;
     width: 100%;
 	height: auto;

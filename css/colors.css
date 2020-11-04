@@ -106,7 +106,7 @@ a:focus,
 }
 
 .main-menu__link:after,
-.site-branding__image,
+.site-branding__logo,
 .top-search-form_focused .top-search-form__button,
 .button,
 .features__item:before,
@@ -142,7 +142,7 @@ a.has-arrow:before,
     color: #000;
 }
 
-.site-branding__link:hover,
+.site-branding__logo:hover,
 .button:hover,
 .social__item:hover,
 .view-slider .flex-control-paging li a:hover,
