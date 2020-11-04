@@ -62,6 +62,13 @@ a:focus {
 /* Layout
 /*------------------------------------------------------------*/
 
+header,
+nav,
+main,
+footer {
+	display: block;	
+}
+
 .topbar,
 .region-header,
 .wrapper,
@@ -231,7 +238,7 @@ h6 {
 	left: 0;   
 }
 
-.site-branding__link {
+.site-branding__image {
 	display: block;
 	width: 7rem;
 	height: 7rem; 
@@ -239,7 +246,7 @@ h6 {
 	border-radius: 50%;
 }
 
-.site-branding__image {
+.site-branding__image img {
 	display: block;
     width: 100%;
 	height: auto;
@@ -586,12 +593,6 @@ a.has-arrow:before {
     float: right;
 	width: 35%;
 	margin: 0 0 1.5rem 1.5rem;
-}
-
-.content__image {
-    display: block;
-    width: 100%;
-    height: auto;    
 }
 
 .field_type_daterange {
@@ -1096,8 +1097,7 @@ td {
 }
 
 .mobile-nav {
-	visibility: hidden;
-	opacity: 0;
+	display: none;
 	position: fixed;
 	z-index: 99;
 	top: 3.5rem;
